@@ -1,0 +1,76 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/eqAxLm4j.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eqAxLm4j.png"
+INFO  [eqAxLm4j]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eqAxLm4j.png
+2025-09-10 00:09:10.610 Audiveris[48358:1214069] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:09:10.610 Audiveris[48358:1214069] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/eqAxLm4j.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [eqAxLm4j]            StepMonitoring 98   | LOAD
+INFO  [eqAxLm4j]                 SheetStub 1268 | Loaded image #1 1970x242 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eqAxLm4j.png
+INFO  [eqAxLm4j]            StepMonitoring 98   | BINARY
+INFO  [eqAxLm4j]            StepMonitoring 98   | SCALE
+INFO  [eqAxLm4j]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [eqAxLm4j]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 862% of needed quorum
+INFO  [eqAxLm4j]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [eqAxLm4j]            StepMonitoring 98   | GRID
+INFO  [eqAxLm4j]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [eqAxLm4j]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [eqAxLm4j]                 PeakGraph 310  | Systems: #1[1]
+INFO  [eqAxLm4j]             SystemManager 779  | 1 part along 1 system
+INFO  [eqAxLm4j]                      Book 545  | Created scores: [{Score 1}]
+INFO  [eqAxLm4j]            StepMonitoring 98   | HEADERS
+INFO  [eqAxLm4j]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [eqAxLm4j]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [eqAxLm4j]            StepMonitoring 98   | STEM_SEEDS
+INFO  [eqAxLm4j]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [eqAxLm4j]            StepMonitoring 98   | BEAMS
+INFO  [eqAxLm4j]            StepMonitoring 98   | LEDGERS
+INFO  [eqAxLm4j]            StepMonitoring 98   | HEADS
+INFO  [eqAxLm4j]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.8]}
+INFO  [eqAxLm4j]            StepMonitoring 98   | STEMS
+INFO  [eqAxLm4j]            StepMonitoring 98   | REDUCTION
+INFO  [eqAxLm4j]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [eqAxLm4j]            StepMonitoring 98   | CUE_BEAMS
+INFO  [eqAxLm4j]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [eqAxLm4j]            StepMonitoring 98   | TEXTS
+WARN  [eqAxLm4j]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [eqAxLm4j]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [eqAxLm4j]            StepMonitoring 98   | MEASURES
+INFO  [eqAxLm4j]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [eqAxLm4j]            StepMonitoring 98   | CHORDS
+INFO  [eqAxLm4j]            StepMonitoring 98   | CURVES
+INFO  [eqAxLm4j]              SlursBuilder 240  | Slurs: 0
+INFO  [eqAxLm4j]           SegmentsBuilder 155  | Segments: 6
+INFO  [eqAxLm4j]            StepMonitoring 98   | SYMBOLS
+INFO  [eqAxLm4j]            StepMonitoring 98   | LINKS
+INFO  [eqAxLm4j]            StepMonitoring 98   | RHYTHMS
+INFO  [eqAxLm4j]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#691{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [eqAxLm4j]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#691{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [eqAxLm4j]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#693{(0.949/0.949) staff:1 slot#11 dur:1/8}
+INFO  [eqAxLm4j]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#696{(0.961/0.961) staff:1 slot#14 dur:1/12}
+INFO  [eqAxLm4j]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [eqAxLm4j]            StepMonitoring 98   | PAGE
+INFO  [eqAxLm4j]                      Book 2550 | Book{eqAxLm4j} storing
+INFO  [eqAxLm4j]                      Book 2531 | Stored /book.xml
+INFO  [eqAxLm4j]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [eqAxLm4j]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [eqAxLm4j]                      Book 2491 | Book stored as out_omr/musicxml/eqAxLm4j.omr
+INFO  [eqAxLm4j]                 SheetStub 1644 | Disposed sheet
+INFO  [eqAxLm4j]                      Book 2018 | End of Stub#1 memory: 31,384,832
+INFO  [eqAxLm4j]                      Book 2025 | Book processed.
+INFO  [eqAxLm4j]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [eqAxLm4j]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [eqAxLm4j]             ScoreExporter 164  | Score eqAxLm4j exported to out_omr/musicxml/eqAxLm4j.mxl
+INFO  [eqAxLm4j]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/GD5wRafM.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GD5wRafM.png"
+INFO  [GD5wRafM]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GD5wRafM.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/GD5wRafM.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [GD5wRafM]            StepMonitoring 98   | LOAD
+INFO  [GD5wRafM]                 SheetStub 1268 | Loaded image #1 1970x233 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GD5wRafM.png
+INFO  [GD5wRafM]            StepMonitoring 98   | BINARY
+INFO  [GD5wRafM]            StepMonitoring 98   | SCALE
+INFO  [GD5wRafM]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [GD5wRafM]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 945% of needed quorum
+INFO  [GD5wRafM]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [GD5wRafM]            StepMonitoring 98   | GRID
+INFO  [GD5wRafM]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [GD5wRafM]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [GD5wRafM]                 PeakGraph 310  | Systems: #1[1]
+INFO  [GD5wRafM]             SystemManager 779  | 1 part along 1 system
+INFO  [GD5wRafM]                      Book 545  | Created scores: [{Score 1}]
+INFO  [GD5wRafM]            StepMonitoring 98   | HEADERS
+INFO  [GD5wRafM]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [GD5wRafM]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [GD5wRafM]            StepMonitoring 98   | STEM_SEEDS
+INFO  [GD5wRafM]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [GD5wRafM]            StepMonitoring 98   | BEAMS
+INFO  [GD5wRafM]            StepMonitoring 98   | LEDGERS
+INFO  [GD5wRafM]            StepMonitoring 98   | HEADS
+INFO  [GD5wRafM]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [GD5wRafM]            StepMonitoring 98   | STEMS
+INFO  [GD5wRafM]            StepMonitoring 98   | REDUCTION
+INFO  [GD5wRafM]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [GD5wRafM]            StepMonitoring 98   | CUE_BEAMS
+INFO  [GD5wRafM]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [GD5wRafM]            StepMonitoring 98   | TEXTS
+WARN  [GD5wRafM]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [GD5wRafM]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [GD5wRafM]            StepMonitoring 98   | MEASURES
+INFO  [GD5wRafM]                      Page 307  | 7 raw measures: [7 in system#1]
+INFO  [GD5wRafM]            StepMonitoring 98   | CHORDS
+INFO  [GD5wRafM]            StepMonitoring 98   | CURVES
+INFO  [GD5wRafM]              SlursBuilder 240  | Slurs: 1
+INFO  [GD5wRafM]           SegmentsBuilder 155  | Segments: 6
+INFO  [GD5wRafM]            StepMonitoring 98   | SYMBOLS
+INFO  [GD5wRafM]            StepMonitoring 98   | LINKS
+INFO  [GD5wRafM]            StepMonitoring 98   | RHYTHMS
+INFO  [GD5wRafM]            StepMonitoring 98   | PAGE
+INFO  [GD5wRafM]                      Book 2550 | Book{GD5wRafM} storing
+INFO  [GD5wRafM]                      Book 2531 | Stored /book.xml
+INFO  [GD5wRafM]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [GD5wRafM]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [GD5wRafM]                      Book 2491 | Book stored as out_omr/musicxml/GD5wRafM.omr
+INFO  [GD5wRafM]                 SheetStub 1644 | Disposed sheet
+INFO  [GD5wRafM]                      Book 2018 | End of Stub#1 memory: 31,543,704
+INFO  [GD5wRafM]                      Book 2025 | Book processed.
+INFO  [GD5wRafM]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [GD5wRafM]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [GD5wRafM]             ScoreExporter 164  | Score GD5wRafM exported to out_omr/musicxml/GD5wRafM.mxl
+INFO  [GD5wRafM]                     Score 181  | Closing {Score 1}

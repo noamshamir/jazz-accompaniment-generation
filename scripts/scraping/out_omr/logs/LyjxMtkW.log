@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/LyjxMtkW.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/LyjxMtkW.png"
+INFO  [LyjxMtkW]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/LyjxMtkW.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/LyjxMtkW.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [LyjxMtkW]            StepMonitoring 98   | LOAD
+INFO  [LyjxMtkW]                 SheetStub 1268 | Loaded image #1 1970x258 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/LyjxMtkW.png
+INFO  [LyjxMtkW]            StepMonitoring 98   | BINARY
+INFO  [LyjxMtkW]            StepMonitoring 98   | SCALE
+INFO  [LyjxMtkW]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [LyjxMtkW]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 887% of needed quorum
+INFO  [LyjxMtkW]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [LyjxMtkW]            StepMonitoring 98   | GRID
+INFO  [LyjxMtkW]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [LyjxMtkW]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [LyjxMtkW]                 PeakGraph 310  | Systems: #1[1]
+INFO  [LyjxMtkW]             SystemManager 779  | 1 part along 1 system
+INFO  [LyjxMtkW]                      Book 545  | Created scores: [{Score 1}]
+INFO  [LyjxMtkW]            StepMonitoring 98   | HEADERS
+INFO  [LyjxMtkW]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [LyjxMtkW]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [LyjxMtkW]            StepMonitoring 98   | STEM_SEEDS
+INFO  [LyjxMtkW]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [LyjxMtkW]            StepMonitoring 98   | BEAMS
+INFO  [LyjxMtkW]            StepMonitoring 98   | LEDGERS
+INFO  [LyjxMtkW]            StepMonitoring 98   | HEADS
+INFO  [LyjxMtkW]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [LyjxMtkW]            StepMonitoring 98   | STEMS
+INFO  [LyjxMtkW]            StepMonitoring 98   | REDUCTION
+INFO  [LyjxMtkW]            StepMonitoring 98   | CUE_BEAMS
+INFO  [LyjxMtkW]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [LyjxMtkW]            StepMonitoring 98   | TEXTS
+WARN  [LyjxMtkW]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [LyjxMtkW]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [LyjxMtkW]            StepMonitoring 98   | MEASURES
+INFO  [LyjxMtkW]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [LyjxMtkW]            StepMonitoring 98   | CHORDS
+INFO  [LyjxMtkW]            StepMonitoring 98   | CURVES
+INFO  [LyjxMtkW]              SlursBuilder 240  | Slurs: 0
+INFO  [LyjxMtkW]           SegmentsBuilder 155  | Segments: 7
+INFO  [LyjxMtkW]            StepMonitoring 98   | SYMBOLS
+INFO  [LyjxMtkW]            StepMonitoring 98   | LINKS
+INFO  [LyjxMtkW]            StepMonitoring 98   | RHYTHMS
+INFO  [LyjxMtkW]            StepMonitoring 98   | PAGE
+INFO  [LyjxMtkW]                      Book 2550 | Book{LyjxMtkW} storing
+INFO  [LyjxMtkW]                      Book 2531 | Stored /book.xml
+INFO  [LyjxMtkW]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [LyjxMtkW]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [LyjxMtkW]                      Book 2491 | Book stored as out_omr/musicxml/LyjxMtkW.omr
+INFO  [LyjxMtkW]                 SheetStub 1644 | Disposed sheet
+INFO  [LyjxMtkW]                      Book 2018 | End of Stub#1 memory: 31,712,808
+INFO  [LyjxMtkW]                      Book 2025 | Book processed.
+INFO  [LyjxMtkW]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [LyjxMtkW]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [LyjxMtkW]             ScoreExporter 164  | Score LyjxMtkW exported to out_omr/musicxml/LyjxMtkW.mxl
+INFO  [LyjxMtkW]                     Score 181  | Closing {Score 1}

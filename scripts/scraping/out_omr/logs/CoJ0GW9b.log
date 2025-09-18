@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/CoJ0GW9b.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CoJ0GW9b.png"
+INFO  [CoJ0GW9b]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CoJ0GW9b.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/CoJ0GW9b.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [CoJ0GW9b]            StepMonitoring 98   | LOAD
+INFO  [CoJ0GW9b]                 SheetStub 1268 | Loaded image #1 1970x253 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CoJ0GW9b.png
+INFO  [CoJ0GW9b]            StepMonitoring 98   | BINARY
+INFO  [CoJ0GW9b]            StepMonitoring 98   | SCALE
+INFO  [CoJ0GW9b]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [CoJ0GW9b]              ScaleBuilder 264  | Beam measured height:  9 -- 0.20 of [6..21] range at 206% of needed quorum
+INFO  [CoJ0GW9b]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(9)}
+INFO  [CoJ0GW9b]            StepMonitoring 98   | GRID
+INFO  [CoJ0GW9b]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [CoJ0GW9b]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [CoJ0GW9b]                 PeakGraph 310  | Systems: #1[1]
+INFO  [CoJ0GW9b]             SystemManager 779  | 1 part along 1 system
+INFO  [CoJ0GW9b]                      Book 545  | Created scores: [{Score 1}]
+INFO  [CoJ0GW9b]            StepMonitoring 98   | HEADERS
+INFO  [CoJ0GW9b]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [CoJ0GW9b]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [CoJ0GW9b]            StepMonitoring 98   | STEM_SEEDS
+INFO  [CoJ0GW9b]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [CoJ0GW9b]            StepMonitoring 98   | BEAMS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | LEDGERS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | HEADS
+INFO  [CoJ0GW9b]             HeadSeedTally 235  | Scale information: HeadSeeds{}
+INFO  [CoJ0GW9b]            StepMonitoring 98   | STEMS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | REDUCTION
+INFO  [CoJ0GW9b]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [CoJ0GW9b]            StepMonitoring 98   | CUE_BEAMS
+INFO  [CoJ0GW9b]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [CoJ0GW9b]            StepMonitoring 98   | TEXTS
+WARN  [CoJ0GW9b]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [CoJ0GW9b]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [CoJ0GW9b]            StepMonitoring 98   | MEASURES
+INFO  [CoJ0GW9b]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [CoJ0GW9b]            StepMonitoring 98   | CHORDS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | CURVES
+INFO  [CoJ0GW9b]              SlursBuilder 240  | Slurs: 0
+INFO  [CoJ0GW9b]           SegmentsBuilder 155  | Segments: 13
+INFO  [CoJ0GW9b]            StepMonitoring 98   | SYMBOLS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | LINKS
+INFO  [CoJ0GW9b]            StepMonitoring 98   | RHYTHMS
+INFO  [CoJ0GW9b]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [CoJ0GW9b]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [CoJ0GW9b]            StepMonitoring 98   | PAGE
+INFO  [CoJ0GW9b]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [CoJ0GW9b]                      Book 2550 | Book{CoJ0GW9b} storing
+INFO  [CoJ0GW9b]                      Book 2531 | Stored /book.xml
+INFO  [CoJ0GW9b]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [CoJ0GW9b]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [CoJ0GW9b]                      Book 2491 | Book stored as out_omr/musicxml/CoJ0GW9b.omr
+INFO  [CoJ0GW9b]                 SheetStub 1644 | Disposed sheet
+INFO  [CoJ0GW9b]                      Book 2018 | End of Stub#1 memory: 31,458,720
+INFO  [CoJ0GW9b]                      Book 2025 | Book processed.
+INFO  [CoJ0GW9b]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [CoJ0GW9b]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [CoJ0GW9b]             ScoreExporter 164  | Score CoJ0GW9b exported to out_omr/musicxml/CoJ0GW9b.mxl
+INFO  [CoJ0GW9b]                     Score 181  | Closing {Score 1}

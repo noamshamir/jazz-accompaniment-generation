@@ -1,0 +1,83 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/S22LNvd3.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/S22LNvd3.png"
+INFO  [S22LNvd3]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/S22LNvd3.png
+2025-09-09 23:56:19.552 Audiveris[47580:1188537] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-09 23:56:19.552 Audiveris[47580:1188537] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/S22LNvd3.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [S22LNvd3]            StepMonitoring 98   | LOAD
+INFO  [S22LNvd3]                 SheetStub 1268 | Loaded image #1 1970x189 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/S22LNvd3.png
+INFO  [S22LNvd3]            StepMonitoring 98   | BINARY
+INFO  [S22LNvd3]            StepMonitoring 98   | SCALE
+INFO  [S22LNvd3]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [S22LNvd3]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 664% of needed quorum
+INFO  [S22LNvd3]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [S22LNvd3]            StepMonitoring 98   | GRID
+INFO  [S22LNvd3]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [S22LNvd3]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [S22LNvd3]                 PeakGraph 310  | Systems: #1[1]
+INFO  [S22LNvd3]             SystemManager 779  | 1 part along 1 system
+INFO  [S22LNvd3]                      Book 545  | Created scores: [{Score 1}]
+INFO  [S22LNvd3]            StepMonitoring 98   | HEADERS
+INFO  [S22LNvd3]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [S22LNvd3]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [S22LNvd3]            StepMonitoring 98   | STEM_SEEDS
+INFO  [S22LNvd3]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [S22LNvd3]            StepMonitoring 98   | BEAMS
+INFO  [S22LNvd3]            StepMonitoring 98   | LEDGERS
+INFO  [S22LNvd3]            StepMonitoring 98   | HEADS
+INFO  [S22LNvd3]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.7]}
+INFO  [S22LNvd3]            StepMonitoring 98   | STEMS
+INFO  [S22LNvd3]            StepMonitoring 98   | REDUCTION
+INFO  [S22LNvd3]             ReductionStep 105  | Stems free length median value: 70 pixels, 3.3 interlines
+INFO  [S22LNvd3]            StepMonitoring 98   | CUE_BEAMS
+INFO  [S22LNvd3]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [S22LNvd3]            StepMonitoring 98   | TEXTS
+WARN  [S22LNvd3]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [S22LNvd3]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [S22LNvd3]            StepMonitoring 98   | MEASURES
+INFO  [S22LNvd3]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [S22LNvd3]            StepMonitoring 98   | CHORDS
+INFO  [S22LNvd3]            StepMonitoring 98   | CURVES
+INFO  [S22LNvd3]              SlursBuilder 240  | Slurs: 1
+INFO  [S22LNvd3]           SegmentsBuilder 155  | Segments: 12
+INFO  [S22LNvd3]            StepMonitoring 98   | SYMBOLS
+INFO  [S22LNvd3]            StepMonitoring 98   | LINKS
+INFO  [S22LNvd3]            StepMonitoring 98   | RHYTHMS
+INFO  [S22LNvd3]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#601{(0.954/0.954) staff:1 slot#5 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#602{(0.952/0.952) staff:1 slot#6 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#604{(0.959/0.959) staff:1 slot#8 dur:1/8}
+INFO  [S22LNvd3]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [S22LNvd3]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#611{(0.956/0.956) staff:1 slot#5 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#612{(0.954/0.954) staff:1 slot#6 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#614{(0.946/0.946) staff:1 slot#8 dur:1/8}
+INFO  [S22LNvd3]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [S22LNvd3]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#622{(0.952/0.952) staff:1 slot#6 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#623{(0.950/0.950) staff:1 slot#7 dur:1/8}
+INFO  [S22LNvd3]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#624{(0.944/0.944) slot#8 dur:1/4}
+INFO  [S22LNvd3]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [S22LNvd3]            StepMonitoring 98   | PAGE
+INFO  [S22LNvd3]                      Book 2550 | Book{S22LNvd3} storing
+INFO  [S22LNvd3]                      Book 2531 | Stored /book.xml
+INFO  [S22LNvd3]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [S22LNvd3]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [S22LNvd3]                      Book 2491 | Book stored as out_omr/musicxml/S22LNvd3.omr
+INFO  [S22LNvd3]                 SheetStub 1644 | Disposed sheet
+INFO  [S22LNvd3]                      Book 2018 | End of Stub#1 memory: 31,386,768
+INFO  [S22LNvd3]                      Book 2025 | Book processed.
+INFO  [S22LNvd3]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [S22LNvd3]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [S22LNvd3]             ScoreExporter 164  | Score S22LNvd3 exported to out_omr/musicxml/S22LNvd3.mxl
+INFO  [S22LNvd3]                     Score 181  | Closing {Score 1}

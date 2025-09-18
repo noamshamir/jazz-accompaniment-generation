@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/HmAz8QRr.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/HmAz8QRr.png"
+INFO  [HmAz8QRr]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/HmAz8QRr.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/HmAz8QRr.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [HmAz8QRr]            StepMonitoring 98   | LOAD
+INFO  [HmAz8QRr]                 SheetStub 1268 | Loaded image #1 1970x220 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/HmAz8QRr.png
+INFO  [HmAz8QRr]            StepMonitoring 98   | BINARY
+INFO  [HmAz8QRr]            StepMonitoring 98   | SCALE
+INFO  [HmAz8QRr]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [HmAz8QRr]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 837% of needed quorum
+INFO  [HmAz8QRr]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [HmAz8QRr]            StepMonitoring 98   | GRID
+INFO  [HmAz8QRr]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [HmAz8QRr]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [HmAz8QRr]                 PeakGraph 310  | Systems: #1[1]
+INFO  [HmAz8QRr]             SystemManager 779  | 1 part along 1 system
+INFO  [HmAz8QRr]                      Book 545  | Created scores: [{Score 1}]
+INFO  [HmAz8QRr]            StepMonitoring 98   | HEADERS
+INFO  [HmAz8QRr]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [HmAz8QRr]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [HmAz8QRr]            StepMonitoring 98   | STEM_SEEDS
+INFO  [HmAz8QRr]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [HmAz8QRr]            StepMonitoring 98   | BEAMS
+INFO  [HmAz8QRr]            StepMonitoring 98   | LEDGERS
+INFO  [HmAz8QRr]            StepMonitoring 98   | HEADS
+INFO  [HmAz8QRr]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.9]}
+INFO  [HmAz8QRr]            StepMonitoring 98   | STEMS
+INFO  [HmAz8QRr]            StepMonitoring 98   | REDUCTION
+INFO  [HmAz8QRr]            StepMonitoring 98   | CUE_BEAMS
+INFO  [HmAz8QRr]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [HmAz8QRr]            StepMonitoring 98   | TEXTS
+WARN  [HmAz8QRr]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [HmAz8QRr]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [HmAz8QRr]            StepMonitoring 98   | MEASURES
+INFO  [HmAz8QRr]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [HmAz8QRr]            StepMonitoring 98   | CHORDS
+INFO  [HmAz8QRr]            StepMonitoring 98   | CURVES
+INFO  [HmAz8QRr]              SlursBuilder 240  | Slurs: 0
+INFO  [HmAz8QRr]           SegmentsBuilder 155  | Segments: 7
+INFO  [HmAz8QRr]            StepMonitoring 98   | SYMBOLS
+INFO  [HmAz8QRr]            StepMonitoring 98   | LINKS
+INFO  [HmAz8QRr]            StepMonitoring 98   | RHYTHMS
+INFO  [HmAz8QRr]            StepMonitoring 98   | PAGE
+INFO  [HmAz8QRr]                      Book 2550 | Book{HmAz8QRr} storing
+INFO  [HmAz8QRr]                      Book 2531 | Stored /book.xml
+INFO  [HmAz8QRr]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [HmAz8QRr]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [HmAz8QRr]                      Book 2491 | Book stored as out_omr/musicxml/HmAz8QRr.omr
+INFO  [HmAz8QRr]                 SheetStub 1644 | Disposed sheet
+INFO  [HmAz8QRr]                      Book 2018 | End of Stub#1 memory: 31,515,736
+INFO  [HmAz8QRr]                      Book 2025 | Book processed.
+INFO  [HmAz8QRr]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [HmAz8QRr]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [HmAz8QRr]             ScoreExporter 164  | Score HmAz8QRr exported to out_omr/musicxml/HmAz8QRr.mxl
+INFO  [HmAz8QRr]                     Score 181  | Closing {Score 1}

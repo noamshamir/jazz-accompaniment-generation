@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/BaqqiVNi.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BaqqiVNi.png"
+INFO  [BaqqiVNi]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BaqqiVNi.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/BaqqiVNi.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [BaqqiVNi]            StepMonitoring 98   | LOAD
+INFO  [BaqqiVNi]                 SheetStub 1268 | Loaded image #1 1970x214 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BaqqiVNi.png
+INFO  [BaqqiVNi]            StepMonitoring 98   | BINARY
+INFO  [BaqqiVNi]            StepMonitoring 98   | SCALE
+INFO  [BaqqiVNi]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [BaqqiVNi]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 766% of needed quorum
+INFO  [BaqqiVNi]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [BaqqiVNi]            StepMonitoring 98   | GRID
+INFO  [BaqqiVNi]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [BaqqiVNi]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [BaqqiVNi]                 PeakGraph 310  | Systems: #1[1]
+INFO  [BaqqiVNi]             SystemManager 779  | 1 part along 1 system
+INFO  [BaqqiVNi]                      Book 545  | Created scores: [{Score 1}]
+INFO  [BaqqiVNi]            StepMonitoring 98   | HEADERS
+INFO  [BaqqiVNi]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [BaqqiVNi]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [BaqqiVNi]            StepMonitoring 98   | STEM_SEEDS
+INFO  [BaqqiVNi]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [BaqqiVNi]            StepMonitoring 98   | BEAMS
+INFO  [BaqqiVNi]            StepMonitoring 98   | LEDGERS
+INFO  [BaqqiVNi]            StepMonitoring 98   | HEADS
+INFO  [BaqqiVNi]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.8]}
+INFO  [BaqqiVNi]            StepMonitoring 98   | STEMS
+INFO  [BaqqiVNi]            StepMonitoring 98   | REDUCTION
+INFO  [BaqqiVNi]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [BaqqiVNi]            StepMonitoring 98   | CUE_BEAMS
+INFO  [BaqqiVNi]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [BaqqiVNi]            StepMonitoring 98   | TEXTS
+WARN  [BaqqiVNi]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [BaqqiVNi]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [BaqqiVNi]            StepMonitoring 98   | MEASURES
+INFO  [BaqqiVNi]                      Page 307  | 7 raw measures: [7 in system#1]
+INFO  [BaqqiVNi]            StepMonitoring 98   | CHORDS
+INFO  [BaqqiVNi]            StepMonitoring 98   | CURVES
+INFO  [BaqqiVNi]              SlursBuilder 240  | Slurs: 0
+INFO  [BaqqiVNi]           SegmentsBuilder 155  | Segments: 4
+INFO  [BaqqiVNi]            StepMonitoring 98   | SYMBOLS
+INFO  [BaqqiVNi]            StepMonitoring 98   | LINKS
+INFO  [BaqqiVNi]            StepMonitoring 98   | RHYTHMS
+INFO  [BaqqiVNi]            StepMonitoring 98   | PAGE
+INFO  [BaqqiVNi]                      Book 2550 | Book{BaqqiVNi} storing
+INFO  [BaqqiVNi]                      Book 2531 | Stored /book.xml
+INFO  [BaqqiVNi]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [BaqqiVNi]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [BaqqiVNi]                      Book 2491 | Book stored as out_omr/musicxml/BaqqiVNi.omr
+INFO  [BaqqiVNi]                 SheetStub 1644 | Disposed sheet
+INFO  [BaqqiVNi]                      Book 2018 | End of Stub#1 memory: 32,997,160
+INFO  [BaqqiVNi]                      Book 2025 | Book processed.
+INFO  [BaqqiVNi]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [BaqqiVNi]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [BaqqiVNi]             ScoreExporter 164  | Score BaqqiVNi exported to out_omr/musicxml/BaqqiVNi.mxl
+INFO  [BaqqiVNi]                     Score 181  | Closing {Score 1}

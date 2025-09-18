@@ -1,0 +1,73 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/apgdZiyp.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/apgdZiyp.png"
+INFO  [apgdZiyp]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/apgdZiyp.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/apgdZiyp.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [apgdZiyp]            StepMonitoring 98   | LOAD
+INFO  [apgdZiyp]                 SheetStub 1268 | Loaded image #1 1970x241 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/apgdZiyp.png
+INFO  [apgdZiyp]            StepMonitoring 98   | BINARY
+INFO  [apgdZiyp]            StepMonitoring 98   | SCALE
+INFO  [apgdZiyp]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [apgdZiyp]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 732% of needed quorum
+INFO  [apgdZiyp]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [apgdZiyp]            StepMonitoring 98   | GRID
+INFO  [apgdZiyp]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [apgdZiyp]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [apgdZiyp]                 PeakGraph 310  | Systems: #1[1]
+INFO  [apgdZiyp]             SystemManager 779  | 1 part along 1 system
+INFO  [apgdZiyp]                      Book 545  | Created scores: [{Score 1}]
+INFO  [apgdZiyp]            StepMonitoring 98   | HEADERS
+INFO  [apgdZiyp]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [apgdZiyp]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [apgdZiyp]            StepMonitoring 98   | STEM_SEEDS
+INFO  [apgdZiyp]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [apgdZiyp]            StepMonitoring 98   | BEAMS
+INFO  [apgdZiyp]            StepMonitoring 98   | LEDGERS
+INFO  [apgdZiyp]            StepMonitoring 98   | HEADS
+INFO  [apgdZiyp]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [apgdZiyp]            StepMonitoring 98   | STEMS
+INFO  [apgdZiyp]            StepMonitoring 98   | REDUCTION
+INFO  [apgdZiyp]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [apgdZiyp]            StepMonitoring 98   | CUE_BEAMS
+INFO  [apgdZiyp]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [apgdZiyp]            StepMonitoring 98   | TEXTS
+WARN  [apgdZiyp]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [apgdZiyp]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [apgdZiyp]            StepMonitoring 98   | MEASURES
+INFO  [apgdZiyp]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [apgdZiyp]            StepMonitoring 98   | CHORDS
+INFO  [apgdZiyp]            StepMonitoring 98   | CURVES
+INFO  [apgdZiyp]              SlursBuilder 240  | Slurs: 2
+INFO  [apgdZiyp]           SegmentsBuilder 155  | Segments: 0
+INFO  [apgdZiyp]            StepMonitoring 98   | SYMBOLS
+INFO  [apgdZiyp]            StepMonitoring 98   | LINKS
+INFO  [apgdZiyp]            StepMonitoring 98   | RHYTHMS
+INFO  [apgdZiyp]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#570{(0.570/0.570) staff:1 slot#10 dur:1/2}
+INFO  [apgdZiyp]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#570{(0.570/0.570) staff:1 slot#10 dur:1/2}
+INFO  [apgdZiyp]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#576{(0.958/0.958) staff:1 slot#16 dur:1/8}
+INFO  [apgdZiyp]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [apgdZiyp]            StepMonitoring 98   | PAGE
+INFO  [apgdZiyp]                      Book 2550 | Book{apgdZiyp} storing
+INFO  [apgdZiyp]                      Book 2531 | Stored /book.xml
+INFO  [apgdZiyp]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [apgdZiyp]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [apgdZiyp]                      Book 2491 | Book stored as out_omr/musicxml/apgdZiyp.omr
+INFO  [apgdZiyp]                 SheetStub 1644 | Disposed sheet
+INFO  [apgdZiyp]                      Book 2018 | End of Stub#1 memory: 33,034,368
+INFO  [apgdZiyp]                      Book 2025 | Book processed.
+INFO  [apgdZiyp]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [apgdZiyp]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [apgdZiyp]             ScoreExporter 164  | Score apgdZiyp exported to out_omr/musicxml/apgdZiyp.mxl
+INFO  [apgdZiyp]                     Score 181  | Closing {Score 1}

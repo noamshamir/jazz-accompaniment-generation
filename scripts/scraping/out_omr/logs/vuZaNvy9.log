@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/vuZaNvy9.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuZaNvy9.png"
+INFO  [vuZaNvy9]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuZaNvy9.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/vuZaNvy9.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [vuZaNvy9]            StepMonitoring 98   | LOAD
+INFO  [vuZaNvy9]                 SheetStub 1268 | Loaded image #1 1970x254 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuZaNvy9.png
+INFO  [vuZaNvy9]            StepMonitoring 98   | BINARY
+INFO  [vuZaNvy9]            StepMonitoring 98   | SCALE
+INFO  [vuZaNvy9]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [vuZaNvy9]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 734% of needed quorum
+INFO  [vuZaNvy9]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [vuZaNvy9]            StepMonitoring 98   | GRID
+INFO  [vuZaNvy9]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [vuZaNvy9]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [vuZaNvy9]                 PeakGraph 310  | Systems: #1[1]
+INFO  [vuZaNvy9]             SystemManager 779  | 1 part along 1 system
+INFO  [vuZaNvy9]                      Book 545  | Created scores: [{Score 1}]
+INFO  [vuZaNvy9]            StepMonitoring 98   | HEADERS
+INFO  [vuZaNvy9]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [vuZaNvy9]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [vuZaNvy9]            StepMonitoring 98   | STEM_SEEDS
+INFO  [vuZaNvy9]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [vuZaNvy9]            StepMonitoring 98   | BEAMS
+INFO  [vuZaNvy9]            StepMonitoring 98   | LEDGERS
+INFO  [vuZaNvy9]            StepMonitoring 98   | HEADS
+INFO  [vuZaNvy9]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.7]}
+INFO  [vuZaNvy9]            StepMonitoring 98   | STEMS
+INFO  [vuZaNvy9]            StepMonitoring 98   | REDUCTION
+INFO  [vuZaNvy9]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [vuZaNvy9]            StepMonitoring 98   | CUE_BEAMS
+INFO  [vuZaNvy9]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [vuZaNvy9]            StepMonitoring 98   | TEXTS
+WARN  [vuZaNvy9]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [vuZaNvy9]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [vuZaNvy9]            StepMonitoring 98   | MEASURES
+INFO  [vuZaNvy9]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [vuZaNvy9]            StepMonitoring 98   | CHORDS
+INFO  [vuZaNvy9]            StepMonitoring 98   | CURVES
+INFO  [vuZaNvy9]              SlursBuilder 240  | Slurs: 2
+INFO  [vuZaNvy9]           SegmentsBuilder 155  | Segments: 4
+INFO  [vuZaNvy9]            StepMonitoring 98   | SYMBOLS
+INFO  [vuZaNvy9]            StepMonitoring 98   | LINKS
+INFO  [vuZaNvy9]            StepMonitoring 98   | RHYTHMS
+INFO  [vuZaNvy9]                     Voice 257  | Measure{#3} Voice{#1 excess:1/16} too long
+INFO  [vuZaNvy9]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [vuZaNvy9]            StepMonitoring 98   | PAGE
+INFO  [vuZaNvy9]                     Voice 257  | Measure{#3} Voice{#1 excess:1/16} too long
+INFO  [vuZaNvy9]                      Book 2550 | Book{vuZaNvy9} storing
+INFO  [vuZaNvy9]                      Book 2531 | Stored /book.xml
+INFO  [vuZaNvy9]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [vuZaNvy9]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [vuZaNvy9]                      Book 2491 | Book stored as out_omr/musicxml/vuZaNvy9.omr
+INFO  [vuZaNvy9]                 SheetStub 1644 | Disposed sheet
+INFO  [vuZaNvy9]                      Book 2018 | End of Stub#1 memory: 31,616,088
+INFO  [vuZaNvy9]                      Book 2025 | Book processed.
+INFO  [vuZaNvy9]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [vuZaNvy9]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [vuZaNvy9]             ScoreExporter 164  | Score vuZaNvy9 exported to out_omr/musicxml/vuZaNvy9.mxl
+INFO  [vuZaNvy9]                     Score 181  | Closing {Score 1}

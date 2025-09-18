@@ -1,0 +1,80 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/XeT3ClZP.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/XeT3ClZP.png"
+INFO  [XeT3ClZP]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/XeT3ClZP.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/XeT3ClZP.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [XeT3ClZP]            StepMonitoring 98   | LOAD
+INFO  [XeT3ClZP]                 SheetStub 1268 | Loaded image #1 2010x207 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/XeT3ClZP.png
+INFO  [XeT3ClZP]            StepMonitoring 98   | BINARY
+INFO  [XeT3ClZP]            StepMonitoring 98   | SCALE
+INFO  [XeT3ClZP]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [XeT3ClZP]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1285% of needed quorum
+INFO  [XeT3ClZP]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [XeT3ClZP]            StepMonitoring 98   | GRID
+INFO  [XeT3ClZP]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [XeT3ClZP]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [XeT3ClZP]                 PeakGraph 310  | Systems: #1[1]
+INFO  [XeT3ClZP]             SystemManager 779  | 1 part along 1 system
+INFO  [XeT3ClZP]                      Book 545  | Created scores: [{Score 1}]
+INFO  [XeT3ClZP]            StepMonitoring 98   | HEADERS
+INFO  [XeT3ClZP]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [XeT3ClZP]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [XeT3ClZP]            StepMonitoring 98   | STEM_SEEDS
+INFO  [XeT3ClZP]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [XeT3ClZP]            StepMonitoring 98   | BEAMS
+INFO  [XeT3ClZP]            StepMonitoring 98   | LEDGERS
+INFO  [XeT3ClZP]            StepMonitoring 98   | HEADS
+INFO  [XeT3ClZP]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [XeT3ClZP]            StepMonitoring 98   | STEMS
+INFO  [XeT3ClZP]            StepMonitoring 98   | REDUCTION
+INFO  [XeT3ClZP]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [XeT3ClZP]            StepMonitoring 98   | CUE_BEAMS
+INFO  [XeT3ClZP]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [XeT3ClZP]            StepMonitoring 98   | TEXTS
+WARN  [XeT3ClZP]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [XeT3ClZP]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [XeT3ClZP]            StepMonitoring 98   | MEASURES
+INFO  [XeT3ClZP]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [XeT3ClZP]            StepMonitoring 98   | CHORDS
+INFO  [XeT3ClZP]            StepMonitoring 98   | CURVES
+INFO  [XeT3ClZP]              SlursBuilder 240  | Slurs: 4
+INFO  [XeT3ClZP]           SegmentsBuilder 155  | Segments: 4
+INFO  [XeT3ClZP]            StepMonitoring 98   | SYMBOLS
+INFO  [XeT3ClZP]            StepMonitoring 98   | LINKS
+INFO  [XeT3ClZP]            StepMonitoring 98   | RHYTHMS
+INFO  [XeT3ClZP]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#1159{(0.949/0.949) staff:1 slot#16 dur:1/16}
+INFO  [XeT3ClZP]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [XeT3ClZP]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#1179{(0.958/0.958) staff:1 slot#20 dur:1/16}
+INFO  [XeT3ClZP]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#1182{(0.964/0.964) staff:1 slot#23 dur:1/16}
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#1 excess:13/32} too long
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#2 excess:1/32} too long
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#3 excess:5/32} too long
+INFO  [XeT3ClZP]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [XeT3ClZP]            StepMonitoring 98   | PAGE
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#1 excess:13/32} too long
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#2 excess:1/32} too long
+INFO  [XeT3ClZP]                     Voice 257  | Measure{#3} Voice{#3 excess:5/32} too long
+INFO  [XeT3ClZP]                      Book 2550 | Book{XeT3ClZP} storing
+INFO  [XeT3ClZP]                      Book 2531 | Stored /book.xml
+INFO  [XeT3ClZP]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [XeT3ClZP]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [XeT3ClZP]                      Book 2491 | Book stored as out_omr/musicxml/XeT3ClZP.omr
+INFO  [XeT3ClZP]                 SheetStub 1644 | Disposed sheet
+INFO  [XeT3ClZP]                      Book 2018 | End of Stub#1 memory: 31,312,152
+INFO  [XeT3ClZP]                      Book 2025 | Book processed.
+INFO  [XeT3ClZP]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [XeT3ClZP]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [XeT3ClZP]             ScoreExporter 164  | Score XeT3ClZP exported to out_omr/musicxml/XeT3ClZP.mxl
+INFO  [XeT3ClZP]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/zDIcy8if.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zDIcy8if.png"
+INFO  [zDIcy8if]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zDIcy8if.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/zDIcy8if.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [zDIcy8if]            StepMonitoring 98   | LOAD
+INFO  [zDIcy8if]                 SheetStub 1268 | Loaded image #1 1970x253 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zDIcy8if.png
+INFO  [zDIcy8if]            StepMonitoring 98   | BINARY
+INFO  [zDIcy8if]            StepMonitoring 98   | SCALE
+INFO  [zDIcy8if]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [zDIcy8if]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1031% of needed quorum
+INFO  [zDIcy8if]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [zDIcy8if]            StepMonitoring 98   | GRID
+INFO  [zDIcy8if]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [zDIcy8if]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [zDIcy8if]                 PeakGraph 310  | Systems: #1[1]
+INFO  [zDIcy8if]             SystemManager 779  | 1 part along 1 system
+INFO  [zDIcy8if]                      Book 545  | Created scores: [{Score 1}]
+INFO  [zDIcy8if]            StepMonitoring 98   | HEADERS
+INFO  [zDIcy8if]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [zDIcy8if]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [zDIcy8if]            StepMonitoring 98   | STEM_SEEDS
+INFO  [zDIcy8if]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [zDIcy8if]            StepMonitoring 98   | BEAMS
+INFO  [zDIcy8if]            StepMonitoring 98   | LEDGERS
+INFO  [zDIcy8if]            StepMonitoring 98   | HEADS
+INFO  [zDIcy8if]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [zDIcy8if]            StepMonitoring 98   | STEMS
+INFO  [zDIcy8if]            StepMonitoring 98   | REDUCTION
+INFO  [zDIcy8if]             ReductionStep 105  | Stems free length median value: 72 pixels, 3.4 interlines
+INFO  [zDIcy8if]            StepMonitoring 98   | CUE_BEAMS
+INFO  [zDIcy8if]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [zDIcy8if]            StepMonitoring 98   | TEXTS
+WARN  [zDIcy8if]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [zDIcy8if]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [zDIcy8if]            StepMonitoring 98   | MEASURES
+INFO  [zDIcy8if]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [zDIcy8if]            StepMonitoring 98   | CHORDS
+INFO  [zDIcy8if]            StepMonitoring 98   | CURVES
+INFO  [zDIcy8if]              SlursBuilder 240  | Slurs: 1
+INFO  [zDIcy8if]           SegmentsBuilder 155  | Segments: 9
+INFO  [zDIcy8if]            StepMonitoring 98   | SYMBOLS
+INFO  [zDIcy8if]            StepMonitoring 98   | LINKS
+INFO  [zDIcy8if]            StepMonitoring 98   | RHYTHMS
+INFO  [zDIcy8if]            StepMonitoring 98   | PAGE
+INFO  [zDIcy8if]                      Book 2550 | Book{zDIcy8if} storing
+INFO  [zDIcy8if]                      Book 2531 | Stored /book.xml
+INFO  [zDIcy8if]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [zDIcy8if]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [zDIcy8if]                      Book 2491 | Book stored as out_omr/musicxml/zDIcy8if.omr
+INFO  [zDIcy8if]                 SheetStub 1644 | Disposed sheet
+INFO  [zDIcy8if]                      Book 2018 | End of Stub#1 memory: 31,403,048
+INFO  [zDIcy8if]                      Book 2025 | Book processed.
+INFO  [zDIcy8if]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [zDIcy8if]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [zDIcy8if]             ScoreExporter 164  | Score zDIcy8if exported to out_omr/musicxml/zDIcy8if.mxl
+INFO  [zDIcy8if]                     Score 181  | Closing {Score 1}

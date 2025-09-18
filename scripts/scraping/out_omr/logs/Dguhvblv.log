@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/Dguhvblv.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Dguhvblv.png"
+INFO  [Dguhvblv]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Dguhvblv.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/Dguhvblv.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [Dguhvblv]            StepMonitoring 98   | LOAD
+INFO  [Dguhvblv]                 SheetStub 1268 | Loaded image #1 1970x283 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Dguhvblv.png
+INFO  [Dguhvblv]            StepMonitoring 98   | BINARY
+INFO  [Dguhvblv]            StepMonitoring 98   | SCALE
+INFO  [Dguhvblv]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [Dguhvblv]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 702% of needed quorum
+INFO  [Dguhvblv]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [Dguhvblv]            StepMonitoring 98   | GRID
+INFO  [Dguhvblv]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [Dguhvblv]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [Dguhvblv]                 PeakGraph 310  | Systems: #1[1]
+INFO  [Dguhvblv]             SystemManager 779  | 1 part along 1 system
+INFO  [Dguhvblv]                      Book 545  | Created scores: [{Score 1}]
+INFO  [Dguhvblv]            StepMonitoring 98   | HEADERS
+INFO  [Dguhvblv]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [Dguhvblv]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [Dguhvblv]            StepMonitoring 98   | STEM_SEEDS
+INFO  [Dguhvblv]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [Dguhvblv]            StepMonitoring 98   | BEAMS
+INFO  [Dguhvblv]            StepMonitoring 98   | LEDGERS
+INFO  [Dguhvblv]            StepMonitoring 98   | HEADS
+INFO  [Dguhvblv]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.7]}
+INFO  [Dguhvblv]            StepMonitoring 98   | STEMS
+INFO  [Dguhvblv]            StepMonitoring 98   | REDUCTION
+INFO  [Dguhvblv]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [Dguhvblv]            StepMonitoring 98   | CUE_BEAMS
+INFO  [Dguhvblv]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [Dguhvblv]            StepMonitoring 98   | TEXTS
+WARN  [Dguhvblv]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [Dguhvblv]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [Dguhvblv]            StepMonitoring 98   | MEASURES
+INFO  [Dguhvblv]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [Dguhvblv]            StepMonitoring 98   | CHORDS
+INFO  [Dguhvblv]            StepMonitoring 98   | CURVES
+INFO  [Dguhvblv]              SlursBuilder 240  | Slurs: 1
+INFO  [Dguhvblv]           SegmentsBuilder 155  | Segments: 4
+INFO  [Dguhvblv]            StepMonitoring 98   | SYMBOLS
+INFO  [Dguhvblv]            StepMonitoring 98   | LINKS
+INFO  [Dguhvblv]            StepMonitoring 98   | RHYTHMS
+INFO  [Dguhvblv]            StepMonitoring 98   | PAGE
+INFO  [Dguhvblv]                      Book 2550 | Book{Dguhvblv} storing
+INFO  [Dguhvblv]                      Book 2531 | Stored /book.xml
+INFO  [Dguhvblv]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [Dguhvblv]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [Dguhvblv]                      Book 2491 | Book stored as out_omr/musicxml/Dguhvblv.omr
+INFO  [Dguhvblv]                 SheetStub 1644 | Disposed sheet
+INFO  [Dguhvblv]                      Book 2018 | End of Stub#1 memory: 32,840,272
+INFO  [Dguhvblv]                      Book 2025 | Book processed.
+INFO  [Dguhvblv]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [Dguhvblv]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [Dguhvblv]             ScoreExporter 164  | Score Dguhvblv exported to out_omr/musicxml/Dguhvblv.mxl
+INFO  [Dguhvblv]                     Score 181  | Closing {Score 1}

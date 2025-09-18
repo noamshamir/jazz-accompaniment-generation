@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/Vim0idTw.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Vim0idTw.png"
+INFO  [Vim0idTw]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Vim0idTw.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/Vim0idTw.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [Vim0idTw]            StepMonitoring 98   | LOAD
+INFO  [Vim0idTw]                 SheetStub 1268 | Loaded image #1 1970x265 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Vim0idTw.png
+INFO  [Vim0idTw]            StepMonitoring 98   | BINARY
+INFO  [Vim0idTw]            StepMonitoring 98   | SCALE
+INFO  [Vim0idTw]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [Vim0idTw]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 785% of needed quorum
+INFO  [Vim0idTw]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [Vim0idTw]            StepMonitoring 98   | GRID
+INFO  [Vim0idTw]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [Vim0idTw]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [Vim0idTw]                 PeakGraph 310  | Systems: #1[1]
+INFO  [Vim0idTw]             SystemManager 779  | 1 part along 1 system
+INFO  [Vim0idTw]                      Book 545  | Created scores: [{Score 1}]
+INFO  [Vim0idTw]            StepMonitoring 98   | HEADERS
+INFO  [Vim0idTw]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [Vim0idTw]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [Vim0idTw]            StepMonitoring 98   | STEM_SEEDS
+INFO  [Vim0idTw]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [Vim0idTw]            StepMonitoring 98   | BEAMS
+INFO  [Vim0idTw]            StepMonitoring 98   | LEDGERS
+INFO  [Vim0idTw]            StepMonitoring 98   | HEADS
+INFO  [Vim0idTw]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [Vim0idTw]            StepMonitoring 98   | STEMS
+INFO  [Vim0idTw]            StepMonitoring 98   | REDUCTION
+INFO  [Vim0idTw]             ReductionStep 105  | Stems free length median value: 85 pixels, 4.0 interlines
+INFO  [Vim0idTw]            StepMonitoring 98   | CUE_BEAMS
+INFO  [Vim0idTw]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [Vim0idTw]            StepMonitoring 98   | TEXTS
+WARN  [Vim0idTw]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [Vim0idTw]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [Vim0idTw]            StepMonitoring 98   | MEASURES
+INFO  [Vim0idTw]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [Vim0idTw]            StepMonitoring 98   | CHORDS
+INFO  [Vim0idTw]            StepMonitoring 98   | CURVES
+INFO  [Vim0idTw]              SlursBuilder 240  | Slurs: 0
+INFO  [Vim0idTw]           SegmentsBuilder 155  | Segments: 5
+INFO  [Vim0idTw]            StepMonitoring 98   | SYMBOLS
+INFO  [Vim0idTw]            StepMonitoring 98   | LINKS
+INFO  [Vim0idTw]            StepMonitoring 98   | RHYTHMS
+INFO  [Vim0idTw]            StepMonitoring 98   | PAGE
+INFO  [Vim0idTw]                      Book 2550 | Book{Vim0idTw} storing
+INFO  [Vim0idTw]                      Book 2531 | Stored /book.xml
+INFO  [Vim0idTw]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [Vim0idTw]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [Vim0idTw]                      Book 2491 | Book stored as out_omr/musicxml/Vim0idTw.omr
+INFO  [Vim0idTw]                 SheetStub 1644 | Disposed sheet
+INFO  [Vim0idTw]                      Book 2018 | End of Stub#1 memory: 31,538,184
+INFO  [Vim0idTw]                      Book 2025 | Book processed.
+INFO  [Vim0idTw]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [Vim0idTw]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [Vim0idTw]             ScoreExporter 164  | Score Vim0idTw exported to out_omr/musicxml/Vim0idTw.mxl
+INFO  [Vim0idTw]                     Score 181  | Closing {Score 1}

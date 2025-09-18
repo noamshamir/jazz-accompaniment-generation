@@ -1,0 +1,73 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/3YoLax4m.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/3YoLax4m.png"
+INFO  [3YoLax4m]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/3YoLax4m.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/3YoLax4m.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [3YoLax4m]            StepMonitoring 98   | LOAD
+INFO  [3YoLax4m]                 SheetStub 1268 | Loaded image #1 1970x260 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/3YoLax4m.png
+INFO  [3YoLax4m]            StepMonitoring 98   | BINARY
+INFO  [3YoLax4m]            StepMonitoring 98   | SCALE
+INFO  [3YoLax4m]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [3YoLax4m]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 641% of needed quorum
+INFO  [3YoLax4m]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [3YoLax4m]            StepMonitoring 98   | GRID
+INFO  [3YoLax4m]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [3YoLax4m]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [3YoLax4m]                 PeakGraph 310  | Systems: #1[1]
+INFO  [3YoLax4m]             SystemManager 779  | 1 part along 1 system
+INFO  [3YoLax4m]                      Book 545  | Created scores: [{Score 1}]
+INFO  [3YoLax4m]            StepMonitoring 98   | HEADERS
+INFO  [3YoLax4m]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [3YoLax4m]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [3YoLax4m]            StepMonitoring 98   | STEM_SEEDS
+INFO  [3YoLax4m]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [3YoLax4m]            StepMonitoring 98   | BEAMS
+INFO  [3YoLax4m]            StepMonitoring 98   | LEDGERS
+INFO  [3YoLax4m]            StepMonitoring 98   | HEADS
+INFO  [3YoLax4m]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [3YoLax4m]            StepMonitoring 98   | STEMS
+INFO  [3YoLax4m]            StepMonitoring 98   | REDUCTION
+INFO  [3YoLax4m]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [3YoLax4m]            StepMonitoring 98   | CUE_BEAMS
+INFO  [3YoLax4m]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [3YoLax4m]            StepMonitoring 98   | TEXTS
+WARN  [3YoLax4m]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [3YoLax4m]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [3YoLax4m]            StepMonitoring 98   | MEASURES
+INFO  [3YoLax4m]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [3YoLax4m]            StepMonitoring 98   | CHORDS
+INFO  [3YoLax4m]            StepMonitoring 98   | CURVES
+INFO  [3YoLax4m]              SlursBuilder 240  | Slurs: 1
+INFO  [3YoLax4m]           SegmentsBuilder 155  | Segments: 3
+INFO  [3YoLax4m]            StepMonitoring 98   | SYMBOLS
+INFO  [3YoLax4m]            StepMonitoring 98   | LINKS
+INFO  [3YoLax4m]            StepMonitoring 98   | RHYTHMS
+INFO  [3YoLax4m]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#567{(0.591/0.591) staff:1 slot#9 dur:1/2}
+INFO  [3YoLax4m]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#567{(0.591/0.591) staff:1 slot#9 dur:1/2}
+INFO  [3YoLax4m]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#568{(0.844/0.844) staff:1 slot#10 dur:1/2}
+INFO  [3YoLax4m]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [3YoLax4m]            StepMonitoring 98   | PAGE
+INFO  [3YoLax4m]                      Book 2550 | Book{3YoLax4m} storing
+INFO  [3YoLax4m]                      Book 2531 | Stored /book.xml
+INFO  [3YoLax4m]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [3YoLax4m]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [3YoLax4m]                      Book 2491 | Book stored as out_omr/musicxml/3YoLax4m.omr
+INFO  [3YoLax4m]                 SheetStub 1644 | Disposed sheet
+INFO  [3YoLax4m]                      Book 2018 | End of Stub#1 memory: 31,599,808
+INFO  [3YoLax4m]                      Book 2025 | Book processed.
+INFO  [3YoLax4m]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [3YoLax4m]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [3YoLax4m]             ScoreExporter 164  | Score 3YoLax4m exported to out_omr/musicxml/3YoLax4m.mxl
+INFO  [3YoLax4m]                     Score 181  | Closing {Score 1}

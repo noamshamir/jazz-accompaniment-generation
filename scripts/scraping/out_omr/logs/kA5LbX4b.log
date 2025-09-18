@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/kA5LbX4b.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/kA5LbX4b.png"
+INFO  [kA5LbX4b]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/kA5LbX4b.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/kA5LbX4b.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [kA5LbX4b]            StepMonitoring 98   | LOAD
+INFO  [kA5LbX4b]                 SheetStub 1268 | Loaded image #1 1970x209 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/kA5LbX4b.png
+INFO  [kA5LbX4b]            StepMonitoring 98   | BINARY
+INFO  [kA5LbX4b]            StepMonitoring 98   | SCALE
+INFO  [kA5LbX4b]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [kA5LbX4b]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 980% of needed quorum
+INFO  [kA5LbX4b]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [kA5LbX4b]            StepMonitoring 98   | GRID
+INFO  [kA5LbX4b]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [kA5LbX4b]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [kA5LbX4b]                 PeakGraph 310  | Systems: #1[1]
+INFO  [kA5LbX4b]             SystemManager 779  | 1 part along 1 system
+INFO  [kA5LbX4b]                      Book 545  | Created scores: [{Score 1}]
+INFO  [kA5LbX4b]            StepMonitoring 98   | HEADERS
+INFO  [kA5LbX4b]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [kA5LbX4b]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [kA5LbX4b]            StepMonitoring 98   | STEM_SEEDS
+INFO  [kA5LbX4b]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [kA5LbX4b]            StepMonitoring 98   | BEAMS
+INFO  [kA5LbX4b]            StepMonitoring 98   | LEDGERS
+INFO  [kA5LbX4b]            StepMonitoring 98   | HEADS
+INFO  [kA5LbX4b]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [kA5LbX4b]            StepMonitoring 98   | STEMS
+INFO  [kA5LbX4b]            StepMonitoring 98   | REDUCTION
+INFO  [kA5LbX4b]            StepMonitoring 98   | CUE_BEAMS
+INFO  [kA5LbX4b]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [kA5LbX4b]            StepMonitoring 98   | TEXTS
+WARN  [kA5LbX4b]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [kA5LbX4b]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [kA5LbX4b]            StepMonitoring 98   | MEASURES
+INFO  [kA5LbX4b]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [kA5LbX4b]            StepMonitoring 98   | CHORDS
+INFO  [kA5LbX4b]            StepMonitoring 98   | CURVES
+INFO  [kA5LbX4b]              SlursBuilder 240  | Slurs: 0
+INFO  [kA5LbX4b]           SegmentsBuilder 155  | Segments: 1
+INFO  [kA5LbX4b]            StepMonitoring 98   | SYMBOLS
+INFO  [kA5LbX4b]            StepMonitoring 98   | LINKS
+INFO  [kA5LbX4b]            StepMonitoring 98   | RHYTHMS
+INFO  [kA5LbX4b]            StepMonitoring 98   | PAGE
+INFO  [kA5LbX4b]                      Book 2550 | Book{kA5LbX4b} storing
+INFO  [kA5LbX4b]                      Book 2531 | Stored /book.xml
+INFO  [kA5LbX4b]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [kA5LbX4b]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [kA5LbX4b]                      Book 2491 | Book stored as out_omr/musicxml/kA5LbX4b.omr
+INFO  [kA5LbX4b]                 SheetStub 1644 | Disposed sheet
+INFO  [kA5LbX4b]                      Book 2018 | End of Stub#1 memory: 31,347,328
+INFO  [kA5LbX4b]                      Book 2025 | Book processed.
+INFO  [kA5LbX4b]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [kA5LbX4b]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [kA5LbX4b]             ScoreExporter 164  | Score kA5LbX4b exported to out_omr/musicxml/kA5LbX4b.mxl
+INFO  [kA5LbX4b]                     Score 181  | Closing {Score 1}

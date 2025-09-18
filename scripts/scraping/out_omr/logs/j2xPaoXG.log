@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/j2xPaoXG.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/j2xPaoXG.png"
+INFO  [j2xPaoXG]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/j2xPaoXG.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/j2xPaoXG.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [j2xPaoXG]            StepMonitoring 98   | LOAD
+INFO  [j2xPaoXG]                 SheetStub 1268 | Loaded image #1 1970x241 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/j2xPaoXG.png
+INFO  [j2xPaoXG]            StepMonitoring 98   | BINARY
+INFO  [j2xPaoXG]            StepMonitoring 98   | SCALE
+INFO  [j2xPaoXG]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [j2xPaoXG]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 905% of needed quorum
+INFO  [j2xPaoXG]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [j2xPaoXG]            StepMonitoring 98   | GRID
+INFO  [j2xPaoXG]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [j2xPaoXG]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [j2xPaoXG]                 PeakGraph 310  | Systems: #1[1]
+INFO  [j2xPaoXG]             SystemManager 779  | 1 part along 1 system
+INFO  [j2xPaoXG]                      Book 545  | Created scores: [{Score 1}]
+INFO  [j2xPaoXG]            StepMonitoring 98   | HEADERS
+INFO  [j2xPaoXG]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [j2xPaoXG]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [j2xPaoXG]            StepMonitoring 98   | STEM_SEEDS
+INFO  [j2xPaoXG]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [j2xPaoXG]            StepMonitoring 98   | BEAMS
+INFO  [j2xPaoXG]            StepMonitoring 98   | LEDGERS
+INFO  [j2xPaoXG]            StepMonitoring 98   | HEADS
+INFO  [j2xPaoXG]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.7]}
+INFO  [j2xPaoXG]            StepMonitoring 98   | STEMS
+INFO  [j2xPaoXG]            StepMonitoring 98   | REDUCTION
+INFO  [j2xPaoXG]            StepMonitoring 98   | CUE_BEAMS
+INFO  [j2xPaoXG]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [j2xPaoXG]            StepMonitoring 98   | TEXTS
+WARN  [j2xPaoXG]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [j2xPaoXG]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [j2xPaoXG]            StepMonitoring 98   | MEASURES
+INFO  [j2xPaoXG]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [j2xPaoXG]            StepMonitoring 98   | CHORDS
+INFO  [j2xPaoXG]            StepMonitoring 98   | CURVES
+INFO  [j2xPaoXG]              SlursBuilder 240  | Slurs: 0
+INFO  [j2xPaoXG]           SegmentsBuilder 155  | Segments: 3
+INFO  [j2xPaoXG]            StepMonitoring 98   | SYMBOLS
+INFO  [j2xPaoXG]            StepMonitoring 98   | LINKS
+INFO  [j2xPaoXG]            StepMonitoring 98   | RHYTHMS
+INFO  [j2xPaoXG]            StepMonitoring 98   | PAGE
+INFO  [j2xPaoXG]                      Book 2550 | Book{j2xPaoXG} storing
+INFO  [j2xPaoXG]                      Book 2531 | Stored /book.xml
+INFO  [j2xPaoXG]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [j2xPaoXG]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [j2xPaoXG]                      Book 2491 | Book stored as out_omr/musicxml/j2xPaoXG.omr
+INFO  [j2xPaoXG]                 SheetStub 1644 | Disposed sheet
+INFO  [j2xPaoXG]                      Book 2018 | End of Stub#1 memory: 31,468,936
+INFO  [j2xPaoXG]                      Book 2025 | Book processed.
+INFO  [j2xPaoXG]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [j2xPaoXG]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [j2xPaoXG]             ScoreExporter 164  | Score j2xPaoXG exported to out_omr/musicxml/j2xPaoXG.mxl
+INFO  [j2xPaoXG]                     Score 181  | Closing {Score 1}

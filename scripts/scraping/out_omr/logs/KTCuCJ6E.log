@@ -1,0 +1,74 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/KTCuCJ6E.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KTCuCJ6E.png"
+INFO  [KTCuCJ6E]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KTCuCJ6E.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/KTCuCJ6E.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [KTCuCJ6E]            StepMonitoring 98   | LOAD
+INFO  [KTCuCJ6E]                 SheetStub 1268 | Loaded image #1 1970x251 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KTCuCJ6E.png
+INFO  [KTCuCJ6E]            StepMonitoring 98   | BINARY
+INFO  [KTCuCJ6E]            StepMonitoring 98   | SCALE
+INFO  [KTCuCJ6E]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [KTCuCJ6E]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 803% of needed quorum
+INFO  [KTCuCJ6E]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [KTCuCJ6E]            StepMonitoring 98   | GRID
+INFO  [KTCuCJ6E]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [KTCuCJ6E]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [KTCuCJ6E]                 PeakGraph 310  | Systems: #1[1]
+INFO  [KTCuCJ6E]             SystemManager 779  | 1 part along 1 system
+INFO  [KTCuCJ6E]                      Book 545  | Created scores: [{Score 1}]
+INFO  [KTCuCJ6E]            StepMonitoring 98   | HEADERS
+INFO  [KTCuCJ6E]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [KTCuCJ6E]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [KTCuCJ6E]            StepMonitoring 98   | STEM_SEEDS
+INFO  [KTCuCJ6E]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [KTCuCJ6E]            StepMonitoring 98   | BEAMS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | LEDGERS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | HEADS
+INFO  [KTCuCJ6E]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-1.0]}
+INFO  [KTCuCJ6E]            StepMonitoring 98   | STEMS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | REDUCTION
+INFO  [KTCuCJ6E]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [KTCuCJ6E]            StepMonitoring 98   | CUE_BEAMS
+INFO  [KTCuCJ6E]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [KTCuCJ6E]            StepMonitoring 98   | TEXTS
+WARN  [KTCuCJ6E]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [KTCuCJ6E]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [KTCuCJ6E]            StepMonitoring 98   | MEASURES
+INFO  [KTCuCJ6E]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [KTCuCJ6E]            StepMonitoring 98   | CHORDS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | CURVES
+INFO  [KTCuCJ6E]              SlursBuilder 240  | Slurs: 0
+INFO  [KTCuCJ6E]           SegmentsBuilder 155  | Segments: 4
+INFO  [KTCuCJ6E]            StepMonitoring 98   | SYMBOLS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | LINKS
+INFO  [KTCuCJ6E]            StepMonitoring 98   | RHYTHMS
+INFO  [KTCuCJ6E]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#694{(0.944/0.944) staff:1 slot#9 dur:1/8}
+INFO  [KTCuCJ6E]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#693{(0.549/0.549) staff:1 slot#9 dur:1/2}
+INFO  [KTCuCJ6E]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#697{(0.960/0.960) staff:1 slot#12 dur:1/8}
+INFO  [KTCuCJ6E]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#693{(0.549/0.549) staff:1 slot#9 dur:1/2}
+INFO  [KTCuCJ6E]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [KTCuCJ6E]            StepMonitoring 98   | PAGE
+INFO  [KTCuCJ6E]                      Book 2550 | Book{KTCuCJ6E} storing
+INFO  [KTCuCJ6E]                      Book 2531 | Stored /book.xml
+INFO  [KTCuCJ6E]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [KTCuCJ6E]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [KTCuCJ6E]                      Book 2491 | Book stored as out_omr/musicxml/KTCuCJ6E.omr
+INFO  [KTCuCJ6E]                 SheetStub 1644 | Disposed sheet
+INFO  [KTCuCJ6E]                      Book 2018 | End of Stub#1 memory: 31,502,464
+INFO  [KTCuCJ6E]                      Book 2025 | Book processed.
+INFO  [KTCuCJ6E]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [KTCuCJ6E]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [KTCuCJ6E]             ScoreExporter 164  | Score KTCuCJ6E exported to out_omr/musicxml/KTCuCJ6E.mxl
+INFO  [KTCuCJ6E]                     Score 181  | Closing {Score 1}

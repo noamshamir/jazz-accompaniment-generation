@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/EaDgrSON.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EaDgrSON.png"
+INFO  [EaDgrSON]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EaDgrSON.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/EaDgrSON.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [EaDgrSON]            StepMonitoring 98   | LOAD
+INFO  [EaDgrSON]                 SheetStub 1268 | Loaded image #1 1970x210 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EaDgrSON.png
+INFO  [EaDgrSON]            StepMonitoring 98   | BINARY
+INFO  [EaDgrSON]            StepMonitoring 98   | SCALE
+INFO  [EaDgrSON]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [EaDgrSON]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 643% of needed quorum
+INFO  [EaDgrSON]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [EaDgrSON]            StepMonitoring 98   | GRID
+INFO  [EaDgrSON]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [EaDgrSON]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [EaDgrSON]                 PeakGraph 310  | Systems: #1[1]
+INFO  [EaDgrSON]             SystemManager 779  | 1 part along 1 system
+INFO  [EaDgrSON]                      Book 545  | Created scores: [{Score 1}]
+INFO  [EaDgrSON]            StepMonitoring 98   | HEADERS
+INFO  [EaDgrSON]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [EaDgrSON]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [EaDgrSON]            StepMonitoring 98   | STEM_SEEDS
+INFO  [EaDgrSON]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [EaDgrSON]            StepMonitoring 98   | BEAMS
+INFO  [EaDgrSON]            StepMonitoring 98   | LEDGERS
+INFO  [EaDgrSON]            StepMonitoring 98   | HEADS
+INFO  [EaDgrSON]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [EaDgrSON]            StepMonitoring 98   | STEMS
+INFO  [EaDgrSON]            StepMonitoring 98   | REDUCTION
+INFO  [EaDgrSON]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [EaDgrSON]            StepMonitoring 98   | CUE_BEAMS
+INFO  [EaDgrSON]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [EaDgrSON]            StepMonitoring 98   | TEXTS
+WARN  [EaDgrSON]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [EaDgrSON]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [EaDgrSON]            StepMonitoring 98   | MEASURES
+INFO  [EaDgrSON]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [EaDgrSON]            StepMonitoring 98   | CHORDS
+INFO  [EaDgrSON]            StepMonitoring 98   | CURVES
+INFO  [EaDgrSON]              SlursBuilder 240  | Slurs: 1
+INFO  [EaDgrSON]           SegmentsBuilder 155  | Segments: 1
+INFO  [EaDgrSON]            StepMonitoring 98   | SYMBOLS
+INFO  [EaDgrSON]            StepMonitoring 98   | LINKS
+INFO  [EaDgrSON]            StepMonitoring 98   | RHYTHMS
+INFO  [EaDgrSON]            StepMonitoring 98   | PAGE
+INFO  [EaDgrSON]                      Book 2550 | Book{EaDgrSON} storing
+INFO  [EaDgrSON]                      Book 2531 | Stored /book.xml
+INFO  [EaDgrSON]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [EaDgrSON]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [EaDgrSON]                      Book 2491 | Book stored as out_omr/musicxml/EaDgrSON.omr
+INFO  [EaDgrSON]                 SheetStub 1644 | Disposed sheet
+INFO  [EaDgrSON]                      Book 2018 | End of Stub#1 memory: 31,458,360
+INFO  [EaDgrSON]                      Book 2025 | Book processed.
+INFO  [EaDgrSON]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [EaDgrSON]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [EaDgrSON]             ScoreExporter 164  | Score EaDgrSON exported to out_omr/musicxml/EaDgrSON.mxl
+INFO  [EaDgrSON]                     Score 181  | Closing {Score 1}

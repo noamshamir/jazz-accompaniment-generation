@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PS8zLdJS.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PS8zLdJS.png"
+INFO  [PS8zLdJS]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PS8zLdJS.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PS8zLdJS.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PS8zLdJS]            StepMonitoring 98   | LOAD
+INFO  [PS8zLdJS]                 SheetStub 1268 | Loaded image #1 1970x237 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PS8zLdJS.png
+INFO  [PS8zLdJS]            StepMonitoring 98   | BINARY
+INFO  [PS8zLdJS]            StepMonitoring 98   | SCALE
+INFO  [PS8zLdJS]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PS8zLdJS]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 870% of needed quorum
+INFO  [PS8zLdJS]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [PS8zLdJS]            StepMonitoring 98   | GRID
+INFO  [PS8zLdJS]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PS8zLdJS]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PS8zLdJS]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PS8zLdJS]             SystemManager 779  | 1 part along 1 system
+INFO  [PS8zLdJS]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PS8zLdJS]            StepMonitoring 98   | HEADERS
+INFO  [PS8zLdJS]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PS8zLdJS]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PS8zLdJS]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PS8zLdJS]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [PS8zLdJS]            StepMonitoring 98   | BEAMS
+INFO  [PS8zLdJS]            StepMonitoring 98   | LEDGERS
+INFO  [PS8zLdJS]            StepMonitoring 98   | HEADS
+INFO  [PS8zLdJS]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [PS8zLdJS]            StepMonitoring 98   | STEMS
+INFO  [PS8zLdJS]            StepMonitoring 98   | REDUCTION
+INFO  [PS8zLdJS]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [PS8zLdJS]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PS8zLdJS]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PS8zLdJS]            StepMonitoring 98   | TEXTS
+WARN  [PS8zLdJS]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PS8zLdJS]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PS8zLdJS]            StepMonitoring 98   | MEASURES
+INFO  [PS8zLdJS]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [PS8zLdJS]            StepMonitoring 98   | CHORDS
+INFO  [PS8zLdJS]            StepMonitoring 98   | CURVES
+INFO  [PS8zLdJS]              SlursBuilder 240  | Slurs: 0
+INFO  [PS8zLdJS]           SegmentsBuilder 155  | Segments: 4
+INFO  [PS8zLdJS]            StepMonitoring 98   | SYMBOLS
+INFO  [PS8zLdJS]            StepMonitoring 98   | LINKS
+INFO  [PS8zLdJS]            StepMonitoring 98   | RHYTHMS
+INFO  [PS8zLdJS]            StepMonitoring 98   | PAGE
+INFO  [PS8zLdJS]                      Book 2550 | Book{PS8zLdJS} storing
+INFO  [PS8zLdJS]                      Book 2531 | Stored /book.xml
+INFO  [PS8zLdJS]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PS8zLdJS]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PS8zLdJS]                      Book 2491 | Book stored as out_omr/musicxml/PS8zLdJS.omr
+INFO  [PS8zLdJS]                 SheetStub 1644 | Disposed sheet
+INFO  [PS8zLdJS]                      Book 2018 | End of Stub#1 memory: 31,365,128
+INFO  [PS8zLdJS]                      Book 2025 | Book processed.
+INFO  [PS8zLdJS]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PS8zLdJS]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PS8zLdJS]             ScoreExporter 164  | Score PS8zLdJS exported to out_omr/musicxml/PS8zLdJS.mxl
+INFO  [PS8zLdJS]                     Score 181  | Closing {Score 1}

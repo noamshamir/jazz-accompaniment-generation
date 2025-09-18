@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/FPakp1TF.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FPakp1TF.png"
+INFO  [FPakp1TF]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FPakp1TF.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/FPakp1TF.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [FPakp1TF]            StepMonitoring 98   | LOAD
+INFO  [FPakp1TF]                 SheetStub 1268 | Loaded image #1 1970x235 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FPakp1TF.png
+INFO  [FPakp1TF]            StepMonitoring 98   | BINARY
+INFO  [FPakp1TF]            StepMonitoring 98   | SCALE
+INFO  [FPakp1TF]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [FPakp1TF]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 870% of needed quorum
+INFO  [FPakp1TF]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [FPakp1TF]            StepMonitoring 98   | GRID
+INFO  [FPakp1TF]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [FPakp1TF]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [FPakp1TF]                 PeakGraph 310  | Systems: #1[1]
+INFO  [FPakp1TF]             SystemManager 779  | 1 part along 1 system
+INFO  [FPakp1TF]                      Book 545  | Created scores: [{Score 1}]
+INFO  [FPakp1TF]            StepMonitoring 98   | HEADERS
+INFO  [FPakp1TF]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [FPakp1TF]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [FPakp1TF]            StepMonitoring 98   | STEM_SEEDS
+INFO  [FPakp1TF]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [FPakp1TF]            StepMonitoring 98   | BEAMS
+INFO  [FPakp1TF]            StepMonitoring 98   | LEDGERS
+INFO  [FPakp1TF]            StepMonitoring 98   | HEADS
+INFO  [FPakp1TF]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.7]}
+INFO  [FPakp1TF]            StepMonitoring 98   | STEMS
+INFO  [FPakp1TF]            StepMonitoring 98   | REDUCTION
+INFO  [FPakp1TF]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [FPakp1TF]            StepMonitoring 98   | CUE_BEAMS
+INFO  [FPakp1TF]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [FPakp1TF]            StepMonitoring 98   | TEXTS
+WARN  [FPakp1TF]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [FPakp1TF]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [FPakp1TF]            StepMonitoring 98   | MEASURES
+INFO  [FPakp1TF]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [FPakp1TF]            StepMonitoring 98   | CHORDS
+INFO  [FPakp1TF]            StepMonitoring 98   | CURVES
+INFO  [FPakp1TF]              SlursBuilder 240  | Slurs: 1
+INFO  [FPakp1TF]           SegmentsBuilder 155  | Segments: 1
+INFO  [FPakp1TF]            StepMonitoring 98   | SYMBOLS
+INFO  [FPakp1TF]            StepMonitoring 98   | LINKS
+INFO  [FPakp1TF]            StepMonitoring 98   | RHYTHMS
+INFO  [FPakp1TF]            StepMonitoring 98   | PAGE
+INFO  [FPakp1TF]                      Book 2550 | Book{FPakp1TF} storing
+INFO  [FPakp1TF]                      Book 2531 | Stored /book.xml
+INFO  [FPakp1TF]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [FPakp1TF]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [FPakp1TF]                      Book 2491 | Book stored as out_omr/musicxml/FPakp1TF.omr
+INFO  [FPakp1TF]                 SheetStub 1644 | Disposed sheet
+INFO  [FPakp1TF]                      Book 2018 | End of Stub#1 memory: 31,553,072
+INFO  [FPakp1TF]                      Book 2025 | Book processed.
+INFO  [FPakp1TF]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [FPakp1TF]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [FPakp1TF]             ScoreExporter 164  | Score FPakp1TF exported to out_omr/musicxml/FPakp1TF.mxl
+INFO  [FPakp1TF]                     Score 181  | Closing {Score 1}

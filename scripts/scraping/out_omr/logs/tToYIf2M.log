@@ -1,0 +1,77 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/tToYIf2M.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tToYIf2M.png"
+INFO  [tToYIf2M]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tToYIf2M.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/tToYIf2M.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [tToYIf2M]            StepMonitoring 98   | LOAD
+INFO  [tToYIf2M]                 SheetStub 1268 | Loaded image #1 1970x234 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tToYIf2M.png
+INFO  [tToYIf2M]            StepMonitoring 98   | BINARY
+INFO  [tToYIf2M]            StepMonitoring 98   | SCALE
+INFO  [tToYIf2M]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [tToYIf2M]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 788% of needed quorum
+INFO  [tToYIf2M]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [tToYIf2M]            StepMonitoring 98   | GRID
+INFO  [tToYIf2M]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [tToYIf2M]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [tToYIf2M]                 PeakGraph 310  | Systems: #1[1]
+INFO  [tToYIf2M]             SystemManager 779  | 1 part along 1 system
+INFO  [tToYIf2M]                      Book 545  | Created scores: [{Score 1}]
+INFO  [tToYIf2M]            StepMonitoring 98   | HEADERS
+INFO  [tToYIf2M]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [tToYIf2M]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [tToYIf2M]            StepMonitoring 98   | STEM_SEEDS
+INFO  [tToYIf2M]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [tToYIf2M]            StepMonitoring 98   | BEAMS
+INFO  [tToYIf2M]            StepMonitoring 98   | LEDGERS
+INFO  [tToYIf2M]            StepMonitoring 98   | HEADS
+INFO  [tToYIf2M]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [tToYIf2M]            StepMonitoring 98   | STEMS
+INFO  [tToYIf2M]            StepMonitoring 98   | REDUCTION
+INFO  [tToYIf2M]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [tToYIf2M]            StepMonitoring 98   | CUE_BEAMS
+INFO  [tToYIf2M]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [tToYIf2M]            StepMonitoring 98   | TEXTS
+WARN  [tToYIf2M]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [tToYIf2M]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [tToYIf2M]            StepMonitoring 98   | MEASURES
+INFO  [tToYIf2M]                      Page 307  | 2 raw measures: [2 in system#1]
+INFO  [tToYIf2M]            StepMonitoring 98   | CHORDS
+INFO  [tToYIf2M]            StepMonitoring 98   | CURVES
+INFO  [tToYIf2M]              SlursBuilder 240  | Slurs: 1
+INFO  [tToYIf2M]           SegmentsBuilder 155  | Segments: 5
+INFO  [tToYIf2M]            StepMonitoring 98   | SYMBOLS
+INFO  [tToYIf2M]            StepMonitoring 98   | LINKS
+INFO  [tToYIf2M]            StepMonitoring 98   | RHYTHMS
+INFO  [tToYIf2M]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#748{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#748{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#752{(0.942/0.942) staff:1 slot#13 dur:1/8}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#756{(0.944/0.944) staff:1 slot#17 dur:1/8}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#757{(0.583/0.583) staff:1 slot#18 dur:1/2}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#758{(0.915/0.915) staff:1 slot#19 dur:1/4}
+INFO  [tToYIf2M]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#761{(0.952/0.952) staff:1 slot#22 dur:1/4}
+INFO  [tToYIf2M]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [tToYIf2M]            StepMonitoring 98   | PAGE
+INFO  [tToYIf2M]                      Book 2550 | Book{tToYIf2M} storing
+INFO  [tToYIf2M]                      Book 2531 | Stored /book.xml
+INFO  [tToYIf2M]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [tToYIf2M]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [tToYIf2M]                      Book 2491 | Book stored as out_omr/musicxml/tToYIf2M.omr
+INFO  [tToYIf2M]                 SheetStub 1644 | Disposed sheet
+INFO  [tToYIf2M]                      Book 2018 | End of Stub#1 memory: 31,388,936
+INFO  [tToYIf2M]                      Book 2025 | Book processed.
+INFO  [tToYIf2M]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [tToYIf2M]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [tToYIf2M]             ScoreExporter 164  | Score tToYIf2M exported to out_omr/musicxml/tToYIf2M.mxl
+INFO  [tToYIf2M]                     Score 181  | Closing {Score 1}

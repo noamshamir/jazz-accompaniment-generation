@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/cn6KV2tA.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/cn6KV2tA.png"
+INFO  [cn6KV2tA]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/cn6KV2tA.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/cn6KV2tA.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [cn6KV2tA]            StepMonitoring 98   | LOAD
+INFO  [cn6KV2tA]                 SheetStub 1268 | Loaded image #1 1970x248 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/cn6KV2tA.png
+INFO  [cn6KV2tA]            StepMonitoring 98   | BINARY
+INFO  [cn6KV2tA]            StepMonitoring 98   | SCALE
+INFO  [cn6KV2tA]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [cn6KV2tA]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 355% of needed quorum
+INFO  [cn6KV2tA]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [cn6KV2tA]            StepMonitoring 98   | GRID
+INFO  [cn6KV2tA]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [cn6KV2tA]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [cn6KV2tA]                 PeakGraph 310  | Systems: #1[1]
+INFO  [cn6KV2tA]             SystemManager 779  | 1 part along 1 system
+INFO  [cn6KV2tA]                      Book 545  | Created scores: [{Score 1}]
+INFO  [cn6KV2tA]            StepMonitoring 98   | HEADERS
+INFO  [cn6KV2tA]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [cn6KV2tA]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [cn6KV2tA]            StepMonitoring 98   | STEM_SEEDS
+INFO  [cn6KV2tA]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [cn6KV2tA]            StepMonitoring 98   | BEAMS
+INFO  [cn6KV2tA]            StepMonitoring 98   | LEDGERS
+INFO  [cn6KV2tA]            StepMonitoring 98   | HEADS
+INFO  [cn6KV2tA]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [cn6KV2tA]            StepMonitoring 98   | STEMS
+INFO  [cn6KV2tA]            StepMonitoring 98   | REDUCTION
+INFO  [cn6KV2tA]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [cn6KV2tA]            StepMonitoring 98   | CUE_BEAMS
+INFO  [cn6KV2tA]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [cn6KV2tA]            StepMonitoring 98   | TEXTS
+WARN  [cn6KV2tA]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [cn6KV2tA]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [cn6KV2tA]            StepMonitoring 98   | MEASURES
+INFO  [cn6KV2tA]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [cn6KV2tA]            StepMonitoring 98   | CHORDS
+INFO  [cn6KV2tA]            StepMonitoring 98   | CURVES
+INFO  [cn6KV2tA]              SlursBuilder 240  | Slurs: 0
+INFO  [cn6KV2tA]           SegmentsBuilder 155  | Segments: 8
+INFO  [cn6KV2tA]            StepMonitoring 98   | SYMBOLS
+INFO  [cn6KV2tA]            StepMonitoring 98   | LINKS
+INFO  [cn6KV2tA]            StepMonitoring 98   | RHYTHMS
+INFO  [cn6KV2tA]            StepMonitoring 98   | PAGE
+INFO  [cn6KV2tA]                      Book 2550 | Book{cn6KV2tA} storing
+INFO  [cn6KV2tA]                      Book 2531 | Stored /book.xml
+INFO  [cn6KV2tA]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [cn6KV2tA]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [cn6KV2tA]                      Book 2491 | Book stored as out_omr/musicxml/cn6KV2tA.omr
+INFO  [cn6KV2tA]                 SheetStub 1644 | Disposed sheet
+INFO  [cn6KV2tA]                      Book 2018 | End of Stub#1 memory: 31,354,984
+INFO  [cn6KV2tA]                      Book 2025 | Book processed.
+INFO  [cn6KV2tA]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [cn6KV2tA]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [cn6KV2tA]             ScoreExporter 164  | Score cn6KV2tA exported to out_omr/musicxml/cn6KV2tA.mxl
+INFO  [cn6KV2tA]                     Score 181  | Closing {Score 1}

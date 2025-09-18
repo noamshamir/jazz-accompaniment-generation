@@ -1,0 +1,77 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/b5FUw05y.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/b5FUw05y.png"
+INFO  [b5FUw05y]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/b5FUw05y.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/b5FUw05y.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [b5FUw05y]            StepMonitoring 98   | LOAD
+INFO  [b5FUw05y]                 SheetStub 1268 | Loaded image #1 2049x237 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/b5FUw05y.png
+INFO  [b5FUw05y]            StepMonitoring 98   | BINARY
+INFO  [b5FUw05y]            StepMonitoring 98   | SCALE
+INFO  [b5FUw05y]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [b5FUw05y]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1344% of needed quorum
+INFO  [b5FUw05y]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [b5FUw05y]            StepMonitoring 98   | GRID
+INFO  [b5FUw05y]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [b5FUw05y]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [b5FUw05y]                 PeakGraph 310  | Systems: #1[1]
+INFO  [b5FUw05y]             SystemManager 779  | 1 part along 1 system
+INFO  [b5FUw05y]                      Book 545  | Created scores: [{Score 1}]
+INFO  [b5FUw05y]            StepMonitoring 98   | HEADERS
+INFO  [b5FUw05y]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [b5FUw05y]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [b5FUw05y]            StepMonitoring 98   | STEM_SEEDS
+INFO  [b5FUw05y]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [b5FUw05y]            StepMonitoring 98   | BEAMS
+INFO  [b5FUw05y]            StaffProjector 665  | Too high serif for multiple rest in Staff#1 at x:1150
+INFO  [b5FUw05y]            StaffProjector 665  | Too high serif for multiple rest in Staff#1 at x:1245
+INFO  [b5FUw05y]            StepMonitoring 98   | LEDGERS
+INFO  [b5FUw05y]            StepMonitoring 98   | HEADS
+INFO  [b5FUw05y]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.5]}
+INFO  [b5FUw05y]            StepMonitoring 98   | STEMS
+INFO  [b5FUw05y]            StepMonitoring 98   | REDUCTION
+INFO  [b5FUw05y]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [b5FUw05y]            StepMonitoring 98   | CUE_BEAMS
+INFO  [b5FUw05y]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [b5FUw05y]            StepMonitoring 98   | TEXTS
+WARN  [b5FUw05y]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [b5FUw05y]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [b5FUw05y]            StepMonitoring 98   | MEASURES
+INFO  [b5FUw05y]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [b5FUw05y]            StepMonitoring 98   | CHORDS
+INFO  [b5FUw05y]            StepMonitoring 98   | CURVES
+INFO  [b5FUw05y]              SlursBuilder 240  | Slurs: 0
+INFO  [b5FUw05y]           SegmentsBuilder 155  | Segments: 7
+INFO  [b5FUw05y]            StepMonitoring 98   | SYMBOLS
+INFO  [b5FUw05y]            StepMonitoring 98   | LINKS
+INFO  [b5FUw05y]            StepMonitoring 98   | RHYTHMS
+INFO  [b5FUw05y]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#1195{(0.835/0.835) staff:1 slot#11 dur:1/4}
+INFO  [b5FUw05y]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1195{(0.835/0.835) staff:1 slot#11 dur:1/4}
+INFO  [b5FUw05y]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [b5FUw05y]             MeasureRhythm 1045 | Measure{#4} No timeOffset for HeadChordInter#1222{(0.645/0.645) staff:1 slot#7 dur:1/2}
+INFO  [b5FUw05y]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#1222{(0.645/0.645) staff:1 slot#7 dur:1/2}
+INFO  [b5FUw05y]               StackRhythm 224  | S1 MeasureStack#4 no correct rhythm
+INFO  [b5FUw05y]            StepMonitoring 98   | PAGE
+INFO  [b5FUw05y]                      Book 2550 | Book{b5FUw05y} storing
+INFO  [b5FUw05y]                      Book 2531 | Stored /book.xml
+INFO  [b5FUw05y]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [b5FUw05y]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [b5FUw05y]                      Book 2491 | Book stored as out_omr/musicxml/b5FUw05y.omr
+INFO  [b5FUw05y]                 SheetStub 1644 | Disposed sheet
+INFO  [b5FUw05y]                      Book 2018 | End of Stub#1 memory: 31,143,520
+INFO  [b5FUw05y]                      Book 2025 | Book processed.
+INFO  [b5FUw05y]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [b5FUw05y]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [b5FUw05y]             ScoreExporter 164  | Score b5FUw05y exported to out_omr/musicxml/b5FUw05y.mxl
+INFO  [b5FUw05y]                     Score 181  | Closing {Score 1}

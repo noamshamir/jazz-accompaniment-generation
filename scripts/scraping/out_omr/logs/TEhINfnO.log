@@ -1,0 +1,76 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/TEhINfnO.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/TEhINfnO.png"
+INFO  [TEhINfnO]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/TEhINfnO.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/TEhINfnO.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [TEhINfnO]            StepMonitoring 98   | LOAD
+INFO  [TEhINfnO]                 SheetStub 1268 | Loaded image #1 1970x257 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/TEhINfnO.png
+INFO  [TEhINfnO]            StepMonitoring 98   | BINARY
+INFO  [TEhINfnO]            StepMonitoring 98   | SCALE
+INFO  [TEhINfnO]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [TEhINfnO]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 864% of needed quorum
+INFO  [TEhINfnO]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [TEhINfnO]            StepMonitoring 98   | GRID
+INFO  [TEhINfnO]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [TEhINfnO]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [TEhINfnO]                 PeakGraph 310  | Systems: #1[1]
+INFO  [TEhINfnO]             SystemManager 779  | 1 part along 1 system
+INFO  [TEhINfnO]                      Book 545  | Created scores: [{Score 1}]
+INFO  [TEhINfnO]            StepMonitoring 98   | HEADERS
+INFO  [TEhINfnO]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [TEhINfnO]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [TEhINfnO]            StepMonitoring 98   | STEM_SEEDS
+INFO  [TEhINfnO]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [TEhINfnO]            StepMonitoring 98   | BEAMS
+INFO  [TEhINfnO]            StepMonitoring 98   | LEDGERS
+INFO  [TEhINfnO]            StepMonitoring 98   | HEADS
+INFO  [TEhINfnO]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [TEhINfnO]            StepMonitoring 98   | STEMS
+INFO  [TEhINfnO]            StepMonitoring 98   | REDUCTION
+INFO  [TEhINfnO]             ReductionStep 105  | Stems free length median value: 72 pixels, 3.4 interlines
+INFO  [TEhINfnO]            StepMonitoring 98   | CUE_BEAMS
+INFO  [TEhINfnO]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [TEhINfnO]            StepMonitoring 98   | TEXTS
+WARN  [TEhINfnO]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [TEhINfnO]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [TEhINfnO]            StepMonitoring 98   | MEASURES
+INFO  [TEhINfnO]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [TEhINfnO]            StepMonitoring 98   | CHORDS
+INFO  [TEhINfnO]            StepMonitoring 98   | CURVES
+INFO  [TEhINfnO]              SlursBuilder 240  | Slurs: 2
+INFO  [TEhINfnO]           SegmentsBuilder 155  | Segments: 0
+INFO  [TEhINfnO]            StepMonitoring 98   | SYMBOLS
+INFO  [TEhINfnO]            StepMonitoring 98   | LINKS
+INFO  [TEhINfnO]            StepMonitoring 98   | RHYTHMS
+INFO  [TEhINfnO]             MeasureRhythm 1045 | Measure{#4} No timeOffset for RestChordInter#831{(0.584/0.584) staff:1 slot#9 dur:1/4}
+INFO  [TEhINfnO]             MeasureRhythm 1045 | Measure{#4} No timeOffset for HeadChordInter#651{(0.609/0.609) staff:1 slot#9 dur:1/2}
+INFO  [TEhINfnO]        AbstractChordInter 627  | Measure{#4} No timeOffset for RestChordInter#831{(0.584/0.584) staff:1 slot#9 dur:1/4}
+INFO  [TEhINfnO]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#651{(0.609/0.609) staff:1 slot#9 dur:1/2}
+INFO  [TEhINfnO]        AbstractChordInter 627  | Measure{#4} No timeOffset for RestChordInter#831{(0.584/0.584) staff:1 slot#9 dur:1/4}
+INFO  [TEhINfnO]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#652{(0.877/0.877) staff:1 slot#10 dur:1/2}
+INFO  [TEhINfnO]               StackRhythm 224  | S1 MeasureStack#4 no correct rhythm
+INFO  [TEhINfnO]            StepMonitoring 98   | PAGE
+INFO  [TEhINfnO]                      Book 2550 | Book{TEhINfnO} storing
+INFO  [TEhINfnO]                      Book 2531 | Stored /book.xml
+INFO  [TEhINfnO]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [TEhINfnO]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [TEhINfnO]                      Book 2491 | Book stored as out_omr/musicxml/TEhINfnO.omr
+INFO  [TEhINfnO]                 SheetStub 1644 | Disposed sheet
+INFO  [TEhINfnO]                      Book 2018 | End of Stub#1 memory: 31,630,504
+INFO  [TEhINfnO]                      Book 2025 | Book processed.
+INFO  [TEhINfnO]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [TEhINfnO]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [TEhINfnO]             ScoreExporter 164  | Score TEhINfnO exported to out_omr/musicxml/TEhINfnO.mxl
+INFO  [TEhINfnO]                     Score 181  | Closing {Score 1}

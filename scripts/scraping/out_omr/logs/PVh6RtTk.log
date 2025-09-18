@@ -1,0 +1,70 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PVh6RtTk.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PVh6RtTk.png"
+2025-09-09 23:57:34.873 Audiveris[47649:1190632] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-09 23:57:34.873 Audiveris[47649:1190632] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  [PVh6RtTk]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PVh6RtTk.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PVh6RtTk.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PVh6RtTk]            StepMonitoring 98   | LOAD
+INFO  [PVh6RtTk]                 SheetStub 1268 | Loaded image #1 1970x258 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PVh6RtTk.png
+INFO  [PVh6RtTk]            StepMonitoring 98   | BINARY
+INFO  [PVh6RtTk]            StepMonitoring 98   | SCALE
+INFO  [PVh6RtTk]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PVh6RtTk]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 909% of needed quorum
+INFO  [PVh6RtTk]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [PVh6RtTk]            StepMonitoring 98   | GRID
+INFO  [PVh6RtTk]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PVh6RtTk]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PVh6RtTk]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PVh6RtTk]             SystemManager 779  | 1 part along 1 system
+INFO  [PVh6RtTk]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PVh6RtTk]            StepMonitoring 98   | HEADERS
+INFO  [PVh6RtTk]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PVh6RtTk]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PVh6RtTk]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PVh6RtTk]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [PVh6RtTk]            StepMonitoring 98   | BEAMS
+INFO  [PVh6RtTk]            StepMonitoring 98   | LEDGERS
+INFO  [PVh6RtTk]            StepMonitoring 98   | HEADS
+INFO  [PVh6RtTk]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.8]}
+INFO  [PVh6RtTk]            StepMonitoring 98   | STEMS
+INFO  [PVh6RtTk]            StepMonitoring 98   | REDUCTION
+INFO  [PVh6RtTk]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PVh6RtTk]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PVh6RtTk]            StepMonitoring 98   | TEXTS
+WARN  [PVh6RtTk]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PVh6RtTk]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PVh6RtTk]            StepMonitoring 98   | MEASURES
+INFO  [PVh6RtTk]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [PVh6RtTk]            StepMonitoring 98   | CHORDS
+INFO  [PVh6RtTk]            StepMonitoring 98   | CURVES
+INFO  [PVh6RtTk]              SlursBuilder 240  | Slurs: 1
+INFO  [PVh6RtTk]           SegmentsBuilder 155  | Segments: 0
+INFO  [PVh6RtTk]            StepMonitoring 98   | SYMBOLS
+INFO  [PVh6RtTk]            StepMonitoring 98   | LINKS
+INFO  [PVh6RtTk]            StepMonitoring 98   | RHYTHMS
+INFO  [PVh6RtTk]            StepMonitoring 98   | PAGE
+INFO  [PVh6RtTk]                      Book 2550 | Book{PVh6RtTk} storing
+INFO  [PVh6RtTk]                      Book 2531 | Stored /book.xml
+INFO  [PVh6RtTk]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PVh6RtTk]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PVh6RtTk]                      Book 2491 | Book stored as out_omr/musicxml/PVh6RtTk.omr
+INFO  [PVh6RtTk]                 SheetStub 1644 | Disposed sheet
+INFO  [PVh6RtTk]                      Book 2018 | End of Stub#1 memory: 31,340,760
+INFO  [PVh6RtTk]                      Book 2025 | Book processed.
+INFO  [PVh6RtTk]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PVh6RtTk]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PVh6RtTk]             ScoreExporter 164  | Score PVh6RtTk exported to out_omr/musicxml/PVh6RtTk.mxl
+INFO  [PVh6RtTk]                     Score 181  | Closing {Score 1}

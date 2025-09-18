@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/bYvaBcq7.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/bYvaBcq7.png"
+INFO  [bYvaBcq7]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/bYvaBcq7.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/bYvaBcq7.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [bYvaBcq7]            StepMonitoring 98   | LOAD
+INFO  [bYvaBcq7]                 SheetStub 1268 | Loaded image #1 1970x232 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/bYvaBcq7.png
+INFO  [bYvaBcq7]            StepMonitoring 98   | BINARY
+INFO  [bYvaBcq7]            StepMonitoring 98   | SCALE
+INFO  [bYvaBcq7]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [bYvaBcq7]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 771% of needed quorum
+INFO  [bYvaBcq7]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [bYvaBcq7]            StepMonitoring 98   | GRID
+INFO  [bYvaBcq7]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [bYvaBcq7]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [bYvaBcq7]                 PeakGraph 310  | Systems: #1[1]
+INFO  [bYvaBcq7]             SystemManager 779  | 1 part along 1 system
+INFO  [bYvaBcq7]                      Book 545  | Created scores: [{Score 1}]
+INFO  [bYvaBcq7]            StepMonitoring 98   | HEADERS
+INFO  [bYvaBcq7]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [bYvaBcq7]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [bYvaBcq7]            StepMonitoring 98   | STEM_SEEDS
+INFO  [bYvaBcq7]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [bYvaBcq7]            StepMonitoring 98   | BEAMS
+INFO  [bYvaBcq7]            StepMonitoring 98   | LEDGERS
+INFO  [bYvaBcq7]            StepMonitoring 98   | HEADS
+INFO  [bYvaBcq7]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [bYvaBcq7]            StepMonitoring 98   | STEMS
+INFO  [bYvaBcq7]            StepMonitoring 98   | REDUCTION
+INFO  [bYvaBcq7]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [bYvaBcq7]            StepMonitoring 98   | CUE_BEAMS
+INFO  [bYvaBcq7]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [bYvaBcq7]            StepMonitoring 98   | TEXTS
+WARN  [bYvaBcq7]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [bYvaBcq7]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [bYvaBcq7]            StepMonitoring 98   | MEASURES
+INFO  [bYvaBcq7]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [bYvaBcq7]            StepMonitoring 98   | CHORDS
+INFO  [bYvaBcq7]            StepMonitoring 98   | CURVES
+INFO  [bYvaBcq7]              SlursBuilder 240  | Slurs: 1
+INFO  [bYvaBcq7]           SegmentsBuilder 155  | Segments: 9
+INFO  [bYvaBcq7]            StepMonitoring 98   | SYMBOLS
+INFO  [bYvaBcq7]            StepMonitoring 98   | LINKS
+INFO  [bYvaBcq7]            StepMonitoring 98   | RHYTHMS
+INFO  [bYvaBcq7]            StepMonitoring 98   | PAGE
+INFO  [bYvaBcq7]                      Book 2550 | Book{bYvaBcq7} storing
+INFO  [bYvaBcq7]                      Book 2531 | Stored /book.xml
+INFO  [bYvaBcq7]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [bYvaBcq7]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [bYvaBcq7]                      Book 2491 | Book stored as out_omr/musicxml/bYvaBcq7.omr
+INFO  [bYvaBcq7]                 SheetStub 1644 | Disposed sheet
+INFO  [bYvaBcq7]                      Book 2018 | End of Stub#1 memory: 31,389,768
+INFO  [bYvaBcq7]                      Book 2025 | Book processed.
+INFO  [bYvaBcq7]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [bYvaBcq7]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [bYvaBcq7]             ScoreExporter 164  | Score bYvaBcq7 exported to out_omr/musicxml/bYvaBcq7.mxl
+INFO  [bYvaBcq7]                     Score 181  | Closing {Score 1}

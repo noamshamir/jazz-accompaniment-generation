@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/EttSo5wc.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EttSo5wc.png"
+INFO  [EttSo5wc]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EttSo5wc.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/EttSo5wc.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [EttSo5wc]            StepMonitoring 98   | LOAD
+INFO  [EttSo5wc]                 SheetStub 1268 | Loaded image #1 1970x238 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EttSo5wc.png
+INFO  [EttSo5wc]            StepMonitoring 98   | BINARY
+INFO  [EttSo5wc]            StepMonitoring 98   | SCALE
+INFO  [EttSo5wc]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [EttSo5wc]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 422% of needed quorum
+INFO  [EttSo5wc]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [EttSo5wc]            StepMonitoring 98   | GRID
+INFO  [EttSo5wc]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [EttSo5wc]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [EttSo5wc]                 PeakGraph 310  | Systems: #1[1]
+INFO  [EttSo5wc]             SystemManager 779  | 1 part along 1 system
+INFO  [EttSo5wc]                      Book 545  | Created scores: [{Score 1}]
+INFO  [EttSo5wc]            StepMonitoring 98   | HEADERS
+INFO  [EttSo5wc]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [EttSo5wc]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [EttSo5wc]            StepMonitoring 98   | STEM_SEEDS
+INFO  [EttSo5wc]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [EttSo5wc]            StepMonitoring 98   | BEAMS
+INFO  [EttSo5wc]            StepMonitoring 98   | LEDGERS
+INFO  [EttSo5wc]            StepMonitoring 98   | HEADS
+INFO  [EttSo5wc]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:0.5]}
+INFO  [EttSo5wc]            StepMonitoring 98   | STEMS
+INFO  [EttSo5wc]            StepMonitoring 98   | REDUCTION
+INFO  [EttSo5wc]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [EttSo5wc]            StepMonitoring 98   | CUE_BEAMS
+INFO  [EttSo5wc]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [EttSo5wc]            StepMonitoring 98   | TEXTS
+WARN  [EttSo5wc]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [EttSo5wc]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [EttSo5wc]            StepMonitoring 98   | MEASURES
+INFO  [EttSo5wc]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [EttSo5wc]            StepMonitoring 98   | CHORDS
+INFO  [EttSo5wc]            StepMonitoring 98   | CURVES
+INFO  [EttSo5wc]              SlursBuilder 240  | Slurs: 1
+INFO  [EttSo5wc]           SegmentsBuilder 155  | Segments: 4
+INFO  [EttSo5wc]            StepMonitoring 98   | SYMBOLS
+INFO  [EttSo5wc]            StepMonitoring 98   | LINKS
+INFO  [EttSo5wc]            StepMonitoring 98   | RHYTHMS
+INFO  [EttSo5wc]            StepMonitoring 98   | PAGE
+INFO  [EttSo5wc]                      Book 2550 | Book{EttSo5wc} storing
+INFO  [EttSo5wc]                      Book 2531 | Stored /book.xml
+INFO  [EttSo5wc]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [EttSo5wc]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [EttSo5wc]                      Book 2491 | Book stored as out_omr/musicxml/EttSo5wc.omr
+INFO  [EttSo5wc]                 SheetStub 1644 | Disposed sheet
+INFO  [EttSo5wc]                      Book 2018 | End of Stub#1 memory: 31,372,816
+INFO  [EttSo5wc]                      Book 2025 | Book processed.
+INFO  [EttSo5wc]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [EttSo5wc]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [EttSo5wc]             ScoreExporter 164  | Score EttSo5wc exported to out_omr/musicxml/EttSo5wc.mxl
+INFO  [EttSo5wc]                     Score 181  | Closing {Score 1}

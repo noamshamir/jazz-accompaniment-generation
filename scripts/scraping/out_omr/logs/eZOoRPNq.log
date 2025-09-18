@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/eZOoRPNq.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eZOoRPNq.png"
+INFO  [eZOoRPNq]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eZOoRPNq.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/eZOoRPNq.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [eZOoRPNq]            StepMonitoring 98   | LOAD
+INFO  [eZOoRPNq]                 SheetStub 1268 | Loaded image #1 1970x209 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/eZOoRPNq.png
+INFO  [eZOoRPNq]            StepMonitoring 98   | BINARY
+INFO  [eZOoRPNq]            StepMonitoring 98   | SCALE
+INFO  [eZOoRPNq]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [eZOoRPNq]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 817% of needed quorum
+INFO  [eZOoRPNq]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [eZOoRPNq]            StepMonitoring 98   | GRID
+INFO  [eZOoRPNq]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [eZOoRPNq]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [eZOoRPNq]                 PeakGraph 310  | Systems: #1[1]
+INFO  [eZOoRPNq]             SystemManager 779  | 1 part along 1 system
+INFO  [eZOoRPNq]                      Book 545  | Created scores: [{Score 1}]
+INFO  [eZOoRPNq]            StepMonitoring 98   | HEADERS
+INFO  [eZOoRPNq]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [eZOoRPNq]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [eZOoRPNq]            StepMonitoring 98   | STEM_SEEDS
+INFO  [eZOoRPNq]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [eZOoRPNq]            StepMonitoring 98   | BEAMS
+INFO  [eZOoRPNq]            StepMonitoring 98   | LEDGERS
+INFO  [eZOoRPNq]            StepMonitoring 98   | HEADS
+INFO  [eZOoRPNq]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [eZOoRPNq]            StepMonitoring 98   | STEMS
+INFO  [eZOoRPNq]            StepMonitoring 98   | REDUCTION
+INFO  [eZOoRPNq]             ReductionStep 105  | Stems free length median value: 70 pixels, 3.3 interlines
+INFO  [eZOoRPNq]            StepMonitoring 98   | CUE_BEAMS
+INFO  [eZOoRPNq]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [eZOoRPNq]            StepMonitoring 98   | TEXTS
+WARN  [eZOoRPNq]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [eZOoRPNq]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [eZOoRPNq]            StepMonitoring 98   | MEASURES
+INFO  [eZOoRPNq]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [eZOoRPNq]            StepMonitoring 98   | CHORDS
+INFO  [eZOoRPNq]            StepMonitoring 98   | CURVES
+INFO  [eZOoRPNq]              SlursBuilder 240  | Slurs: 1
+INFO  [eZOoRPNq]           SegmentsBuilder 155  | Segments: 0
+INFO  [eZOoRPNq]            StepMonitoring 98   | SYMBOLS
+INFO  [eZOoRPNq]            StepMonitoring 98   | LINKS
+INFO  [eZOoRPNq]            StepMonitoring 98   | RHYTHMS
+INFO  [eZOoRPNq]            StepMonitoring 98   | PAGE
+INFO  [eZOoRPNq]                      Book 2550 | Book{eZOoRPNq} storing
+INFO  [eZOoRPNq]                      Book 2531 | Stored /book.xml
+INFO  [eZOoRPNq]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [eZOoRPNq]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [eZOoRPNq]                      Book 2491 | Book stored as out_omr/musicxml/eZOoRPNq.omr
+INFO  [eZOoRPNq]                 SheetStub 1644 | Disposed sheet
+INFO  [eZOoRPNq]                      Book 2018 | End of Stub#1 memory: 31,532,216
+INFO  [eZOoRPNq]                      Book 2025 | Book processed.
+INFO  [eZOoRPNq]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [eZOoRPNq]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [eZOoRPNq]             ScoreExporter 164  | Score eZOoRPNq exported to out_omr/musicxml/eZOoRPNq.mxl
+INFO  [eZOoRPNq]                     Score 181  | Closing {Score 1}

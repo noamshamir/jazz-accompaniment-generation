@@ -1,0 +1,80 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/iweSYRXR.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/iweSYRXR.png"
+INFO  [iweSYRXR]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/iweSYRXR.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/iweSYRXR.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [iweSYRXR]            StepMonitoring 98   | LOAD
+INFO  [iweSYRXR]                 SheetStub 1268 | Loaded image #1 1970x244 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/iweSYRXR.png
+INFO  [iweSYRXR]            StepMonitoring 98   | BINARY
+INFO  [iweSYRXR]            StepMonitoring 98   | SCALE
+INFO  [iweSYRXR]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [iweSYRXR]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 524% of needed quorum
+INFO  [iweSYRXR]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [iweSYRXR]            StepMonitoring 98   | GRID
+INFO  [iweSYRXR]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [iweSYRXR]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [iweSYRXR]                 PeakGraph 310  | Systems: #1[1]
+INFO  [iweSYRXR]             SystemManager 779  | 1 part along 1 system
+INFO  [iweSYRXR]                      Book 545  | Created scores: [{Score 1}]
+INFO  [iweSYRXR]            StepMonitoring 98   | HEADERS
+INFO  [iweSYRXR]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [iweSYRXR]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [iweSYRXR]            StepMonitoring 98   | STEM_SEEDS
+INFO  [iweSYRXR]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [iweSYRXR]            StepMonitoring 98   | BEAMS
+INFO  [iweSYRXR]            StepMonitoring 98   | LEDGERS
+INFO  [iweSYRXR]            StepMonitoring 98   | HEADS
+INFO  [iweSYRXR]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-1.4]}
+INFO  [iweSYRXR]            StepMonitoring 98   | STEMS
+INFO  [iweSYRXR]            StepMonitoring 98   | REDUCTION
+INFO  [iweSYRXR]            StepMonitoring 98   | CUE_BEAMS
+INFO  [iweSYRXR]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [iweSYRXR]            StepMonitoring 98   | TEXTS
+WARN  [iweSYRXR]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [iweSYRXR]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [iweSYRXR]            StepMonitoring 98   | MEASURES
+INFO  [iweSYRXR]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [iweSYRXR]            StepMonitoring 98   | CHORDS
+INFO  [iweSYRXR]            StepMonitoring 98   | CURVES
+INFO  [iweSYRXR]              SlursBuilder 240  | Slurs: 0
+INFO  [iweSYRXR]           SegmentsBuilder 155  | Segments: 3
+INFO  [iweSYRXR]            StepMonitoring 98   | SYMBOLS
+INFO  [iweSYRXR]            StepMonitoring 98   | LINKS
+INFO  [iweSYRXR]            StepMonitoring 98   | RHYTHMS
+INFO  [iweSYRXR]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#503{(0.936/0.936) staff:1 slot#5 dur:1/8}
+INFO  [iweSYRXR]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#504{(0.938/0.938) staff:1 slot#6 dur:1/8}
+INFO  [iweSYRXR]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#506{(0.952/0.952) staff:1 slot#8 dur:1/8}
+INFO  [iweSYRXR]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [iweSYRXR]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#513{(0.959/0.959) staff:1 slot#5 dur:1/8}
+INFO  [iweSYRXR]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#514{(0.960/0.960) staff:1 slot#6 dur:1/8}
+INFO  [iweSYRXR]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#516{(0.953/0.953) staff:1 slot#8 dur:1/8}
+INFO  [iweSYRXR]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [iweSYRXR]             MeasureRhythm 1045 | Measure{#3} No timeOffset for RestChordInter#663{(0.800/0.800) staff:1 slot#4 dur:1/2}
+INFO  [iweSYRXR]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [iweSYRXR]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [iweSYRXR]            StepMonitoring 98   | PAGE
+INFO  [iweSYRXR]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [iweSYRXR]                      Book 2550 | Book{iweSYRXR} storing
+INFO  [iweSYRXR]                      Book 2531 | Stored /book.xml
+INFO  [iweSYRXR]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [iweSYRXR]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [iweSYRXR]                      Book 2491 | Book stored as out_omr/musicxml/iweSYRXR.omr
+INFO  [iweSYRXR]                 SheetStub 1644 | Disposed sheet
+INFO  [iweSYRXR]                      Book 2018 | End of Stub#1 memory: 31,388,224
+INFO  [iweSYRXR]                      Book 2025 | Book processed.
+INFO  [iweSYRXR]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [iweSYRXR]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [iweSYRXR]             ScoreExporter 164  | Score iweSYRXR exported to out_omr/musicxml/iweSYRXR.mxl
+INFO  [iweSYRXR]                     Score 181  | Closing {Score 1}

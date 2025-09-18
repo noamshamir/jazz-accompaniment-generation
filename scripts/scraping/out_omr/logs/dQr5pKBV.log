@@ -1,0 +1,81 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/dQr5pKBV.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/dQr5pKBV.png"
+INFO  [dQr5pKBV]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/dQr5pKBV.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/dQr5pKBV.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [dQr5pKBV]            StepMonitoring 98   | LOAD
+INFO  [dQr5pKBV]                 SheetStub 1268 | Loaded image #1 1970x239 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/dQr5pKBV.png
+INFO  [dQr5pKBV]            StepMonitoring 98   | BINARY
+INFO  [dQr5pKBV]            StepMonitoring 98   | SCALE
+INFO  [dQr5pKBV]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [dQr5pKBV]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 619% of needed quorum
+INFO  [dQr5pKBV]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [dQr5pKBV]            StepMonitoring 98   | GRID
+INFO  [dQr5pKBV]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [dQr5pKBV]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [dQr5pKBV]                 PeakGraph 310  | Systems: #1[1]
+INFO  [dQr5pKBV]             SystemManager 779  | 1 part along 1 system
+INFO  [dQr5pKBV]                      Book 545  | Created scores: [{Score 1}]
+INFO  [dQr5pKBV]            StepMonitoring 98   | HEADERS
+INFO  [dQr5pKBV]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [dQr5pKBV]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [dQr5pKBV]            StepMonitoring 98   | STEM_SEEDS
+INFO  [dQr5pKBV]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [dQr5pKBV]            StepMonitoring 98   | BEAMS
+INFO  [dQr5pKBV]            StepMonitoring 98   | LEDGERS
+INFO  [dQr5pKBV]            StepMonitoring 98   | HEADS
+INFO  [dQr5pKBV]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.5]}
+INFO  [dQr5pKBV]            StepMonitoring 98   | STEMS
+INFO  [dQr5pKBV]            StepMonitoring 98   | REDUCTION
+INFO  [dQr5pKBV]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [dQr5pKBV]            StepMonitoring 98   | CUE_BEAMS
+INFO  [dQr5pKBV]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [dQr5pKBV]            StepMonitoring 98   | TEXTS
+WARN  [dQr5pKBV]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [dQr5pKBV]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [dQr5pKBV]            StepMonitoring 98   | MEASURES
+INFO  [dQr5pKBV]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [dQr5pKBV]            StepMonitoring 98   | CHORDS
+INFO  [dQr5pKBV]            StepMonitoring 98   | CURVES
+INFO  [dQr5pKBV]              SlursBuilder 240  | Slurs: 0
+INFO  [dQr5pKBV]           SegmentsBuilder 155  | Segments: 0
+INFO  [dQr5pKBV]            StepMonitoring 98   | SYMBOLS
+INFO  [dQr5pKBV]            StepMonitoring 98   | LINKS
+INFO  [dQr5pKBV]            StepMonitoring 98   | RHYTHMS
+INFO  [dQr5pKBV]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#632{(0.953/0.953) staff:1 slot#5 dur:1/8}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#633{(0.917/0.917) staff:1 slot#6 dur:1/8}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#635{(0.956/0.956) staff:1 slot#8 dur:1/8}
+INFO  [dQr5pKBV]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [dQr5pKBV]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#642{(0.948/0.948) staff:1 slot#5 dur:1/12}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#644{(0.958/0.958) staff:1 slot#7 dur:1/12}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#646{(0.914/0.914) staff:1 slot#9 dur:1/8}
+INFO  [dQr5pKBV]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [dQr5pKBV]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#653{(0.926/0.926) staff:1 slot#5 dur:1/8}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#654{(0.950/0.950) staff:1 slot#6 dur:1/8}
+INFO  [dQr5pKBV]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#656{(0.955/0.955) staff:1 slot#8 dur:1/8}
+INFO  [dQr5pKBV]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [dQr5pKBV]            StepMonitoring 98   | PAGE
+INFO  [dQr5pKBV]                      Book 2550 | Book{dQr5pKBV} storing
+INFO  [dQr5pKBV]                      Book 2531 | Stored /book.xml
+INFO  [dQr5pKBV]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [dQr5pKBV]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [dQr5pKBV]                      Book 2491 | Book stored as out_omr/musicxml/dQr5pKBV.omr
+INFO  [dQr5pKBV]                 SheetStub 1644 | Disposed sheet
+INFO  [dQr5pKBV]                      Book 2018 | End of Stub#1 memory: 31,555,352
+INFO  [dQr5pKBV]                      Book 2025 | Book processed.
+INFO  [dQr5pKBV]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [dQr5pKBV]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [dQr5pKBV]             ScoreExporter 164  | Score dQr5pKBV exported to out_omr/musicxml/dQr5pKBV.mxl
+INFO  [dQr5pKBV]                     Score 181  | Closing {Score 1}

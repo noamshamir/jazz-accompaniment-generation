@@ -1,0 +1,80 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/zpyvQcgW.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zpyvQcgW.png"
+INFO  [zpyvQcgW]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zpyvQcgW.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/zpyvQcgW.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [zpyvQcgW]            StepMonitoring 98   | LOAD
+INFO  [zpyvQcgW]                 SheetStub 1268 | Loaded image #1 1970x210 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/zpyvQcgW.png
+INFO  [zpyvQcgW]            StepMonitoring 98   | BINARY
+INFO  [zpyvQcgW]            StepMonitoring 98   | SCALE
+INFO  [zpyvQcgW]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [zpyvQcgW]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 573% of needed quorum
+INFO  [zpyvQcgW]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [zpyvQcgW]            StepMonitoring 98   | GRID
+INFO  [zpyvQcgW]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [zpyvQcgW]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [zpyvQcgW]                 PeakGraph 310  | Systems: #1[1]
+INFO  [zpyvQcgW]             SystemManager 779  | 1 part along 1 system
+INFO  [zpyvQcgW]                      Book 545  | Created scores: [{Score 1}]
+INFO  [zpyvQcgW]            StepMonitoring 98   | HEADERS
+INFO  [zpyvQcgW]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [zpyvQcgW]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [zpyvQcgW]            StepMonitoring 98   | STEM_SEEDS
+INFO  [zpyvQcgW]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [zpyvQcgW]            StepMonitoring 98   | BEAMS
+INFO  [zpyvQcgW]            StepMonitoring 98   | LEDGERS
+INFO  [zpyvQcgW]            StepMonitoring 98   | HEADS
+INFO  [zpyvQcgW]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.6]}
+INFO  [zpyvQcgW]            StepMonitoring 98   | STEMS
+INFO  [zpyvQcgW]            StepMonitoring 98   | REDUCTION
+INFO  [zpyvQcgW]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [zpyvQcgW]            StepMonitoring 98   | CUE_BEAMS
+INFO  [zpyvQcgW]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [zpyvQcgW]            StepMonitoring 98   | TEXTS
+WARN  [zpyvQcgW]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [zpyvQcgW]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [zpyvQcgW]            StepMonitoring 98   | MEASURES
+INFO  [zpyvQcgW]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [zpyvQcgW]            StepMonitoring 98   | CHORDS
+INFO  [zpyvQcgW]            StepMonitoring 98   | CURVES
+INFO  [zpyvQcgW]              SlursBuilder 240  | Slurs: 2
+INFO  [zpyvQcgW]           SegmentsBuilder 155  | Segments: 6
+INFO  [zpyvQcgW]            StepMonitoring 98   | SYMBOLS
+INFO  [zpyvQcgW]            StepMonitoring 98   | LINKS
+INFO  [zpyvQcgW]            StepMonitoring 98   | RHYTHMS
+INFO  [zpyvQcgW]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#557{(0.949/0.949) staff:1 slot#5 dur:1/8}
+INFO  [zpyvQcgW]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#558{(0.956/0.956) staff:1 slot#6 dur:1/8}
+INFO  [zpyvQcgW]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#560{(0.947/0.947) staff:1 slot#8 dur:1/8}
+INFO  [zpyvQcgW]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [zpyvQcgW]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#567{(0.957/0.957) staff:1 slot#5 dur:1/8}
+INFO  [zpyvQcgW]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#568{(0.949/0.949) staff:1 slot#6 dur:1/8}
+INFO  [zpyvQcgW]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#570{(0.957/0.957) staff:1 slot#8 dur:1/8}
+INFO  [zpyvQcgW]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [zpyvQcgW]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#577{(0.955/0.955) staff:1 slot#5 dur:1/8}
+INFO  [zpyvQcgW]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#579{(0.950/0.950) staff:1 slot#7 dur:1/4}
+INFO  [zpyvQcgW]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [zpyvQcgW]            StepMonitoring 98   | PAGE
+INFO  [zpyvQcgW]                      Book 2550 | Book{zpyvQcgW} storing
+INFO  [zpyvQcgW]                      Book 2531 | Stored /book.xml
+INFO  [zpyvQcgW]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [zpyvQcgW]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [zpyvQcgW]                      Book 2491 | Book stored as out_omr/musicxml/zpyvQcgW.omr
+INFO  [zpyvQcgW]                 SheetStub 1644 | Disposed sheet
+INFO  [zpyvQcgW]                      Book 2018 | End of Stub#1 memory: 31,981,208
+INFO  [zpyvQcgW]                      Book 2025 | Book processed.
+INFO  [zpyvQcgW]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [zpyvQcgW]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [zpyvQcgW]             ScoreExporter 164  | Score zpyvQcgW exported to out_omr/musicxml/zpyvQcgW.mxl
+INFO  [zpyvQcgW]                     Score 181  | Closing {Score 1}

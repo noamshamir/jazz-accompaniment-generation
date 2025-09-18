@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/JsBsdbpv.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JsBsdbpv.png"
+INFO  [JsBsdbpv]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JsBsdbpv.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/JsBsdbpv.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [JsBsdbpv]            StepMonitoring 98   | LOAD
+INFO  [JsBsdbpv]                 SheetStub 1268 | Loaded image #1 1970x250 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JsBsdbpv.png
+INFO  [JsBsdbpv]            StepMonitoring 98   | BINARY
+INFO  [JsBsdbpv]            StepMonitoring 98   | SCALE
+INFO  [JsBsdbpv]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [JsBsdbpv]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 639% of needed quorum
+INFO  [JsBsdbpv]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [JsBsdbpv]            StepMonitoring 98   | GRID
+INFO  [JsBsdbpv]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [JsBsdbpv]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [JsBsdbpv]                 PeakGraph 310  | Systems: #1[1]
+INFO  [JsBsdbpv]             SystemManager 779  | 1 part along 1 system
+INFO  [JsBsdbpv]                      Book 545  | Created scores: [{Score 1}]
+INFO  [JsBsdbpv]            StepMonitoring 98   | HEADERS
+INFO  [JsBsdbpv]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [JsBsdbpv]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [JsBsdbpv]            StepMonitoring 98   | STEM_SEEDS
+INFO  [JsBsdbpv]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [JsBsdbpv]            StepMonitoring 98   | BEAMS
+INFO  [JsBsdbpv]            StepMonitoring 98   | LEDGERS
+INFO  [JsBsdbpv]            StepMonitoring 98   | HEADS
+INFO  [JsBsdbpv]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [JsBsdbpv]            StepMonitoring 98   | STEMS
+INFO  [JsBsdbpv]            StepMonitoring 98   | REDUCTION
+INFO  [JsBsdbpv]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [JsBsdbpv]            StepMonitoring 98   | CUE_BEAMS
+INFO  [JsBsdbpv]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [JsBsdbpv]            StepMonitoring 98   | TEXTS
+WARN  [JsBsdbpv]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [JsBsdbpv]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [JsBsdbpv]            StepMonitoring 98   | MEASURES
+INFO  [JsBsdbpv]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [JsBsdbpv]            StepMonitoring 98   | CHORDS
+INFO  [JsBsdbpv]            StepMonitoring 98   | CURVES
+INFO  [JsBsdbpv]              SlursBuilder 240  | Slurs: 0
+INFO  [JsBsdbpv]           SegmentsBuilder 155  | Segments: 4
+INFO  [JsBsdbpv]            StepMonitoring 98   | SYMBOLS
+INFO  [JsBsdbpv]            StepMonitoring 98   | LINKS
+INFO  [JsBsdbpv]            StepMonitoring 98   | RHYTHMS
+INFO  [JsBsdbpv]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#721{(0.950/0.950) staff:1 slot#5 dur:1/8}
+INFO  [JsBsdbpv]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#722{(0.920/0.920) staff:1 slot#6 dur:1/8}
+INFO  [JsBsdbpv]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [JsBsdbpv]            StepMonitoring 98   | PAGE
+INFO  [JsBsdbpv]                      Book 2550 | Book{JsBsdbpv} storing
+INFO  [JsBsdbpv]                      Book 2531 | Stored /book.xml
+INFO  [JsBsdbpv]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [JsBsdbpv]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [JsBsdbpv]                      Book 2491 | Book stored as out_omr/musicxml/JsBsdbpv.omr
+INFO  [JsBsdbpv]                 SheetStub 1644 | Disposed sheet
+INFO  [JsBsdbpv]                      Book 2018 | End of Stub#1 memory: 31,409,104
+INFO  [JsBsdbpv]                      Book 2025 | Book processed.
+INFO  [JsBsdbpv]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [JsBsdbpv]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [JsBsdbpv]             ScoreExporter 164  | Score JsBsdbpv exported to out_omr/musicxml/JsBsdbpv.mxl
+INFO  [JsBsdbpv]                     Score 181  | Closing {Score 1}

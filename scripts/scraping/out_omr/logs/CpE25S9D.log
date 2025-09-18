@@ -1,0 +1,71 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/CpE25S9D.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CpE25S9D.png"
+INFO  [CpE25S9D]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CpE25S9D.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/CpE25S9D.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [CpE25S9D]            StepMonitoring 98   | LOAD
+INFO  [CpE25S9D]                 SheetStub 1268 | Loaded image #1 1970x261 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/CpE25S9D.png
+INFO  [CpE25S9D]            StepMonitoring 98   | BINARY
+INFO  [CpE25S9D]            StepMonitoring 98   | SCALE
+INFO  [CpE25S9D]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [CpE25S9D]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1226% of needed quorum
+INFO  [CpE25S9D]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [CpE25S9D]            StepMonitoring 98   | GRID
+INFO  [CpE25S9D]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [CpE25S9D]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [CpE25S9D]                 PeakGraph 310  | Systems: #1[1]
+INFO  [CpE25S9D]             SystemManager 779  | 1 part along 1 system
+INFO  [CpE25S9D]                      Book 545  | Created scores: [{Score 1}]
+INFO  [CpE25S9D]            StepMonitoring 98   | HEADERS
+INFO  [CpE25S9D]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [CpE25S9D]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [CpE25S9D]            StepMonitoring 98   | STEM_SEEDS
+INFO  [CpE25S9D]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [CpE25S9D]            StepMonitoring 98   | BEAMS
+INFO  [CpE25S9D]            StaffProjector 665  | Too high serif for multiple rest in Staff#1 at x:1326
+INFO  [CpE25S9D]            StaffProjector 665  | Too high serif for multiple rest in Staff#1 at x:1461
+INFO  [CpE25S9D]            StepMonitoring 98   | LEDGERS
+INFO  [CpE25S9D]            StepMonitoring 98   | HEADS
+INFO  [CpE25S9D]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [CpE25S9D]            StepMonitoring 98   | STEMS
+INFO  [CpE25S9D]            StepMonitoring 98   | REDUCTION
+INFO  [CpE25S9D]             ReductionStep 105  | Stems free length median value: 86 pixels, 4.1 interlines
+INFO  [CpE25S9D]            StepMonitoring 98   | CUE_BEAMS
+INFO  [CpE25S9D]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [CpE25S9D]            StepMonitoring 98   | TEXTS
+WARN  [CpE25S9D]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [CpE25S9D]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [CpE25S9D]            StepMonitoring 98   | MEASURES
+INFO  [CpE25S9D]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [CpE25S9D]            StepMonitoring 98   | CHORDS
+INFO  [CpE25S9D]            StepMonitoring 98   | CURVES
+INFO  [CpE25S9D]              SlursBuilder 240  | Slurs: 0
+INFO  [CpE25S9D]           SegmentsBuilder 155  | Segments: 6
+INFO  [CpE25S9D]            StepMonitoring 98   | SYMBOLS
+INFO  [CpE25S9D]            StepMonitoring 98   | LINKS
+INFO  [CpE25S9D]            StepMonitoring 98   | RHYTHMS
+INFO  [CpE25S9D]            StepMonitoring 98   | PAGE
+INFO  [CpE25S9D]                      Book 2550 | Book{CpE25S9D} storing
+INFO  [CpE25S9D]                      Book 2531 | Stored /book.xml
+INFO  [CpE25S9D]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [CpE25S9D]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [CpE25S9D]                      Book 2491 | Book stored as out_omr/musicxml/CpE25S9D.omr
+INFO  [CpE25S9D]                 SheetStub 1644 | Disposed sheet
+INFO  [CpE25S9D]                      Book 2018 | End of Stub#1 memory: 31,371,032
+INFO  [CpE25S9D]                      Book 2025 | Book processed.
+INFO  [CpE25S9D]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [CpE25S9D]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [CpE25S9D]             ScoreExporter 164  | Score CpE25S9D exported to out_omr/musicxml/CpE25S9D.mxl
+INFO  [CpE25S9D]                     Score 181  | Closing {Score 1}

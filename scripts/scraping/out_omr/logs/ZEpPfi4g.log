@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/ZEpPfi4g.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ZEpPfi4g.png"
+INFO  [ZEpPfi4g]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ZEpPfi4g.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/ZEpPfi4g.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [ZEpPfi4g]            StepMonitoring 98   | LOAD
+INFO  [ZEpPfi4g]                 SheetStub 1268 | Loaded image #1 1970x214 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ZEpPfi4g.png
+INFO  [ZEpPfi4g]            StepMonitoring 98   | BINARY
+INFO  [ZEpPfi4g]            StepMonitoring 98   | SCALE
+INFO  [ZEpPfi4g]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [ZEpPfi4g]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 718% of needed quorum
+INFO  [ZEpPfi4g]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [ZEpPfi4g]            StepMonitoring 98   | GRID
+INFO  [ZEpPfi4g]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [ZEpPfi4g]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [ZEpPfi4g]                 PeakGraph 310  | Systems: #1[1]
+INFO  [ZEpPfi4g]             SystemManager 779  | 1 part along 1 system
+INFO  [ZEpPfi4g]                      Book 545  | Created scores: [{Score 1}]
+INFO  [ZEpPfi4g]            StepMonitoring 98   | HEADERS
+INFO  [ZEpPfi4g]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [ZEpPfi4g]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [ZEpPfi4g]            StepMonitoring 98   | STEM_SEEDS
+INFO  [ZEpPfi4g]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [ZEpPfi4g]            StepMonitoring 98   | BEAMS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | LEDGERS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | HEADS
+INFO  [ZEpPfi4g]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.6]}
+INFO  [ZEpPfi4g]            StepMonitoring 98   | STEMS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | REDUCTION
+INFO  [ZEpPfi4g]            StepMonitoring 98   | CUE_BEAMS
+INFO  [ZEpPfi4g]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [ZEpPfi4g]            StepMonitoring 98   | TEXTS
+WARN  [ZEpPfi4g]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [ZEpPfi4g]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [ZEpPfi4g]            StepMonitoring 98   | MEASURES
+INFO  [ZEpPfi4g]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [ZEpPfi4g]            StepMonitoring 98   | CHORDS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | CURVES
+INFO  [ZEpPfi4g]              SlursBuilder 240  | Slurs: 1
+INFO  [ZEpPfi4g]           SegmentsBuilder 155  | Segments: 0
+INFO  [ZEpPfi4g]            StepMonitoring 98   | SYMBOLS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | LINKS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | RHYTHMS
+INFO  [ZEpPfi4g]            StepMonitoring 98   | PAGE
+INFO  [ZEpPfi4g]                      Book 2550 | Book{ZEpPfi4g} storing
+INFO  [ZEpPfi4g]                      Book 2531 | Stored /book.xml
+INFO  [ZEpPfi4g]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [ZEpPfi4g]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [ZEpPfi4g]                      Book 2491 | Book stored as out_omr/musicxml/ZEpPfi4g.omr
+INFO  [ZEpPfi4g]                 SheetStub 1644 | Disposed sheet
+INFO  [ZEpPfi4g]                      Book 2018 | End of Stub#1 memory: 31,486,272
+INFO  [ZEpPfi4g]                      Book 2025 | Book processed.
+INFO  [ZEpPfi4g]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [ZEpPfi4g]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [ZEpPfi4g]             ScoreExporter 164  | Score ZEpPfi4g exported to out_omr/musicxml/ZEpPfi4g.mxl
+INFO  [ZEpPfi4g]                     Score 181  | Closing {Score 1}

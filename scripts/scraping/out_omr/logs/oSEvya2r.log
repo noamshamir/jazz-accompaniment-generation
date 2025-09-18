@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/oSEvya2r.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/oSEvya2r.png"
+INFO  [oSEvya2r]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/oSEvya2r.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/oSEvya2r.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [oSEvya2r]            StepMonitoring 98   | LOAD
+INFO  [oSEvya2r]                 SheetStub 1268 | Loaded image #1 1970x250 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/oSEvya2r.png
+INFO  [oSEvya2r]            StepMonitoring 98   | BINARY
+INFO  [oSEvya2r]            StepMonitoring 98   | SCALE
+INFO  [oSEvya2r]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [oSEvya2r]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 889% of needed quorum
+INFO  [oSEvya2r]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [oSEvya2r]            StepMonitoring 98   | GRID
+INFO  [oSEvya2r]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [oSEvya2r]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [oSEvya2r]                 PeakGraph 310  | Systems: #1[1]
+INFO  [oSEvya2r]             SystemManager 779  | 1 part along 1 system
+INFO  [oSEvya2r]                      Book 545  | Created scores: [{Score 1}]
+INFO  [oSEvya2r]            StepMonitoring 98   | HEADERS
+INFO  [oSEvya2r]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [oSEvya2r]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [oSEvya2r]            StepMonitoring 98   | STEM_SEEDS
+INFO  [oSEvya2r]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [oSEvya2r]            StepMonitoring 98   | BEAMS
+INFO  [oSEvya2r]            StepMonitoring 98   | LEDGERS
+INFO  [oSEvya2r]            StepMonitoring 98   | HEADS
+INFO  [oSEvya2r]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [oSEvya2r]            StepMonitoring 98   | STEMS
+INFO  [oSEvya2r]            StepMonitoring 98   | REDUCTION
+INFO  [oSEvya2r]            StepMonitoring 98   | CUE_BEAMS
+INFO  [oSEvya2r]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [oSEvya2r]            StepMonitoring 98   | TEXTS
+WARN  [oSEvya2r]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [oSEvya2r]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [oSEvya2r]            StepMonitoring 98   | MEASURES
+INFO  [oSEvya2r]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [oSEvya2r]            StepMonitoring 98   | CHORDS
+INFO  [oSEvya2r]            StepMonitoring 98   | CURVES
+INFO  [oSEvya2r]              SlursBuilder 240  | Slurs: 0
+INFO  [oSEvya2r]           SegmentsBuilder 155  | Segments: 2
+INFO  [oSEvya2r]            StepMonitoring 98   | SYMBOLS
+INFO  [oSEvya2r]            StepMonitoring 98   | LINKS
+INFO  [oSEvya2r]            StepMonitoring 98   | RHYTHMS
+INFO  [oSEvya2r]            StepMonitoring 98   | PAGE
+INFO  [oSEvya2r]                      Book 2550 | Book{oSEvya2r} storing
+INFO  [oSEvya2r]                      Book 2531 | Stored /book.xml
+INFO  [oSEvya2r]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [oSEvya2r]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [oSEvya2r]                      Book 2491 | Book stored as out_omr/musicxml/oSEvya2r.omr
+INFO  [oSEvya2r]                 SheetStub 1644 | Disposed sheet
+INFO  [oSEvya2r]                      Book 2018 | End of Stub#1 memory: 31,527,688
+INFO  [oSEvya2r]                      Book 2025 | Book processed.
+INFO  [oSEvya2r]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [oSEvya2r]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [oSEvya2r]             ScoreExporter 164  | Score oSEvya2r exported to out_omr/musicxml/oSEvya2r.mxl
+INFO  [oSEvya2r]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/VxX05dMM.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VxX05dMM.png"
+INFO  [VxX05dMM]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VxX05dMM.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/VxX05dMM.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [VxX05dMM]            StepMonitoring 98   | LOAD
+INFO  [VxX05dMM]                 SheetStub 1268 | Loaded image #1 1970x210 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VxX05dMM.png
+INFO  [VxX05dMM]            StepMonitoring 98   | BINARY
+INFO  [VxX05dMM]            StepMonitoring 98   | SCALE
+INFO  [VxX05dMM]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [VxX05dMM]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 763% of needed quorum
+INFO  [VxX05dMM]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [VxX05dMM]            StepMonitoring 98   | GRID
+INFO  [VxX05dMM]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [VxX05dMM]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [VxX05dMM]                 PeakGraph 310  | Systems: #1[1]
+INFO  [VxX05dMM]             SystemManager 779  | 1 part along 1 system
+INFO  [VxX05dMM]                      Book 545  | Created scores: [{Score 1}]
+INFO  [VxX05dMM]            StepMonitoring 98   | HEADERS
+INFO  [VxX05dMM]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [VxX05dMM]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [VxX05dMM]            StepMonitoring 98   | STEM_SEEDS
+INFO  [VxX05dMM]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [VxX05dMM]            StepMonitoring 98   | BEAMS
+INFO  [VxX05dMM]            StepMonitoring 98   | LEDGERS
+INFO  [VxX05dMM]            StepMonitoring 98   | HEADS
+INFO  [VxX05dMM]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [VxX05dMM]            StepMonitoring 98   | STEMS
+INFO  [VxX05dMM]            StepMonitoring 98   | REDUCTION
+INFO  [VxX05dMM]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [VxX05dMM]            StepMonitoring 98   | CUE_BEAMS
+INFO  [VxX05dMM]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [VxX05dMM]            StepMonitoring 98   | TEXTS
+WARN  [VxX05dMM]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [VxX05dMM]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [VxX05dMM]            StepMonitoring 98   | MEASURES
+INFO  [VxX05dMM]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [VxX05dMM]            StepMonitoring 98   | CHORDS
+INFO  [VxX05dMM]            StepMonitoring 98   | CURVES
+INFO  [VxX05dMM]              SlursBuilder 240  | Slurs: 0
+INFO  [VxX05dMM]           SegmentsBuilder 155  | Segments: 4
+INFO  [VxX05dMM]            StepMonitoring 98   | SYMBOLS
+INFO  [VxX05dMM]            StepMonitoring 98   | LINKS
+INFO  [VxX05dMM]            StepMonitoring 98   | RHYTHMS
+INFO  [VxX05dMM]            StepMonitoring 98   | PAGE
+INFO  [VxX05dMM]                      Book 2550 | Book{VxX05dMM} storing
+INFO  [VxX05dMM]                      Book 2531 | Stored /book.xml
+INFO  [VxX05dMM]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [VxX05dMM]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [VxX05dMM]                      Book 2491 | Book stored as out_omr/musicxml/VxX05dMM.omr
+INFO  [VxX05dMM]                 SheetStub 1644 | Disposed sheet
+INFO  [VxX05dMM]                      Book 2018 | End of Stub#1 memory: 31,372,792
+INFO  [VxX05dMM]                      Book 2025 | Book processed.
+INFO  [VxX05dMM]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [VxX05dMM]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [VxX05dMM]             ScoreExporter 164  | Score VxX05dMM exported to out_omr/musicxml/VxX05dMM.mxl
+INFO  [VxX05dMM]                     Score 181  | Closing {Score 1}

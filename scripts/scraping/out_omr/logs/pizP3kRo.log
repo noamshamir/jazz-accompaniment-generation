@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/pizP3kRo.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/pizP3kRo.png"
+INFO  [pizP3kRo]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/pizP3kRo.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/pizP3kRo.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [pizP3kRo]            StepMonitoring 98   | LOAD
+INFO  [pizP3kRo]                 SheetStub 1268 | Loaded image #1 1970x231 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/pizP3kRo.png
+INFO  [pizP3kRo]            StepMonitoring 98   | BINARY
+INFO  [pizP3kRo]            StepMonitoring 98   | SCALE
+INFO  [pizP3kRo]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [pizP3kRo]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 893% of needed quorum
+INFO  [pizP3kRo]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [pizP3kRo]            StepMonitoring 98   | GRID
+INFO  [pizP3kRo]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [pizP3kRo]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [pizP3kRo]                 PeakGraph 310  | Systems: #1[1]
+INFO  [pizP3kRo]             SystemManager 779  | 1 part along 1 system
+INFO  [pizP3kRo]                      Book 545  | Created scores: [{Score 1}]
+INFO  [pizP3kRo]            StepMonitoring 98   | HEADERS
+INFO  [pizP3kRo]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [pizP3kRo]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [pizP3kRo]            StepMonitoring 98   | STEM_SEEDS
+INFO  [pizP3kRo]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [pizP3kRo]            StepMonitoring 98   | BEAMS
+INFO  [pizP3kRo]            StepMonitoring 98   | LEDGERS
+INFO  [pizP3kRo]            StepMonitoring 98   | HEADS
+INFO  [pizP3kRo]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [pizP3kRo]            StepMonitoring 98   | STEMS
+INFO  [pizP3kRo]            StepMonitoring 98   | REDUCTION
+INFO  [pizP3kRo]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [pizP3kRo]            StepMonitoring 98   | CUE_BEAMS
+INFO  [pizP3kRo]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [pizP3kRo]            StepMonitoring 98   | TEXTS
+WARN  [pizP3kRo]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [pizP3kRo]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [pizP3kRo]            StepMonitoring 98   | MEASURES
+INFO  [pizP3kRo]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [pizP3kRo]            StepMonitoring 98   | CHORDS
+INFO  [pizP3kRo]            StepMonitoring 98   | CURVES
+INFO  [pizP3kRo]              SlursBuilder 240  | Slurs: 0
+INFO  [pizP3kRo]           SegmentsBuilder 155  | Segments: 10
+INFO  [pizP3kRo]            StepMonitoring 98   | SYMBOLS
+INFO  [pizP3kRo]            StepMonitoring 98   | LINKS
+INFO  [pizP3kRo]            StepMonitoring 98   | RHYTHMS
+INFO  [pizP3kRo]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [pizP3kRo]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [pizP3kRo]            StepMonitoring 98   | PAGE
+INFO  [pizP3kRo]                     Voice 257  | Measure{#3} Voice{#1 excess:1/4} too long
+INFO  [pizP3kRo]                      Book 2550 | Book{pizP3kRo} storing
+INFO  [pizP3kRo]                      Book 2531 | Stored /book.xml
+INFO  [pizP3kRo]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [pizP3kRo]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [pizP3kRo]                      Book 2491 | Book stored as out_omr/musicxml/pizP3kRo.omr
+INFO  [pizP3kRo]                 SheetStub 1644 | Disposed sheet
+INFO  [pizP3kRo]                      Book 2018 | End of Stub#1 memory: 32,977,296
+INFO  [pizP3kRo]                      Book 2025 | Book processed.
+INFO  [pizP3kRo]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [pizP3kRo]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [pizP3kRo]             ScoreExporter 164  | Score pizP3kRo exported to out_omr/musicxml/pizP3kRo.mxl
+INFO  [pizP3kRo]                     Score 181  | Closing {Score 1}

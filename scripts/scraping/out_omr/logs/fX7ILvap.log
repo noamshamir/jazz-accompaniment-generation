@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/fX7ILvap.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fX7ILvap.png"
+INFO  [fX7ILvap]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fX7ILvap.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/fX7ILvap.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [fX7ILvap]            StepMonitoring 98   | LOAD
+INFO  [fX7ILvap]                 SheetStub 1268 | Loaded image #1 1970x210 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fX7ILvap.png
+INFO  [fX7ILvap]            StepMonitoring 98   | BINARY
+INFO  [fX7ILvap]            StepMonitoring 98   | SCALE
+INFO  [fX7ILvap]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [fX7ILvap]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1002% of needed quorum
+INFO  [fX7ILvap]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [fX7ILvap]            StepMonitoring 98   | GRID
+INFO  [fX7ILvap]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [fX7ILvap]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [fX7ILvap]                 PeakGraph 310  | Systems: #1[1]
+INFO  [fX7ILvap]             SystemManager 779  | 1 part along 1 system
+INFO  [fX7ILvap]                      Book 545  | Created scores: [{Score 1}]
+INFO  [fX7ILvap]            StepMonitoring 98   | HEADERS
+INFO  [fX7ILvap]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [fX7ILvap]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [fX7ILvap]            StepMonitoring 98   | STEM_SEEDS
+INFO  [fX7ILvap]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [fX7ILvap]            StepMonitoring 98   | BEAMS
+INFO  [fX7ILvap]            StepMonitoring 98   | LEDGERS
+INFO  [fX7ILvap]            StepMonitoring 98   | HEADS
+INFO  [fX7ILvap]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.9]}
+INFO  [fX7ILvap]            StepMonitoring 98   | STEMS
+INFO  [fX7ILvap]            StepMonitoring 98   | REDUCTION
+INFO  [fX7ILvap]            StepMonitoring 98   | CUE_BEAMS
+INFO  [fX7ILvap]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [fX7ILvap]            StepMonitoring 98   | TEXTS
+WARN  [fX7ILvap]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [fX7ILvap]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [fX7ILvap]            StepMonitoring 98   | MEASURES
+INFO  [fX7ILvap]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [fX7ILvap]            StepMonitoring 98   | CHORDS
+INFO  [fX7ILvap]            StepMonitoring 98   | CURVES
+INFO  [fX7ILvap]              SlursBuilder 240  | Slurs: 0
+INFO  [fX7ILvap]           SegmentsBuilder 155  | Segments: 5
+INFO  [fX7ILvap]            StepMonitoring 98   | SYMBOLS
+INFO  [fX7ILvap]            StepMonitoring 98   | LINKS
+INFO  [fX7ILvap]            StepMonitoring 98   | RHYTHMS
+INFO  [fX7ILvap]            StepMonitoring 98   | PAGE
+INFO  [fX7ILvap]                      Book 2550 | Book{fX7ILvap} storing
+INFO  [fX7ILvap]                      Book 2531 | Stored /book.xml
+INFO  [fX7ILvap]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [fX7ILvap]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [fX7ILvap]                      Book 2491 | Book stored as out_omr/musicxml/fX7ILvap.omr
+INFO  [fX7ILvap]                 SheetStub 1644 | Disposed sheet
+INFO  [fX7ILvap]                      Book 2018 | End of Stub#1 memory: 31,485,928
+INFO  [fX7ILvap]                      Book 2025 | Book processed.
+INFO  [fX7ILvap]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [fX7ILvap]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [fX7ILvap]             ScoreExporter 164  | Score fX7ILvap exported to out_omr/musicxml/fX7ILvap.mxl
+INFO  [fX7ILvap]                     Score 181  | Closing {Score 1}

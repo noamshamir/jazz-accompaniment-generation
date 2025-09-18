@@ -1,0 +1,75 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/NTYDQUUE.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NTYDQUUE.png"
+INFO  [NTYDQUUE]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NTYDQUUE.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/NTYDQUUE.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [NTYDQUUE]            StepMonitoring 98   | LOAD
+INFO  [NTYDQUUE]                 SheetStub 1268 | Loaded image #1 1970x232 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NTYDQUUE.png
+INFO  [NTYDQUUE]            StepMonitoring 98   | BINARY
+INFO  [NTYDQUUE]            StepMonitoring 98   | SCALE
+INFO  [NTYDQUUE]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [NTYDQUUE]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 498% of needed quorum
+INFO  [NTYDQUUE]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [NTYDQUUE]            StepMonitoring 98   | GRID
+INFO  [NTYDQUUE]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [NTYDQUUE]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [NTYDQUUE]                 PeakGraph 310  | Systems: #1[1]
+INFO  [NTYDQUUE]             SystemManager 779  | 1 part along 1 system
+INFO  [NTYDQUUE]                      Book 545  | Created scores: [{Score 1}]
+INFO  [NTYDQUUE]            StepMonitoring 98   | HEADERS
+INFO  [NTYDQUUE]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [NTYDQUUE]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [NTYDQUUE]            StepMonitoring 98   | STEM_SEEDS
+INFO  [NTYDQUUE]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [NTYDQUUE]            StepMonitoring 98   | BEAMS
+INFO  [NTYDQUUE]            StepMonitoring 98   | LEDGERS
+INFO  [NTYDQUUE]            StepMonitoring 98   | HEADS
+INFO  [NTYDQUUE]             HeadSeedTally 235  | Scale information: HeadSeeds{}
+INFO  [NTYDQUUE]            StepMonitoring 98   | STEMS
+INFO  [NTYDQUUE]            StepMonitoring 98   | REDUCTION
+INFO  [NTYDQUUE]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [NTYDQUUE]            StepMonitoring 98   | CUE_BEAMS
+INFO  [NTYDQUUE]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [NTYDQUUE]            StepMonitoring 98   | TEXTS
+WARN  [NTYDQUUE]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [NTYDQUUE]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [NTYDQUUE]            StepMonitoring 98   | MEASURES
+INFO  [NTYDQUUE]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [NTYDQUUE]            StepMonitoring 98   | CHORDS
+INFO  [NTYDQUUE]            StepMonitoring 98   | CURVES
+INFO  [NTYDQUUE]              SlursBuilder 240  | Slurs: 2
+INFO  [NTYDQUUE]           SegmentsBuilder 155  | Segments: 6
+INFO  [NTYDQUUE]            StepMonitoring 98   | SYMBOLS
+INFO  [NTYDQUUE]            StepMonitoring 98   | LINKS
+INFO  [NTYDQUUE]            StepMonitoring 98   | RHYTHMS
+INFO  [NTYDQUUE]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#427{(0.610/0.610) staff:1 slot#5 dur:1/2}
+INFO  [NTYDQUUE]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#427{(0.610/0.610) staff:1 slot#5 dur:1/2}
+INFO  [NTYDQUUE]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#428{(0.931/0.931) staff:1 slot#6 dur:3/8}
+INFO  [NTYDQUUE]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#429{(0.922/0.922) staff:1 slot#7 dur:1/8}
+INFO  [NTYDQUUE]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#432{(0.911/0.911) staff:1 slot#10 dur:1/12}
+INFO  [NTYDQUUE]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [NTYDQUUE]            StepMonitoring 98   | PAGE
+INFO  [NTYDQUUE]                      Book 2550 | Book{NTYDQUUE} storing
+INFO  [NTYDQUUE]                      Book 2531 | Stored /book.xml
+INFO  [NTYDQUUE]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [NTYDQUUE]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [NTYDQUUE]                      Book 2491 | Book stored as out_omr/musicxml/NTYDQUUE.omr
+INFO  [NTYDQUUE]                 SheetStub 1644 | Disposed sheet
+INFO  [NTYDQUUE]                      Book 2018 | End of Stub#1 memory: 31,375,032
+INFO  [NTYDQUUE]                      Book 2025 | Book processed.
+INFO  [NTYDQUUE]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [NTYDQUUE]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [NTYDQUUE]             ScoreExporter 164  | Score NTYDQUUE exported to out_omr/musicxml/NTYDQUUE.mxl
+INFO  [NTYDQUUE]                     Score 181  | Closing {Score 1}

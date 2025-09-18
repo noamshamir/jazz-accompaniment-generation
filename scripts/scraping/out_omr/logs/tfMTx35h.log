@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/tfMTx35h.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tfMTx35h.png"
+INFO  [tfMTx35h]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tfMTx35h.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/tfMTx35h.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [tfMTx35h]            StepMonitoring 98   | LOAD
+INFO  [tfMTx35h]                 SheetStub 1268 | Loaded image #1 1970x248 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/tfMTx35h.png
+INFO  [tfMTx35h]            StepMonitoring 98   | BINARY
+INFO  [tfMTx35h]            StepMonitoring 98   | SCALE
+INFO  [tfMTx35h]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [tfMTx35h]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 923% of needed quorum
+INFO  [tfMTx35h]                 ScaleStep 65   | Scale{ interline(20,21,22) line(3,3,5) beam(11)}
+INFO  [tfMTx35h]            StepMonitoring 98   | GRID
+INFO  [tfMTx35h]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [tfMTx35h]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,22)
+INFO  [tfMTx35h]                 PeakGraph 310  | Systems: #1[1]
+INFO  [tfMTx35h]             SystemManager 779  | 1 part along 1 system
+INFO  [tfMTx35h]                      Book 545  | Created scores: [{Score 1}]
+INFO  [tfMTx35h]            StepMonitoring 98   | HEADERS
+INFO  [tfMTx35h]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [tfMTx35h]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [tfMTx35h]            StepMonitoring 98   | STEM_SEEDS
+INFO  [tfMTx35h]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [tfMTx35h]            StepMonitoring 98   | BEAMS
+INFO  [tfMTx35h]            StepMonitoring 98   | LEDGERS
+INFO  [tfMTx35h]            StepMonitoring 98   | HEADS
+INFO  [tfMTx35h]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [tfMTx35h]            StepMonitoring 98   | STEMS
+INFO  [tfMTx35h]            StepMonitoring 98   | REDUCTION
+INFO  [tfMTx35h]            StepMonitoring 98   | CUE_BEAMS
+INFO  [tfMTx35h]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [tfMTx35h]            StepMonitoring 98   | TEXTS
+WARN  [tfMTx35h]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [tfMTx35h]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [tfMTx35h]            StepMonitoring 98   | MEASURES
+INFO  [tfMTx35h]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [tfMTx35h]            StepMonitoring 98   | CHORDS
+INFO  [tfMTx35h]            StepMonitoring 98   | CURVES
+INFO  [tfMTx35h]              SlursBuilder 240  | Slurs: 0
+INFO  [tfMTx35h]           SegmentsBuilder 155  | Segments: 5
+INFO  [tfMTx35h]            StepMonitoring 98   | SYMBOLS
+INFO  [tfMTx35h]            StepMonitoring 98   | LINKS
+INFO  [tfMTx35h]            StepMonitoring 98   | RHYTHMS
+INFO  [tfMTx35h]            StepMonitoring 98   | PAGE
+INFO  [tfMTx35h]                      Book 2550 | Book{tfMTx35h} storing
+INFO  [tfMTx35h]                      Book 2531 | Stored /book.xml
+INFO  [tfMTx35h]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [tfMTx35h]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [tfMTx35h]                      Book 2491 | Book stored as out_omr/musicxml/tfMTx35h.omr
+INFO  [tfMTx35h]                 SheetStub 1644 | Disposed sheet
+INFO  [tfMTx35h]                      Book 2018 | End of Stub#1 memory: 31,449,344
+INFO  [tfMTx35h]                      Book 2025 | Book processed.
+INFO  [tfMTx35h]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [tfMTx35h]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [tfMTx35h]             ScoreExporter 164  | Score tfMTx35h exported to out_omr/musicxml/tfMTx35h.mxl
+INFO  [tfMTx35h]                     Score 181  | Closing {Score 1}

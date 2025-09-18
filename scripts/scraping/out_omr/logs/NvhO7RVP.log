@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/NvhO7RVP.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NvhO7RVP.png"
+INFO  [NvhO7RVP]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NvhO7RVP.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/NvhO7RVP.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [NvhO7RVP]            StepMonitoring 98   | LOAD
+INFO  [NvhO7RVP]                 SheetStub 1268 | Loaded image #1 1970x199 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/NvhO7RVP.png
+INFO  [NvhO7RVP]            StepMonitoring 98   | BINARY
+INFO  [NvhO7RVP]            StepMonitoring 98   | SCALE
+INFO  [NvhO7RVP]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [NvhO7RVP]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 811% of needed quorum
+INFO  [NvhO7RVP]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [NvhO7RVP]            StepMonitoring 98   | GRID
+INFO  [NvhO7RVP]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [NvhO7RVP]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [NvhO7RVP]                 PeakGraph 310  | Systems: #1[1]
+INFO  [NvhO7RVP]             SystemManager 779  | 1 part along 1 system
+INFO  [NvhO7RVP]                      Book 545  | Created scores: [{Score 1}]
+INFO  [NvhO7RVP]            StepMonitoring 98   | HEADERS
+INFO  [NvhO7RVP]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [NvhO7RVP]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [NvhO7RVP]            StepMonitoring 98   | STEM_SEEDS
+INFO  [NvhO7RVP]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [NvhO7RVP]            StepMonitoring 98   | BEAMS
+INFO  [NvhO7RVP]            StepMonitoring 98   | LEDGERS
+INFO  [NvhO7RVP]            StepMonitoring 98   | HEADS
+INFO  [NvhO7RVP]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [NvhO7RVP]            StepMonitoring 98   | STEMS
+INFO  [NvhO7RVP]            StepMonitoring 98   | REDUCTION
+INFO  [NvhO7RVP]             ReductionStep 105  | Stems free length median value: 72 pixels, 3.4 interlines
+INFO  [NvhO7RVP]            StepMonitoring 98   | CUE_BEAMS
+INFO  [NvhO7RVP]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [NvhO7RVP]            StepMonitoring 98   | TEXTS
+WARN  [NvhO7RVP]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [NvhO7RVP]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [NvhO7RVP]            StepMonitoring 98   | MEASURES
+INFO  [NvhO7RVP]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [NvhO7RVP]            StepMonitoring 98   | CHORDS
+INFO  [NvhO7RVP]            StepMonitoring 98   | CURVES
+INFO  [NvhO7RVP]              SlursBuilder 240  | Slurs: 0
+INFO  [NvhO7RVP]           SegmentsBuilder 155  | Segments: 0
+INFO  [NvhO7RVP]            StepMonitoring 98   | SYMBOLS
+INFO  [NvhO7RVP]            StepMonitoring 98   | LINKS
+INFO  [NvhO7RVP]            StepMonitoring 98   | RHYTHMS
+INFO  [NvhO7RVP]            StepMonitoring 98   | PAGE
+INFO  [NvhO7RVP]                      Book 2550 | Book{NvhO7RVP} storing
+INFO  [NvhO7RVP]                      Book 2531 | Stored /book.xml
+INFO  [NvhO7RVP]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [NvhO7RVP]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [NvhO7RVP]                      Book 2491 | Book stored as out_omr/musicxml/NvhO7RVP.omr
+INFO  [NvhO7RVP]                 SheetStub 1644 | Disposed sheet
+INFO  [NvhO7RVP]                      Book 2018 | End of Stub#1 memory: 31,420,288
+INFO  [NvhO7RVP]                      Book 2025 | Book processed.
+INFO  [NvhO7RVP]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [NvhO7RVP]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [NvhO7RVP]             ScoreExporter 164  | Score NvhO7RVP exported to out_omr/musicxml/NvhO7RVP.mxl
+INFO  [NvhO7RVP]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/X3D3ceas.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/X3D3ceas.png"
+INFO  [X3D3ceas]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/X3D3ceas.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/X3D3ceas.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [X3D3ceas]            StepMonitoring 98   | LOAD
+INFO  [X3D3ceas]                 SheetStub 1268 | Loaded image #1 1970x244 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/X3D3ceas.png
+INFO  [X3D3ceas]            StepMonitoring 98   | BINARY
+INFO  [X3D3ceas]            StepMonitoring 98   | SCALE
+INFO  [X3D3ceas]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [X3D3ceas]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 941% of needed quorum
+INFO  [X3D3ceas]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [X3D3ceas]            StepMonitoring 98   | GRID
+INFO  [X3D3ceas]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [X3D3ceas]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [X3D3ceas]                 PeakGraph 310  | Systems: #1[1]
+INFO  [X3D3ceas]             SystemManager 779  | 1 part along 1 system
+INFO  [X3D3ceas]                      Book 545  | Created scores: [{Score 1}]
+INFO  [X3D3ceas]            StepMonitoring 98   | HEADERS
+INFO  [X3D3ceas]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [X3D3ceas]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [X3D3ceas]            StepMonitoring 98   | STEM_SEEDS
+INFO  [X3D3ceas]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [X3D3ceas]            StepMonitoring 98   | BEAMS
+INFO  [X3D3ceas]            StepMonitoring 98   | LEDGERS
+INFO  [X3D3ceas]            StepMonitoring 98   | HEADS
+INFO  [X3D3ceas]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [X3D3ceas]            StepMonitoring 98   | STEMS
+INFO  [X3D3ceas]            StepMonitoring 98   | REDUCTION
+INFO  [X3D3ceas]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [X3D3ceas]            StepMonitoring 98   | CUE_BEAMS
+INFO  [X3D3ceas]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [X3D3ceas]            StepMonitoring 98   | TEXTS
+WARN  [X3D3ceas]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [X3D3ceas]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [X3D3ceas]            StepMonitoring 98   | MEASURES
+INFO  [X3D3ceas]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [X3D3ceas]            StepMonitoring 98   | CHORDS
+INFO  [X3D3ceas]            StepMonitoring 98   | CURVES
+INFO  [X3D3ceas]              SlursBuilder 240  | Slurs: 2
+INFO  [X3D3ceas]           SegmentsBuilder 155  | Segments: 4
+INFO  [X3D3ceas]            StepMonitoring 98   | SYMBOLS
+INFO  [X3D3ceas]            StepMonitoring 98   | LINKS
+INFO  [X3D3ceas]            StepMonitoring 98   | RHYTHMS
+INFO  [X3D3ceas]            StepMonitoring 98   | PAGE
+INFO  [X3D3ceas]                      Book 2550 | Book{X3D3ceas} storing
+INFO  [X3D3ceas]                      Book 2531 | Stored /book.xml
+INFO  [X3D3ceas]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [X3D3ceas]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [X3D3ceas]                      Book 2491 | Book stored as out_omr/musicxml/X3D3ceas.omr
+INFO  [X3D3ceas]                 SheetStub 1644 | Disposed sheet
+INFO  [X3D3ceas]                      Book 2018 | End of Stub#1 memory: 31,372,528
+INFO  [X3D3ceas]                      Book 2025 | Book processed.
+INFO  [X3D3ceas]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [X3D3ceas]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [X3D3ceas]             ScoreExporter 164  | Score X3D3ceas exported to out_omr/musicxml/X3D3ceas.mxl
+INFO  [X3D3ceas]                     Score 181  | Closing {Score 1}

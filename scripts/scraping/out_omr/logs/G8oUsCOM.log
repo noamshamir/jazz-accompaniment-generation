@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/G8oUsCOM.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/G8oUsCOM.png"
+INFO  [G8oUsCOM]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/G8oUsCOM.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/G8oUsCOM.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [G8oUsCOM]            StepMonitoring 98   | LOAD
+INFO  [G8oUsCOM]                 SheetStub 1268 | Loaded image #1 1970x259 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/G8oUsCOM.png
+INFO  [G8oUsCOM]            StepMonitoring 98   | BINARY
+INFO  [G8oUsCOM]            StepMonitoring 98   | SCALE
+INFO  [G8oUsCOM]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [G8oUsCOM]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1044% of needed quorum
+INFO  [G8oUsCOM]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [G8oUsCOM]            StepMonitoring 98   | GRID
+INFO  [G8oUsCOM]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [G8oUsCOM]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [G8oUsCOM]                 PeakGraph 310  | Systems: #1[1]
+INFO  [G8oUsCOM]             SystemManager 779  | 1 part along 1 system
+INFO  [G8oUsCOM]                      Book 545  | Created scores: [{Score 1}]
+INFO  [G8oUsCOM]            StepMonitoring 98   | HEADERS
+INFO  [G8oUsCOM]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [G8oUsCOM]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [G8oUsCOM]            StepMonitoring 98   | STEM_SEEDS
+INFO  [G8oUsCOM]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [G8oUsCOM]            StepMonitoring 98   | BEAMS
+INFO  [G8oUsCOM]            StepMonitoring 98   | LEDGERS
+INFO  [G8oUsCOM]            StepMonitoring 98   | HEADS
+INFO  [G8oUsCOM]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5]}
+INFO  [G8oUsCOM]            StepMonitoring 98   | STEMS
+INFO  [G8oUsCOM]            StepMonitoring 98   | REDUCTION
+INFO  [G8oUsCOM]            StepMonitoring 98   | CUE_BEAMS
+INFO  [G8oUsCOM]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [G8oUsCOM]            StepMonitoring 98   | TEXTS
+WARN  [G8oUsCOM]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [G8oUsCOM]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [G8oUsCOM]            StepMonitoring 98   | MEASURES
+INFO  [G8oUsCOM]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [G8oUsCOM]            StepMonitoring 98   | CHORDS
+INFO  [G8oUsCOM]            StepMonitoring 98   | CURVES
+INFO  [G8oUsCOM]              SlursBuilder 240  | Slurs: 0
+INFO  [G8oUsCOM]           SegmentsBuilder 155  | Segments: 4
+INFO  [G8oUsCOM]            StepMonitoring 98   | SYMBOLS
+INFO  [G8oUsCOM]            StepMonitoring 98   | LINKS
+INFO  [G8oUsCOM]            StepMonitoring 98   | RHYTHMS
+INFO  [G8oUsCOM]            StepMonitoring 98   | PAGE
+INFO  [G8oUsCOM]                      Book 2550 | Book{G8oUsCOM} storing
+INFO  [G8oUsCOM]                      Book 2531 | Stored /book.xml
+INFO  [G8oUsCOM]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [G8oUsCOM]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [G8oUsCOM]                      Book 2491 | Book stored as out_omr/musicxml/G8oUsCOM.omr
+INFO  [G8oUsCOM]                 SheetStub 1644 | Disposed sheet
+INFO  [G8oUsCOM]                      Book 2018 | End of Stub#1 memory: 31,373,832
+INFO  [G8oUsCOM]                      Book 2025 | Book processed.
+INFO  [G8oUsCOM]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [G8oUsCOM]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [G8oUsCOM]             ScoreExporter 164  | Score G8oUsCOM exported to out_omr/musicxml/G8oUsCOM.mxl
+INFO  [G8oUsCOM]                     Score 181  | Closing {Score 1}

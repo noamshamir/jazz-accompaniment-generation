@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/I3damnCu.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/I3damnCu.png"
+INFO  [I3damnCu]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/I3damnCu.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/I3damnCu.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [I3damnCu]            StepMonitoring 98   | LOAD
+INFO  [I3damnCu]                 SheetStub 1268 | Loaded image #1 1970x231 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/I3damnCu.png
+INFO  [I3damnCu]            StepMonitoring 98   | BINARY
+INFO  [I3damnCu]            StepMonitoring 98   | SCALE
+INFO  [I3damnCu]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [I3damnCu]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 804% of needed quorum
+INFO  [I3damnCu]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [I3damnCu]            StepMonitoring 98   | GRID
+INFO  [I3damnCu]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [I3damnCu]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [I3damnCu]                 PeakGraph 310  | Systems: #1[1]
+INFO  [I3damnCu]             SystemManager 779  | 1 part along 1 system
+INFO  [I3damnCu]                      Book 545  | Created scores: [{Score 1}]
+INFO  [I3damnCu]            StepMonitoring 98   | HEADERS
+INFO  [I3damnCu]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [I3damnCu]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [I3damnCu]            StepMonitoring 98   | STEM_SEEDS
+INFO  [I3damnCu]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [I3damnCu]            StepMonitoring 98   | BEAMS
+INFO  [I3damnCu]            StepMonitoring 98   | LEDGERS
+INFO  [I3damnCu]            StepMonitoring 98   | HEADS
+INFO  [I3damnCu]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [I3damnCu]            StepMonitoring 98   | STEMS
+INFO  [I3damnCu]            StepMonitoring 98   | REDUCTION
+INFO  [I3damnCu]            StepMonitoring 98   | CUE_BEAMS
+INFO  [I3damnCu]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [I3damnCu]            StepMonitoring 98   | TEXTS
+WARN  [I3damnCu]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [I3damnCu]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [I3damnCu]            StepMonitoring 98   | MEASURES
+INFO  [I3damnCu]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [I3damnCu]            StepMonitoring 98   | CHORDS
+INFO  [I3damnCu]            StepMonitoring 98   | CURVES
+INFO  [I3damnCu]              SlursBuilder 240  | Slurs: 0
+INFO  [I3damnCu]           SegmentsBuilder 155  | Segments: 3
+INFO  [I3damnCu]            StepMonitoring 98   | SYMBOLS
+INFO  [I3damnCu]            StepMonitoring 98   | LINKS
+INFO  [I3damnCu]            StepMonitoring 98   | RHYTHMS
+INFO  [I3damnCu]            StepMonitoring 98   | PAGE
+INFO  [I3damnCu]                      Book 2550 | Book{I3damnCu} storing
+INFO  [I3damnCu]                      Book 2531 | Stored /book.xml
+INFO  [I3damnCu]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [I3damnCu]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [I3damnCu]                      Book 2491 | Book stored as out_omr/musicxml/I3damnCu.omr
+INFO  [I3damnCu]                 SheetStub 1644 | Disposed sheet
+INFO  [I3damnCu]                      Book 2018 | End of Stub#1 memory: 31,366,496
+INFO  [I3damnCu]                      Book 2025 | Book processed.
+INFO  [I3damnCu]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [I3damnCu]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [I3damnCu]             ScoreExporter 164  | Score I3damnCu exported to out_omr/musicxml/I3damnCu.mxl
+INFO  [I3damnCu]                     Score 181  | Closing {Score 1}

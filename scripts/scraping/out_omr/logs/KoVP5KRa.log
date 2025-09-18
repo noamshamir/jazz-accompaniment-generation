@@ -1,0 +1,71 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/KoVP5KRa.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KoVP5KRa.png"
+INFO  [KoVP5KRa]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KoVP5KRa.png
+2025-09-10 00:09:14.719 Audiveris[48362:1214331] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:09:14.719 Audiveris[48362:1214331] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/KoVP5KRa.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [KoVP5KRa]            StepMonitoring 98   | LOAD
+INFO  [KoVP5KRa]                 SheetStub 1268 | Loaded image #1 1970x236 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/KoVP5KRa.png
+INFO  [KoVP5KRa]            StepMonitoring 98   | BINARY
+INFO  [KoVP5KRa]            StepMonitoring 98   | SCALE
+INFO  [KoVP5KRa]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [KoVP5KRa]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 681% of needed quorum
+INFO  [KoVP5KRa]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [KoVP5KRa]            StepMonitoring 98   | GRID
+INFO  [KoVP5KRa]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [KoVP5KRa]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [KoVP5KRa]                 PeakGraph 310  | Systems: #1[1]
+INFO  [KoVP5KRa]             SystemManager 779  | 1 part along 1 system
+INFO  [KoVP5KRa]                      Book 545  | Created scores: [{Score 1}]
+INFO  [KoVP5KRa]            StepMonitoring 98   | HEADERS
+INFO  [KoVP5KRa]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [KoVP5KRa]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [KoVP5KRa]            StepMonitoring 98   | STEM_SEEDS
+INFO  [KoVP5KRa]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [KoVP5KRa]            StepMonitoring 98   | BEAMS
+INFO  [KoVP5KRa]            StepMonitoring 98   | LEDGERS
+INFO  [KoVP5KRa]            StepMonitoring 98   | HEADS
+INFO  [KoVP5KRa]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [KoVP5KRa]            StepMonitoring 98   | STEMS
+INFO  [KoVP5KRa]            StepMonitoring 98   | REDUCTION
+INFO  [KoVP5KRa]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [KoVP5KRa]            StepMonitoring 98   | CUE_BEAMS
+INFO  [KoVP5KRa]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [KoVP5KRa]            StepMonitoring 98   | TEXTS
+WARN  [KoVP5KRa]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [KoVP5KRa]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [KoVP5KRa]            StepMonitoring 98   | MEASURES
+INFO  [KoVP5KRa]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [KoVP5KRa]            StepMonitoring 98   | CHORDS
+INFO  [KoVP5KRa]            StepMonitoring 98   | CURVES
+INFO  [KoVP5KRa]              SlursBuilder 240  | Slurs: 1
+INFO  [KoVP5KRa]           SegmentsBuilder 155  | Segments: 3
+INFO  [KoVP5KRa]            StepMonitoring 98   | SYMBOLS
+INFO  [KoVP5KRa]            StepMonitoring 98   | LINKS
+INFO  [KoVP5KRa]            StepMonitoring 98   | RHYTHMS
+INFO  [KoVP5KRa]            StepMonitoring 98   | PAGE
+INFO  [KoVP5KRa]                      Book 2550 | Book{KoVP5KRa} storing
+INFO  [KoVP5KRa]                      Book 2531 | Stored /book.xml
+INFO  [KoVP5KRa]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [KoVP5KRa]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [KoVP5KRa]                      Book 2491 | Book stored as out_omr/musicxml/KoVP5KRa.omr
+INFO  [KoVP5KRa]                 SheetStub 1644 | Disposed sheet
+INFO  [KoVP5KRa]                      Book 2018 | End of Stub#1 memory: 31,417,992
+INFO  [KoVP5KRa]                      Book 2025 | Book processed.
+INFO  [KoVP5KRa]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [KoVP5KRa]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [KoVP5KRa]             ScoreExporter 164  | Score KoVP5KRa exported to out_omr/musicxml/KoVP5KRa.mxl
+INFO  [KoVP5KRa]                     Score 181  | Closing {Score 1}

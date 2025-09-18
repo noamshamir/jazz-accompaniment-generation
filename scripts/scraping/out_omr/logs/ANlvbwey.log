@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/ANlvbwey.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ANlvbwey.png"
+INFO  [ANlvbwey]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ANlvbwey.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/ANlvbwey.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [ANlvbwey]            StepMonitoring 98   | LOAD
+INFO  [ANlvbwey]                 SheetStub 1268 | Loaded image #1 1970x209 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ANlvbwey.png
+INFO  [ANlvbwey]            StepMonitoring 98   | BINARY
+INFO  [ANlvbwey]            StepMonitoring 98   | SCALE
+INFO  [ANlvbwey]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [ANlvbwey]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 861% of needed quorum
+INFO  [ANlvbwey]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [ANlvbwey]            StepMonitoring 98   | GRID
+INFO  [ANlvbwey]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [ANlvbwey]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [ANlvbwey]                 PeakGraph 310  | Systems: #1[1]
+INFO  [ANlvbwey]             SystemManager 779  | 1 part along 1 system
+INFO  [ANlvbwey]                      Book 545  | Created scores: [{Score 1}]
+INFO  [ANlvbwey]            StepMonitoring 98   | HEADERS
+INFO  [ANlvbwey]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [ANlvbwey]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [ANlvbwey]            StepMonitoring 98   | STEM_SEEDS
+INFO  [ANlvbwey]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [ANlvbwey]            StepMonitoring 98   | BEAMS
+INFO  [ANlvbwey]            StepMonitoring 98   | LEDGERS
+INFO  [ANlvbwey]            StepMonitoring 98   | HEADS
+INFO  [ANlvbwey]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.6]}
+INFO  [ANlvbwey]            StepMonitoring 98   | STEMS
+INFO  [ANlvbwey]            StepMonitoring 98   | REDUCTION
+INFO  [ANlvbwey]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [ANlvbwey]            StepMonitoring 98   | CUE_BEAMS
+INFO  [ANlvbwey]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [ANlvbwey]            StepMonitoring 98   | TEXTS
+WARN  [ANlvbwey]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [ANlvbwey]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [ANlvbwey]            StepMonitoring 98   | MEASURES
+INFO  [ANlvbwey]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [ANlvbwey]            StepMonitoring 98   | CHORDS
+INFO  [ANlvbwey]            StepMonitoring 98   | CURVES
+INFO  [ANlvbwey]              SlursBuilder 240  | Slurs: 0
+INFO  [ANlvbwey]           SegmentsBuilder 155  | Segments: 3
+INFO  [ANlvbwey]            StepMonitoring 98   | SYMBOLS
+INFO  [ANlvbwey]            StepMonitoring 98   | LINKS
+INFO  [ANlvbwey]            StepMonitoring 98   | RHYTHMS
+INFO  [ANlvbwey]            StepMonitoring 98   | PAGE
+INFO  [ANlvbwey]                      Book 2550 | Book{ANlvbwey} storing
+INFO  [ANlvbwey]                      Book 2531 | Stored /book.xml
+INFO  [ANlvbwey]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [ANlvbwey]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [ANlvbwey]                      Book 2491 | Book stored as out_omr/musicxml/ANlvbwey.omr
+INFO  [ANlvbwey]                 SheetStub 1644 | Disposed sheet
+INFO  [ANlvbwey]                      Book 2018 | End of Stub#1 memory: 31,376,200
+INFO  [ANlvbwey]                      Book 2025 | Book processed.
+INFO  [ANlvbwey]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [ANlvbwey]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [ANlvbwey]             ScoreExporter 164  | Score ANlvbwey exported to out_omr/musicxml/ANlvbwey.mxl
+INFO  [ANlvbwey]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/jWcS3359.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/jWcS3359.png"
+INFO  [jWcS3359]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/jWcS3359.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/jWcS3359.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [jWcS3359]            StepMonitoring 98   | LOAD
+INFO  [jWcS3359]                 SheetStub 1268 | Loaded image #1 1970x217 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/jWcS3359.png
+INFO  [jWcS3359]            StepMonitoring 98   | BINARY
+INFO  [jWcS3359]            StepMonitoring 98   | SCALE
+INFO  [jWcS3359]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [jWcS3359]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 892% of needed quorum
+INFO  [jWcS3359]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [jWcS3359]            StepMonitoring 98   | GRID
+INFO  [jWcS3359]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [jWcS3359]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [jWcS3359]                 PeakGraph 310  | Systems: #1[1]
+INFO  [jWcS3359]             SystemManager 779  | 1 part along 1 system
+INFO  [jWcS3359]                      Book 545  | Created scores: [{Score 1}]
+INFO  [jWcS3359]            StepMonitoring 98   | HEADERS
+INFO  [jWcS3359]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [jWcS3359]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [jWcS3359]            StepMonitoring 98   | STEM_SEEDS
+INFO  [jWcS3359]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [jWcS3359]            StepMonitoring 98   | BEAMS
+INFO  [jWcS3359]            StepMonitoring 98   | LEDGERS
+INFO  [jWcS3359]            StepMonitoring 98   | HEADS
+INFO  [jWcS3359]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.9]}
+INFO  [jWcS3359]            StepMonitoring 98   | STEMS
+INFO  [jWcS3359]            StepMonitoring 98   | REDUCTION
+INFO  [jWcS3359]            StepMonitoring 98   | CUE_BEAMS
+INFO  [jWcS3359]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [jWcS3359]            StepMonitoring 98   | TEXTS
+WARN  [jWcS3359]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [jWcS3359]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [jWcS3359]            StepMonitoring 98   | MEASURES
+INFO  [jWcS3359]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [jWcS3359]            StepMonitoring 98   | CHORDS
+INFO  [jWcS3359]            StepMonitoring 98   | CURVES
+INFO  [jWcS3359]              SlursBuilder 240  | Slurs: 0
+INFO  [jWcS3359]           SegmentsBuilder 155  | Segments: 4
+INFO  [jWcS3359]            StepMonitoring 98   | SYMBOLS
+INFO  [jWcS3359]            StepMonitoring 98   | LINKS
+INFO  [jWcS3359]            StepMonitoring 98   | RHYTHMS
+INFO  [jWcS3359]            StepMonitoring 98   | PAGE
+INFO  [jWcS3359]                      Book 2550 | Book{jWcS3359} storing
+INFO  [jWcS3359]                      Book 2531 | Stored /book.xml
+INFO  [jWcS3359]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [jWcS3359]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [jWcS3359]                      Book 2491 | Book stored as out_omr/musicxml/jWcS3359.omr
+INFO  [jWcS3359]                 SheetStub 1644 | Disposed sheet
+INFO  [jWcS3359]                      Book 2018 | End of Stub#1 memory: 31,470,400
+INFO  [jWcS3359]                      Book 2025 | Book processed.
+INFO  [jWcS3359]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [jWcS3359]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [jWcS3359]             ScoreExporter 164  | Score jWcS3359 exported to out_omr/musicxml/jWcS3359.mxl
+INFO  [jWcS3359]                     Score 181  | Closing {Score 1}

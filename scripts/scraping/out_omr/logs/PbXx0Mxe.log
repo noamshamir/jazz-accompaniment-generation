@@ -1,0 +1,79 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PbXx0Mxe.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbXx0Mxe.png"
+INFO  [PbXx0Mxe]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbXx0Mxe.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PbXx0Mxe.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PbXx0Mxe]            StepMonitoring 98   | LOAD
+INFO  [PbXx0Mxe]                 SheetStub 1268 | Loaded image #1 1970x276 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbXx0Mxe.png
+INFO  [PbXx0Mxe]            StepMonitoring 98   | BINARY
+INFO  [PbXx0Mxe]            StepMonitoring 98   | SCALE
+INFO  [PbXx0Mxe]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PbXx0Mxe]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 786% of needed quorum
+INFO  [PbXx0Mxe]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [PbXx0Mxe]            StepMonitoring 98   | GRID
+INFO  [PbXx0Mxe]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PbXx0Mxe]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PbXx0Mxe]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PbXx0Mxe]             SystemManager 779  | 1 part along 1 system
+INFO  [PbXx0Mxe]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PbXx0Mxe]            StepMonitoring 98   | HEADERS
+INFO  [PbXx0Mxe]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PbXx0Mxe]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PbXx0Mxe]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PbXx0Mxe]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [PbXx0Mxe]            StepMonitoring 98   | BEAMS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | LEDGERS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | HEADS
+INFO  [PbXx0Mxe]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [PbXx0Mxe]            StepMonitoring 98   | STEMS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | REDUCTION
+INFO  [PbXx0Mxe]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [PbXx0Mxe]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PbXx0Mxe]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PbXx0Mxe]            StepMonitoring 98   | TEXTS
+WARN  [PbXx0Mxe]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PbXx0Mxe]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PbXx0Mxe]            StepMonitoring 98   | MEASURES
+INFO  [PbXx0Mxe]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [PbXx0Mxe]            StepMonitoring 98   | CHORDS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | CURVES
+INFO  [PbXx0Mxe]              SlursBuilder 240  | Slurs: 0
+INFO  [PbXx0Mxe]           SegmentsBuilder 155  | Segments: 10
+INFO  [PbXx0Mxe]            StepMonitoring 98   | SYMBOLS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | LINKS
+INFO  [PbXx0Mxe]            StepMonitoring 98   | RHYTHMS
+INFO  [PbXx0Mxe]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#1009{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1009{(0.583/0.583) staff:1 slot#9 dur:1/2}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1013{(0.956/0.956) staff:1 slot#13 dur:1/8}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1017{(0.964/0.964) staff:1 slot#17 dur:1/8}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1018{(0.583/0.583) staff:1 slot#18 dur:1/2}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1019{(0.949/0.949) staff:1 slot#19 dur:1/4}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1022{(0.946/0.946) staff:1 slot#22 dur:1/8}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1023{(0.952/0.952) staff:1 slot#23 dur:1/6}
+INFO  [PbXx0Mxe]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#1024{(0.951/0.951) staff:1 slot#24 dur:1/6}
+INFO  [PbXx0Mxe]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [PbXx0Mxe]            StepMonitoring 98   | PAGE
+INFO  [PbXx0Mxe]                      Book 2550 | Book{PbXx0Mxe} storing
+INFO  [PbXx0Mxe]                      Book 2531 | Stored /book.xml
+INFO  [PbXx0Mxe]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PbXx0Mxe]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PbXx0Mxe]                      Book 2491 | Book stored as out_omr/musicxml/PbXx0Mxe.omr
+INFO  [PbXx0Mxe]                 SheetStub 1644 | Disposed sheet
+INFO  [PbXx0Mxe]                      Book 2018 | End of Stub#1 memory: 31,119,608
+INFO  [PbXx0Mxe]                      Book 2025 | Book processed.
+INFO  [PbXx0Mxe]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PbXx0Mxe]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PbXx0Mxe]             ScoreExporter 164  | Score PbXx0Mxe exported to out_omr/musicxml/PbXx0Mxe.mxl
+INFO  [PbXx0Mxe]                     Score 181  | Closing {Score 1}

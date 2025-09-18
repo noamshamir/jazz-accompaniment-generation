@@ -1,0 +1,81 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/yiVNXbJ7.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/yiVNXbJ7.png"
+INFO  [yiVNXbJ7]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/yiVNXbJ7.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/yiVNXbJ7.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [yiVNXbJ7]            StepMonitoring 98   | LOAD
+INFO  [yiVNXbJ7]                 SheetStub 1268 | Loaded image #1 1970x208 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/yiVNXbJ7.png
+INFO  [yiVNXbJ7]            StepMonitoring 98   | BINARY
+INFO  [yiVNXbJ7]            StepMonitoring 98   | SCALE
+INFO  [yiVNXbJ7]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [yiVNXbJ7]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 525% of needed quorum
+INFO  [yiVNXbJ7]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [yiVNXbJ7]            StepMonitoring 98   | GRID
+INFO  [yiVNXbJ7]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [yiVNXbJ7]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [yiVNXbJ7]                 PeakGraph 310  | Systems: #1[1]
+INFO  [yiVNXbJ7]             SystemManager 779  | 1 part along 1 system
+INFO  [yiVNXbJ7]                      Book 545  | Created scores: [{Score 1}]
+INFO  [yiVNXbJ7]            StepMonitoring 98   | HEADERS
+INFO  [yiVNXbJ7]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [yiVNXbJ7]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [yiVNXbJ7]            StepMonitoring 98   | STEM_SEEDS
+INFO  [yiVNXbJ7]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [yiVNXbJ7]            StepMonitoring 98   | BEAMS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | LEDGERS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | HEADS
+INFO  [yiVNXbJ7]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6,R:-0.7]}
+INFO  [yiVNXbJ7]            StepMonitoring 98   | STEMS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | REDUCTION
+INFO  [yiVNXbJ7]             ReductionStep 105  | Stems free length median value: 72 pixels, 3.4 interlines
+INFO  [yiVNXbJ7]            StepMonitoring 98   | CUE_BEAMS
+INFO  [yiVNXbJ7]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [yiVNXbJ7]            StepMonitoring 98   | TEXTS
+WARN  [yiVNXbJ7]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [yiVNXbJ7]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [yiVNXbJ7]            StepMonitoring 98   | MEASURES
+INFO  [yiVNXbJ7]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [yiVNXbJ7]            StepMonitoring 98   | CHORDS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | CURVES
+INFO  [yiVNXbJ7]              SlursBuilder 240  | Slurs: 1
+INFO  [yiVNXbJ7]           SegmentsBuilder 155  | Segments: 6
+INFO  [yiVNXbJ7]            StepMonitoring 98   | SYMBOLS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | LINKS
+INFO  [yiVNXbJ7]            StepMonitoring 98   | RHYTHMS
+INFO  [yiVNXbJ7]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#571{(0.951/0.951) staff:1 slot#5 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#572{(0.953/0.953) staff:1 slot#6 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#574{(0.942/0.942) staff:1 slot#8 dur:1/8}
+INFO  [yiVNXbJ7]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [yiVNXbJ7]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#581{(0.953/0.953) staff:1 slot#5 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#582{(0.957/0.957) staff:1 slot#6 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#584{(0.955/0.955) staff:1 slot#8 dur:1/8}
+INFO  [yiVNXbJ7]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [yiVNXbJ7]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#591{(0.956/0.956) staff:1 slot#5 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#592{(0.959/0.959) staff:1 slot#6 dur:1/8}
+INFO  [yiVNXbJ7]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#594{(0.959/0.959) staff:1 slot#8 dur:1/8}
+INFO  [yiVNXbJ7]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [yiVNXbJ7]            StepMonitoring 98   | PAGE
+INFO  [yiVNXbJ7]                      Book 2550 | Book{yiVNXbJ7} storing
+INFO  [yiVNXbJ7]                      Book 2531 | Stored /book.xml
+INFO  [yiVNXbJ7]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [yiVNXbJ7]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [yiVNXbJ7]                      Book 2491 | Book stored as out_omr/musicxml/yiVNXbJ7.omr
+INFO  [yiVNXbJ7]                 SheetStub 1644 | Disposed sheet
+INFO  [yiVNXbJ7]                      Book 2018 | End of Stub#1 memory: 31,492,648
+INFO  [yiVNXbJ7]                      Book 2025 | Book processed.
+INFO  [yiVNXbJ7]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [yiVNXbJ7]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [yiVNXbJ7]             ScoreExporter 164  | Score yiVNXbJ7 exported to out_omr/musicxml/yiVNXbJ7.mxl
+INFO  [yiVNXbJ7]                     Score 181  | Closing {Score 1}

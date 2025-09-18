@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/P3gurXGI.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/P3gurXGI.png"
+INFO  [P3gurXGI]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/P3gurXGI.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/P3gurXGI.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [P3gurXGI]            StepMonitoring 98   | LOAD
+INFO  [P3gurXGI]                 SheetStub 1268 | Loaded image #1 1970x243 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/P3gurXGI.png
+INFO  [P3gurXGI]            StepMonitoring 98   | BINARY
+INFO  [P3gurXGI]            StepMonitoring 98   | SCALE
+INFO  [P3gurXGI]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [P3gurXGI]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 762% of needed quorum
+INFO  [P3gurXGI]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [P3gurXGI]            StepMonitoring 98   | GRID
+INFO  [P3gurXGI]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [P3gurXGI]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [P3gurXGI]                 PeakGraph 310  | Systems: #1[1]
+INFO  [P3gurXGI]             SystemManager 779  | 1 part along 1 system
+INFO  [P3gurXGI]                      Book 545  | Created scores: [{Score 1}]
+INFO  [P3gurXGI]            StepMonitoring 98   | HEADERS
+INFO  [P3gurXGI]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [P3gurXGI]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [P3gurXGI]            StepMonitoring 98   | STEM_SEEDS
+INFO  [P3gurXGI]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [P3gurXGI]            StepMonitoring 98   | BEAMS
+INFO  [P3gurXGI]            StepMonitoring 98   | LEDGERS
+INFO  [P3gurXGI]            StepMonitoring 98   | HEADS
+INFO  [P3gurXGI]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.6]}
+INFO  [P3gurXGI]            StepMonitoring 98   | STEMS
+INFO  [P3gurXGI]            StepMonitoring 98   | REDUCTION
+INFO  [P3gurXGI]            StepMonitoring 98   | CUE_BEAMS
+INFO  [P3gurXGI]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [P3gurXGI]            StepMonitoring 98   | TEXTS
+WARN  [P3gurXGI]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [P3gurXGI]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [P3gurXGI]            StepMonitoring 98   | MEASURES
+INFO  [P3gurXGI]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [P3gurXGI]            StepMonitoring 98   | CHORDS
+INFO  [P3gurXGI]            StepMonitoring 98   | CURVES
+INFO  [P3gurXGI]              SlursBuilder 240  | Slurs: 0
+INFO  [P3gurXGI]           SegmentsBuilder 155  | Segments: 11
+INFO  [P3gurXGI]            StepMonitoring 98   | SYMBOLS
+INFO  [P3gurXGI]            StepMonitoring 98   | LINKS
+INFO  [P3gurXGI]            StepMonitoring 98   | RHYTHMS
+INFO  [P3gurXGI]            StepMonitoring 98   | PAGE
+INFO  [P3gurXGI]                      Book 2550 | Book{P3gurXGI} storing
+INFO  [P3gurXGI]                      Book 2531 | Stored /book.xml
+INFO  [P3gurXGI]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [P3gurXGI]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [P3gurXGI]                      Book 2491 | Book stored as out_omr/musicxml/P3gurXGI.omr
+INFO  [P3gurXGI]                 SheetStub 1644 | Disposed sheet
+INFO  [P3gurXGI]                      Book 2018 | End of Stub#1 memory: 31,490,576
+INFO  [P3gurXGI]                      Book 2025 | Book processed.
+INFO  [P3gurXGI]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [P3gurXGI]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [P3gurXGI]             ScoreExporter 164  | Score P3gurXGI exported to out_omr/musicxml/P3gurXGI.mxl
+INFO  [P3gurXGI]                     Score 181  | Closing {Score 1}

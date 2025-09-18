@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/W95ScXTU.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/W95ScXTU.png"
+INFO  [W95ScXTU]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/W95ScXTU.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/W95ScXTU.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [W95ScXTU]            StepMonitoring 98   | LOAD
+INFO  [W95ScXTU]                 SheetStub 1268 | Loaded image #1 1970x258 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/W95ScXTU.png
+INFO  [W95ScXTU]            StepMonitoring 98   | BINARY
+INFO  [W95ScXTU]            StepMonitoring 98   | SCALE
+INFO  [W95ScXTU]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [W95ScXTU]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 526% of needed quorum
+INFO  [W95ScXTU]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [W95ScXTU]            StepMonitoring 98   | GRID
+INFO  [W95ScXTU]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [W95ScXTU]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [W95ScXTU]                 PeakGraph 310  | Systems: #1[1]
+INFO  [W95ScXTU]             SystemManager 779  | 1 part along 1 system
+INFO  [W95ScXTU]                      Book 545  | Created scores: [{Score 1}]
+INFO  [W95ScXTU]            StepMonitoring 98   | HEADERS
+INFO  [W95ScXTU]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [W95ScXTU]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [W95ScXTU]            StepMonitoring 98   | STEM_SEEDS
+INFO  [W95ScXTU]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [W95ScXTU]            StepMonitoring 98   | BEAMS
+INFO  [W95ScXTU]            StepMonitoring 98   | LEDGERS
+INFO  [W95ScXTU]            StepMonitoring 98   | HEADS
+INFO  [W95ScXTU]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [W95ScXTU]            StepMonitoring 98   | STEMS
+INFO  [W95ScXTU]            StepMonitoring 98   | REDUCTION
+INFO  [W95ScXTU]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [W95ScXTU]            StepMonitoring 98   | CUE_BEAMS
+INFO  [W95ScXTU]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [W95ScXTU]            StepMonitoring 98   | TEXTS
+WARN  [W95ScXTU]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [W95ScXTU]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [W95ScXTU]            StepMonitoring 98   | MEASURES
+INFO  [W95ScXTU]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [W95ScXTU]            StepMonitoring 98   | CHORDS
+INFO  [W95ScXTU]            StepMonitoring 98   | CURVES
+INFO  [W95ScXTU]              SlursBuilder 240  | Slurs: 2
+INFO  [W95ScXTU]           SegmentsBuilder 155  | Segments: 6
+INFO  [W95ScXTU]            StepMonitoring 98   | SYMBOLS
+INFO  [W95ScXTU]            StepMonitoring 98   | LINKS
+INFO  [W95ScXTU]            StepMonitoring 98   | RHYTHMS
+INFO  [W95ScXTU]                     Voice 257  | Measure{#2} Voice{#1 excess:1/8} too long
+INFO  [W95ScXTU]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [W95ScXTU]            StepMonitoring 98   | PAGE
+INFO  [W95ScXTU]                     Voice 257  | Measure{#2} Voice{#1 excess:1/8} too long
+INFO  [W95ScXTU]                      Book 2550 | Book{W95ScXTU} storing
+INFO  [W95ScXTU]                      Book 2531 | Stored /book.xml
+INFO  [W95ScXTU]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [W95ScXTU]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [W95ScXTU]                      Book 2491 | Book stored as out_omr/musicxml/W95ScXTU.omr
+INFO  [W95ScXTU]                 SheetStub 1644 | Disposed sheet
+INFO  [W95ScXTU]                      Book 2018 | End of Stub#1 memory: 31,508,464
+INFO  [W95ScXTU]                      Book 2025 | Book processed.
+INFO  [W95ScXTU]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [W95ScXTU]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [W95ScXTU]             ScoreExporter 164  | Score W95ScXTU exported to out_omr/musicxml/W95ScXTU.mxl
+INFO  [W95ScXTU]                     Score 181  | Closing {Score 1}

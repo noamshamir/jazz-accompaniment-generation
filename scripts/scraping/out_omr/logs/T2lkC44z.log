@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/T2lkC44z.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/T2lkC44z.png"
+INFO  [T2lkC44z]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/T2lkC44z.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/T2lkC44z.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [T2lkC44z]            StepMonitoring 98   | LOAD
+INFO  [T2lkC44z]                 SheetStub 1268 | Loaded image #1 1970x237 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/T2lkC44z.png
+INFO  [T2lkC44z]            StepMonitoring 98   | BINARY
+INFO  [T2lkC44z]            StepMonitoring 98   | SCALE
+INFO  [T2lkC44z]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [T2lkC44z]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 639% of needed quorum
+INFO  [T2lkC44z]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [T2lkC44z]            StepMonitoring 98   | GRID
+INFO  [T2lkC44z]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [T2lkC44z]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [T2lkC44z]                 PeakGraph 310  | Systems: #1[1]
+INFO  [T2lkC44z]             SystemManager 779  | 1 part along 1 system
+INFO  [T2lkC44z]                      Book 545  | Created scores: [{Score 1}]
+INFO  [T2lkC44z]            StepMonitoring 98   | HEADERS
+INFO  [T2lkC44z]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [T2lkC44z]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [T2lkC44z]            StepMonitoring 98   | STEM_SEEDS
+INFO  [T2lkC44z]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [T2lkC44z]            StepMonitoring 98   | BEAMS
+INFO  [T2lkC44z]            StepMonitoring 98   | LEDGERS
+INFO  [T2lkC44z]            StepMonitoring 98   | HEADS
+INFO  [T2lkC44z]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [T2lkC44z]            StepMonitoring 98   | STEMS
+INFO  [T2lkC44z]            StepMonitoring 98   | REDUCTION
+INFO  [T2lkC44z]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [T2lkC44z]            StepMonitoring 98   | CUE_BEAMS
+INFO  [T2lkC44z]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [T2lkC44z]            StepMonitoring 98   | TEXTS
+WARN  [T2lkC44z]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [T2lkC44z]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [T2lkC44z]            StepMonitoring 98   | MEASURES
+INFO  [T2lkC44z]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [T2lkC44z]            StepMonitoring 98   | CHORDS
+INFO  [T2lkC44z]            StepMonitoring 98   | CURVES
+INFO  [T2lkC44z]              SlursBuilder 240  | Slurs: 1
+INFO  [T2lkC44z]           SegmentsBuilder 155  | Segments: 3
+INFO  [T2lkC44z]            StepMonitoring 98   | SYMBOLS
+INFO  [T2lkC44z]            StepMonitoring 98   | LINKS
+INFO  [T2lkC44z]            StepMonitoring 98   | RHYTHMS
+INFO  [T2lkC44z]            StepMonitoring 98   | PAGE
+INFO  [T2lkC44z]                      Book 2550 | Book{T2lkC44z} storing
+INFO  [T2lkC44z]                      Book 2531 | Stored /book.xml
+INFO  [T2lkC44z]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [T2lkC44z]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [T2lkC44z]                      Book 2491 | Book stored as out_omr/musicxml/T2lkC44z.omr
+INFO  [T2lkC44z]                 SheetStub 1644 | Disposed sheet
+INFO  [T2lkC44z]                      Book 2018 | End of Stub#1 memory: 33,013,464
+INFO  [T2lkC44z]                      Book 2025 | Book processed.
+INFO  [T2lkC44z]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [T2lkC44z]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [T2lkC44z]             ScoreExporter 164  | Score T2lkC44z exported to out_omr/musicxml/T2lkC44z.mxl
+INFO  [T2lkC44z]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/Fl7WN19C.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Fl7WN19C.png"
+INFO  [Fl7WN19C]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Fl7WN19C.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/Fl7WN19C.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [Fl7WN19C]            StepMonitoring 98   | LOAD
+INFO  [Fl7WN19C]                 SheetStub 1268 | Loaded image #1 1970x223 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Fl7WN19C.png
+INFO  [Fl7WN19C]            StepMonitoring 98   | BINARY
+INFO  [Fl7WN19C]            StepMonitoring 98   | SCALE
+INFO  [Fl7WN19C]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [Fl7WN19C]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1090% of needed quorum
+INFO  [Fl7WN19C]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [Fl7WN19C]            StepMonitoring 98   | GRID
+INFO  [Fl7WN19C]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [Fl7WN19C]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [Fl7WN19C]                 PeakGraph 310  | Systems: #1[1]
+INFO  [Fl7WN19C]             SystemManager 779  | 1 part along 1 system
+INFO  [Fl7WN19C]                      Book 545  | Created scores: [{Score 1}]
+INFO  [Fl7WN19C]            StepMonitoring 98   | HEADERS
+INFO  [Fl7WN19C]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [Fl7WN19C]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [Fl7WN19C]            StepMonitoring 98   | STEM_SEEDS
+INFO  [Fl7WN19C]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [Fl7WN19C]            StepMonitoring 98   | BEAMS
+INFO  [Fl7WN19C]            StepMonitoring 98   | LEDGERS
+INFO  [Fl7WN19C]            StepMonitoring 98   | HEADS
+INFO  [Fl7WN19C]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [Fl7WN19C]            StepMonitoring 98   | STEMS
+INFO  [Fl7WN19C]            StepMonitoring 98   | REDUCTION
+INFO  [Fl7WN19C]            StepMonitoring 98   | CUE_BEAMS
+INFO  [Fl7WN19C]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [Fl7WN19C]            StepMonitoring 98   | TEXTS
+WARN  [Fl7WN19C]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [Fl7WN19C]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [Fl7WN19C]            StepMonitoring 98   | MEASURES
+INFO  [Fl7WN19C]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [Fl7WN19C]            StepMonitoring 98   | CHORDS
+INFO  [Fl7WN19C]            StepMonitoring 98   | CURVES
+INFO  [Fl7WN19C]              SlursBuilder 240  | Slurs: 0
+INFO  [Fl7WN19C]           SegmentsBuilder 155  | Segments: 4
+INFO  [Fl7WN19C]            StepMonitoring 98   | SYMBOLS
+INFO  [Fl7WN19C]            StepMonitoring 98   | LINKS
+INFO  [Fl7WN19C]            StepMonitoring 98   | RHYTHMS
+INFO  [Fl7WN19C]            StepMonitoring 98   | PAGE
+INFO  [Fl7WN19C]                      Book 2550 | Book{Fl7WN19C} storing
+INFO  [Fl7WN19C]                      Book 2531 | Stored /book.xml
+INFO  [Fl7WN19C]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [Fl7WN19C]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [Fl7WN19C]                      Book 2491 | Book stored as out_omr/musicxml/Fl7WN19C.omr
+INFO  [Fl7WN19C]                 SheetStub 1644 | Disposed sheet
+INFO  [Fl7WN19C]                      Book 2018 | End of Stub#1 memory: 32,625,504
+INFO  [Fl7WN19C]                      Book 2025 | Book processed.
+INFO  [Fl7WN19C]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [Fl7WN19C]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [Fl7WN19C]             ScoreExporter 164  | Score Fl7WN19C exported to out_omr/musicxml/Fl7WN19C.mxl
+INFO  [Fl7WN19C]                     Score 181  | Closing {Score 1}

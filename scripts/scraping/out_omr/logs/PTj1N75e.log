@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PTj1N75e.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PTj1N75e.png"
+INFO  [PTj1N75e]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PTj1N75e.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PTj1N75e.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PTj1N75e]            StepMonitoring 98   | LOAD
+INFO  [PTj1N75e]                 SheetStub 1268 | Loaded image #1 1970x230 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PTj1N75e.png
+INFO  [PTj1N75e]            StepMonitoring 98   | BINARY
+INFO  [PTj1N75e]            StepMonitoring 98   | SCALE
+INFO  [PTj1N75e]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PTj1N75e]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 789% of needed quorum
+INFO  [PTj1N75e]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [PTj1N75e]            StepMonitoring 98   | GRID
+INFO  [PTj1N75e]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PTj1N75e]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PTj1N75e]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PTj1N75e]             SystemManager 779  | 1 part along 1 system
+INFO  [PTj1N75e]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PTj1N75e]            StepMonitoring 98   | HEADERS
+INFO  [PTj1N75e]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PTj1N75e]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PTj1N75e]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PTj1N75e]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [PTj1N75e]            StepMonitoring 98   | BEAMS
+INFO  [PTj1N75e]            StepMonitoring 98   | LEDGERS
+INFO  [PTj1N75e]            StepMonitoring 98   | HEADS
+INFO  [PTj1N75e]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.7]}
+INFO  [PTj1N75e]            StepMonitoring 98   | STEMS
+INFO  [PTj1N75e]            StepMonitoring 98   | REDUCTION
+INFO  [PTj1N75e]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [PTj1N75e]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PTj1N75e]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PTj1N75e]            StepMonitoring 98   | TEXTS
+WARN  [PTj1N75e]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PTj1N75e]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PTj1N75e]            StepMonitoring 98   | MEASURES
+INFO  [PTj1N75e]                      Page 307  | 7 raw measures: [7 in system#1]
+INFO  [PTj1N75e]            StepMonitoring 98   | CHORDS
+INFO  [PTj1N75e]            StepMonitoring 98   | CURVES
+INFO  [PTj1N75e]              SlursBuilder 240  | Slurs: 0
+INFO  [PTj1N75e]           SegmentsBuilder 155  | Segments: 4
+INFO  [PTj1N75e]            StepMonitoring 98   | SYMBOLS
+INFO  [PTj1N75e]            StepMonitoring 98   | LINKS
+INFO  [PTj1N75e]            StepMonitoring 98   | RHYTHMS
+INFO  [PTj1N75e]            StepMonitoring 98   | PAGE
+INFO  [PTj1N75e]                      Book 2550 | Book{PTj1N75e} storing
+INFO  [PTj1N75e]                      Book 2531 | Stored /book.xml
+INFO  [PTj1N75e]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PTj1N75e]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PTj1N75e]                      Book 2491 | Book stored as out_omr/musicxml/PTj1N75e.omr
+INFO  [PTj1N75e]                 SheetStub 1644 | Disposed sheet
+INFO  [PTj1N75e]                      Book 2018 | End of Stub#1 memory: 31,381,968
+INFO  [PTj1N75e]                      Book 2025 | Book processed.
+INFO  [PTj1N75e]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PTj1N75e]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PTj1N75e]             ScoreExporter 164  | Score PTj1N75e exported to out_omr/musicxml/PTj1N75e.mxl
+INFO  [PTj1N75e]                     Score 181  | Closing {Score 1}

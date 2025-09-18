@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/JJtw46FY.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JJtw46FY.png"
+INFO  [JJtw46FY]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JJtw46FY.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/JJtw46FY.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [JJtw46FY]            StepMonitoring 98   | LOAD
+INFO  [JJtw46FY]                 SheetStub 1268 | Loaded image #1 1970x260 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/JJtw46FY.png
+INFO  [JJtw46FY]            StepMonitoring 98   | BINARY
+INFO  [JJtw46FY]            StepMonitoring 98   | SCALE
+INFO  [JJtw46FY]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [JJtw46FY]              ScaleBuilder 264  | Beam measured height:  9 -- 0.20 of [6..21] range at 273% of needed quorum
+INFO  [JJtw46FY]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(9)}
+INFO  [JJtw46FY]            StepMonitoring 98   | GRID
+INFO  [JJtw46FY]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [JJtw46FY]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [JJtw46FY]                 PeakGraph 310  | Systems: #1[1]
+INFO  [JJtw46FY]             SystemManager 779  | 1 part along 1 system
+INFO  [JJtw46FY]                      Book 545  | Created scores: [{Score 1}]
+INFO  [JJtw46FY]            StepMonitoring 98   | HEADERS
+INFO  [JJtw46FY]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [JJtw46FY]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [JJtw46FY]            StepMonitoring 98   | STEM_SEEDS
+INFO  [JJtw46FY]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [JJtw46FY]            StepMonitoring 98   | BEAMS
+INFO  [JJtw46FY]            StepMonitoring 98   | LEDGERS
+INFO  [JJtw46FY]            StepMonitoring 98   | HEADS
+INFO  [JJtw46FY]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.5]}
+INFO  [JJtw46FY]            StepMonitoring 98   | STEMS
+INFO  [JJtw46FY]            StepMonitoring 98   | REDUCTION
+INFO  [JJtw46FY]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [JJtw46FY]            StepMonitoring 98   | CUE_BEAMS
+INFO  [JJtw46FY]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [JJtw46FY]            StepMonitoring 98   | TEXTS
+WARN  [JJtw46FY]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [JJtw46FY]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [JJtw46FY]            StepMonitoring 98   | MEASURES
+INFO  [JJtw46FY]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [JJtw46FY]            StepMonitoring 98   | CHORDS
+INFO  [JJtw46FY]            StepMonitoring 98   | CURVES
+INFO  [JJtw46FY]              SlursBuilder 240  | Slurs: 2
+INFO  [JJtw46FY]           SegmentsBuilder 155  | Segments: 4
+INFO  [JJtw46FY]            StepMonitoring 98   | SYMBOLS
+INFO  [JJtw46FY]            StepMonitoring 98   | LINKS
+INFO  [JJtw46FY]            StepMonitoring 98   | RHYTHMS
+INFO  [JJtw46FY]            StepMonitoring 98   | PAGE
+INFO  [JJtw46FY]                      Book 2550 | Book{JJtw46FY} storing
+INFO  [JJtw46FY]                      Book 2531 | Stored /book.xml
+INFO  [JJtw46FY]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [JJtw46FY]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [JJtw46FY]                      Book 2491 | Book stored as out_omr/musicxml/JJtw46FY.omr
+INFO  [JJtw46FY]                 SheetStub 1644 | Disposed sheet
+INFO  [JJtw46FY]                      Book 2018 | End of Stub#1 memory: 31,421,808
+INFO  [JJtw46FY]                      Book 2025 | Book processed.
+INFO  [JJtw46FY]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [JJtw46FY]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [JJtw46FY]             ScoreExporter 164  | Score JJtw46FY exported to out_omr/musicxml/JJtw46FY.mxl
+INFO  [JJtw46FY]                     Score 181  | Closing {Score 1}

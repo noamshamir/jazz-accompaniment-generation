@@ -1,0 +1,71 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/BPyXbrYS.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BPyXbrYS.png"
+2025-09-09 23:56:48.130 Audiveris[47611:1189465] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-09 23:56:48.130 Audiveris[47611:1189465] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  [BPyXbrYS]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BPyXbrYS.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/BPyXbrYS.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [BPyXbrYS]            StepMonitoring 98   | LOAD
+INFO  [BPyXbrYS]                 SheetStub 1268 | Loaded image #1 1970x246 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/BPyXbrYS.png
+INFO  [BPyXbrYS]            StepMonitoring 98   | BINARY
+INFO  [BPyXbrYS]            StepMonitoring 98   | SCALE
+INFO  [BPyXbrYS]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [BPyXbrYS]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 748% of needed quorum
+INFO  [BPyXbrYS]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [BPyXbrYS]            StepMonitoring 98   | GRID
+INFO  [BPyXbrYS]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [BPyXbrYS]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [BPyXbrYS]                 PeakGraph 310  | Systems: #1[1]
+INFO  [BPyXbrYS]             SystemManager 779  | 1 part along 1 system
+INFO  [BPyXbrYS]                      Book 545  | Created scores: [{Score 1}]
+INFO  [BPyXbrYS]            StepMonitoring 98   | HEADERS
+INFO  [BPyXbrYS]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [BPyXbrYS]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [BPyXbrYS]            StepMonitoring 98   | STEM_SEEDS
+INFO  [BPyXbrYS]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [BPyXbrYS]            StepMonitoring 98   | BEAMS
+INFO  [BPyXbrYS]            StepMonitoring 98   | LEDGERS
+INFO  [BPyXbrYS]            StepMonitoring 98   | HEADS
+INFO  [BPyXbrYS]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:0.5]}
+INFO  [BPyXbrYS]            StepMonitoring 98   | STEMS
+INFO  [BPyXbrYS]            StepMonitoring 98   | REDUCTION
+INFO  [BPyXbrYS]             ReductionStep 105  | Stems free length median value: 84 pixels, 4.0 interlines
+INFO  [BPyXbrYS]            StepMonitoring 98   | CUE_BEAMS
+INFO  [BPyXbrYS]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [BPyXbrYS]            StepMonitoring 98   | TEXTS
+WARN  [BPyXbrYS]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [BPyXbrYS]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [BPyXbrYS]            StepMonitoring 98   | MEASURES
+INFO  [BPyXbrYS]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [BPyXbrYS]            StepMonitoring 98   | CHORDS
+INFO  [BPyXbrYS]            StepMonitoring 98   | CURVES
+INFO  [BPyXbrYS]              SlursBuilder 240  | Slurs: 0
+INFO  [BPyXbrYS]           SegmentsBuilder 155  | Segments: 4
+INFO  [BPyXbrYS]            StepMonitoring 98   | SYMBOLS
+INFO  [BPyXbrYS]            StepMonitoring 98   | LINKS
+INFO  [BPyXbrYS]            StepMonitoring 98   | RHYTHMS
+INFO  [BPyXbrYS]            StepMonitoring 98   | PAGE
+INFO  [BPyXbrYS]                      Book 2550 | Book{BPyXbrYS} storing
+INFO  [BPyXbrYS]                      Book 2531 | Stored /book.xml
+INFO  [BPyXbrYS]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [BPyXbrYS]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [BPyXbrYS]                      Book 2491 | Book stored as out_omr/musicxml/BPyXbrYS.omr
+INFO  [BPyXbrYS]                 SheetStub 1644 | Disposed sheet
+INFO  [BPyXbrYS]                      Book 2018 | End of Stub#1 memory: 31,465,480
+INFO  [BPyXbrYS]                      Book 2025 | Book processed.
+INFO  [BPyXbrYS]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [BPyXbrYS]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [BPyXbrYS]             ScoreExporter 164  | Score BPyXbrYS exported to out_omr/musicxml/BPyXbrYS.mxl
+INFO  [BPyXbrYS]                     Score 181  | Closing {Score 1}

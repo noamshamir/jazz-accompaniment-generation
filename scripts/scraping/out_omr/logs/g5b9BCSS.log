@@ -1,0 +1,70 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/g5b9BCSS.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g5b9BCSS.png"
+INFO  [g5b9BCSS]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g5b9BCSS.png
+2025-09-10 00:06:22.084 Audiveris[48174:1204071] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:06:22.084 Audiveris[48174:1204071] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/g5b9BCSS.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [g5b9BCSS]            StepMonitoring 98   | LOAD
+INFO  [g5b9BCSS]                 SheetStub 1268 | Loaded image #1 1970x227 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g5b9BCSS.png
+INFO  [g5b9BCSS]            StepMonitoring 98   | BINARY
+INFO  [g5b9BCSS]            StepMonitoring 98   | SCALE
+INFO  [g5b9BCSS]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [g5b9BCSS]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 784% of needed quorum
+INFO  [g5b9BCSS]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [g5b9BCSS]            StepMonitoring 98   | GRID
+INFO  [g5b9BCSS]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [g5b9BCSS]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [g5b9BCSS]                 PeakGraph 310  | Systems: #1[1]
+INFO  [g5b9BCSS]             SystemManager 779  | 1 part along 1 system
+INFO  [g5b9BCSS]                      Book 545  | Created scores: [{Score 1}]
+INFO  [g5b9BCSS]            StepMonitoring 98   | HEADERS
+INFO  [g5b9BCSS]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [g5b9BCSS]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [g5b9BCSS]            StepMonitoring 98   | STEM_SEEDS
+INFO  [g5b9BCSS]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [g5b9BCSS]            StepMonitoring 98   | BEAMS
+INFO  [g5b9BCSS]            StepMonitoring 98   | LEDGERS
+INFO  [g5b9BCSS]            StepMonitoring 98   | HEADS
+INFO  [g5b9BCSS]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [g5b9BCSS]            StepMonitoring 98   | STEMS
+INFO  [g5b9BCSS]            StepMonitoring 98   | REDUCTION
+INFO  [g5b9BCSS]            StepMonitoring 98   | CUE_BEAMS
+INFO  [g5b9BCSS]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [g5b9BCSS]            StepMonitoring 98   | TEXTS
+WARN  [g5b9BCSS]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [g5b9BCSS]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [g5b9BCSS]            StepMonitoring 98   | MEASURES
+INFO  [g5b9BCSS]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [g5b9BCSS]            StepMonitoring 98   | CHORDS
+INFO  [g5b9BCSS]            StepMonitoring 98   | CURVES
+INFO  [g5b9BCSS]              SlursBuilder 240  | Slurs: 0
+INFO  [g5b9BCSS]           SegmentsBuilder 155  | Segments: 3
+INFO  [g5b9BCSS]            StepMonitoring 98   | SYMBOLS
+INFO  [g5b9BCSS]            StepMonitoring 98   | LINKS
+INFO  [g5b9BCSS]            StepMonitoring 98   | RHYTHMS
+INFO  [g5b9BCSS]            StepMonitoring 98   | PAGE
+INFO  [g5b9BCSS]                      Book 2550 | Book{g5b9BCSS} storing
+INFO  [g5b9BCSS]                      Book 2531 | Stored /book.xml
+INFO  [g5b9BCSS]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [g5b9BCSS]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [g5b9BCSS]                      Book 2491 | Book stored as out_omr/musicxml/g5b9BCSS.omr
+INFO  [g5b9BCSS]                 SheetStub 1644 | Disposed sheet
+INFO  [g5b9BCSS]                      Book 2018 | End of Stub#1 memory: 31,621,544
+INFO  [g5b9BCSS]                      Book 2025 | Book processed.
+INFO  [g5b9BCSS]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [g5b9BCSS]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [g5b9BCSS]             ScoreExporter 164  | Score g5b9BCSS exported to out_omr/musicxml/g5b9BCSS.mxl
+INFO  [g5b9BCSS]                     Score 181  | Closing {Score 1}

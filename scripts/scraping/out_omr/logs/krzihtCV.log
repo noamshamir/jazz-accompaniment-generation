@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/krzihtCV.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/krzihtCV.png"
+INFO  [krzihtCV]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/krzihtCV.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/krzihtCV.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [krzihtCV]            StepMonitoring 98   | LOAD
+INFO  [krzihtCV]                 SheetStub 1268 | Loaded image #1 1970x271 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/krzihtCV.png
+INFO  [krzihtCV]            StepMonitoring 98   | BINARY
+INFO  [krzihtCV]            StepMonitoring 98   | SCALE
+INFO  [krzihtCV]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [krzihtCV]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 548% of needed quorum
+INFO  [krzihtCV]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [krzihtCV]            StepMonitoring 98   | GRID
+INFO  [krzihtCV]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [krzihtCV]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [krzihtCV]                 PeakGraph 310  | Systems: #1[1]
+INFO  [krzihtCV]             SystemManager 779  | 1 part along 1 system
+INFO  [krzihtCV]                      Book 545  | Created scores: [{Score 1}]
+INFO  [krzihtCV]            StepMonitoring 98   | HEADERS
+INFO  [krzihtCV]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [krzihtCV]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [krzihtCV]            StepMonitoring 98   | STEM_SEEDS
+INFO  [krzihtCV]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [krzihtCV]            StepMonitoring 98   | BEAMS
+INFO  [krzihtCV]            StepMonitoring 98   | LEDGERS
+INFO  [krzihtCV]            StepMonitoring 98   | HEADS
+INFO  [krzihtCV]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [krzihtCV]            StepMonitoring 98   | STEMS
+INFO  [krzihtCV]            StepMonitoring 98   | REDUCTION
+INFO  [krzihtCV]             ReductionStep 105  | Stems free length median value: 105 pixels, 5.0 interlines
+INFO  [krzihtCV]            StepMonitoring 98   | CUE_BEAMS
+INFO  [krzihtCV]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [krzihtCV]            StepMonitoring 98   | TEXTS
+WARN  [krzihtCV]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [krzihtCV]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [krzihtCV]            StepMonitoring 98   | MEASURES
+INFO  [krzihtCV]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [krzihtCV]            StepMonitoring 98   | CHORDS
+INFO  [krzihtCV]            StepMonitoring 98   | CURVES
+INFO  [krzihtCV]              SlursBuilder 240  | Slurs: 0
+INFO  [krzihtCV]           SegmentsBuilder 155  | Segments: 3
+INFO  [krzihtCV]            StepMonitoring 98   | SYMBOLS
+INFO  [krzihtCV]            StepMonitoring 98   | LINKS
+INFO  [krzihtCV]            StepMonitoring 98   | RHYTHMS
+INFO  [krzihtCV]                     Voice 257  | Measure{#1} Voice{#1 excess:1/8} too long
+INFO  [krzihtCV]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [krzihtCV]            StepMonitoring 98   | PAGE
+INFO  [krzihtCV]                     Voice 257  | Measure{#1} Voice{#1 excess:1/8} too long
+INFO  [krzihtCV]                      Book 2550 | Book{krzihtCV} storing
+INFO  [krzihtCV]                      Book 2531 | Stored /book.xml
+INFO  [krzihtCV]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [krzihtCV]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [krzihtCV]                      Book 2491 | Book stored as out_omr/musicxml/krzihtCV.omr
+INFO  [krzihtCV]                 SheetStub 1644 | Disposed sheet
+INFO  [krzihtCV]                      Book 2018 | End of Stub#1 memory: 31,580,720
+INFO  [krzihtCV]                      Book 2025 | Book processed.
+INFO  [krzihtCV]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [krzihtCV]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [krzihtCV]             ScoreExporter 164  | Score krzihtCV exported to out_omr/musicxml/krzihtCV.mxl
+INFO  [krzihtCV]                     Score 181  | Closing {Score 1}

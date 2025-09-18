@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/UYUca5ob.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/UYUca5ob.png"
+INFO  [UYUca5ob]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/UYUca5ob.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/UYUca5ob.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [UYUca5ob]            StepMonitoring 98   | LOAD
+INFO  [UYUca5ob]                 SheetStub 1268 | Loaded image #1 1970x243 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/UYUca5ob.png
+INFO  [UYUca5ob]            StepMonitoring 98   | BINARY
+INFO  [UYUca5ob]            StepMonitoring 98   | SCALE
+INFO  [UYUca5ob]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [UYUca5ob]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 903% of needed quorum
+INFO  [UYUca5ob]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [UYUca5ob]            StepMonitoring 98   | GRID
+INFO  [UYUca5ob]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [UYUca5ob]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [UYUca5ob]                 PeakGraph 310  | Systems: #1[1]
+INFO  [UYUca5ob]             SystemManager 779  | 1 part along 1 system
+INFO  [UYUca5ob]                      Book 545  | Created scores: [{Score 1}]
+INFO  [UYUca5ob]            StepMonitoring 98   | HEADERS
+INFO  [UYUca5ob]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [UYUca5ob]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [UYUca5ob]            StepMonitoring 98   | STEM_SEEDS
+INFO  [UYUca5ob]             StemSeedsStep 86   | stem(4 max:4)
+INFO  [UYUca5ob]            StepMonitoring 98   | BEAMS
+INFO  [UYUca5ob]            StepMonitoring 98   | LEDGERS
+INFO  [UYUca5ob]            StepMonitoring 98   | HEADS
+INFO  [UYUca5ob]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.6]}
+INFO  [UYUca5ob]            StepMonitoring 98   | STEMS
+INFO  [UYUca5ob]            StepMonitoring 98   | REDUCTION
+INFO  [UYUca5ob]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [UYUca5ob]            StepMonitoring 98   | CUE_BEAMS
+INFO  [UYUca5ob]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [UYUca5ob]            StepMonitoring 98   | TEXTS
+WARN  [UYUca5ob]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [UYUca5ob]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [UYUca5ob]            StepMonitoring 98   | MEASURES
+INFO  [UYUca5ob]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [UYUca5ob]            StepMonitoring 98   | CHORDS
+INFO  [UYUca5ob]            StepMonitoring 98   | CURVES
+INFO  [UYUca5ob]              SlursBuilder 240  | Slurs: 1
+INFO  [UYUca5ob]           SegmentsBuilder 155  | Segments: 7
+INFO  [UYUca5ob]            StepMonitoring 98   | SYMBOLS
+INFO  [UYUca5ob]            StepMonitoring 98   | LINKS
+INFO  [UYUca5ob]            StepMonitoring 98   | RHYTHMS
+INFO  [UYUca5ob]            StepMonitoring 98   | PAGE
+INFO  [UYUca5ob]                      Book 2550 | Book{UYUca5ob} storing
+INFO  [UYUca5ob]                      Book 2531 | Stored /book.xml
+INFO  [UYUca5ob]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [UYUca5ob]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [UYUca5ob]                      Book 2491 | Book stored as out_omr/musicxml/UYUca5ob.omr
+INFO  [UYUca5ob]                 SheetStub 1644 | Disposed sheet
+INFO  [UYUca5ob]                      Book 2018 | End of Stub#1 memory: 31,345,800
+INFO  [UYUca5ob]                      Book 2025 | Book processed.
+INFO  [UYUca5ob]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [UYUca5ob]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [UYUca5ob]             ScoreExporter 164  | Score UYUca5ob exported to out_omr/musicxml/UYUca5ob.mxl
+INFO  [UYUca5ob]                     Score 181  | Closing {Score 1}

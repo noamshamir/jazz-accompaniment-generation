@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/ARfNmF2S.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ARfNmF2S.png"
+INFO  [ARfNmF2S]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ARfNmF2S.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/ARfNmF2S.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [ARfNmF2S]            StepMonitoring 98   | LOAD
+INFO  [ARfNmF2S]                 SheetStub 1268 | Loaded image #1 1970x237 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/ARfNmF2S.png
+INFO  [ARfNmF2S]            StepMonitoring 98   | BINARY
+INFO  [ARfNmF2S]            StepMonitoring 98   | SCALE
+INFO  [ARfNmF2S]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [ARfNmF2S]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 748% of needed quorum
+INFO  [ARfNmF2S]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [ARfNmF2S]            StepMonitoring 98   | GRID
+INFO  [ARfNmF2S]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [ARfNmF2S]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [ARfNmF2S]                 PeakGraph 310  | Systems: #1[1]
+INFO  [ARfNmF2S]             SystemManager 779  | 1 part along 1 system
+INFO  [ARfNmF2S]                      Book 545  | Created scores: [{Score 1}]
+INFO  [ARfNmF2S]            StepMonitoring 98   | HEADERS
+INFO  [ARfNmF2S]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [ARfNmF2S]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [ARfNmF2S]            StepMonitoring 98   | STEM_SEEDS
+INFO  [ARfNmF2S]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [ARfNmF2S]            StepMonitoring 98   | BEAMS
+INFO  [ARfNmF2S]            StepMonitoring 98   | LEDGERS
+INFO  [ARfNmF2S]            StepMonitoring 98   | HEADS
+INFO  [ARfNmF2S]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [ARfNmF2S]            StepMonitoring 98   | STEMS
+INFO  [ARfNmF2S]            StepMonitoring 98   | REDUCTION
+INFO  [ARfNmF2S]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [ARfNmF2S]            StepMonitoring 98   | CUE_BEAMS
+INFO  [ARfNmF2S]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [ARfNmF2S]            StepMonitoring 98   | TEXTS
+WARN  [ARfNmF2S]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [ARfNmF2S]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [ARfNmF2S]            StepMonitoring 98   | MEASURES
+INFO  [ARfNmF2S]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [ARfNmF2S]            StepMonitoring 98   | CHORDS
+INFO  [ARfNmF2S]            StepMonitoring 98   | CURVES
+INFO  [ARfNmF2S]              SlursBuilder 240  | Slurs: 0
+INFO  [ARfNmF2S]           SegmentsBuilder 155  | Segments: 4
+INFO  [ARfNmF2S]            StepMonitoring 98   | SYMBOLS
+INFO  [ARfNmF2S]            StepMonitoring 98   | LINKS
+INFO  [ARfNmF2S]            StepMonitoring 98   | RHYTHMS
+INFO  [ARfNmF2S]            StepMonitoring 98   | PAGE
+INFO  [ARfNmF2S]                      Book 2550 | Book{ARfNmF2S} storing
+INFO  [ARfNmF2S]                      Book 2531 | Stored /book.xml
+INFO  [ARfNmF2S]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [ARfNmF2S]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [ARfNmF2S]                      Book 2491 | Book stored as out_omr/musicxml/ARfNmF2S.omr
+INFO  [ARfNmF2S]                 SheetStub 1644 | Disposed sheet
+INFO  [ARfNmF2S]                      Book 2018 | End of Stub#1 memory: 32,855,224
+INFO  [ARfNmF2S]                      Book 2025 | Book processed.
+INFO  [ARfNmF2S]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [ARfNmF2S]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [ARfNmF2S]             ScoreExporter 164  | Score ARfNmF2S exported to out_omr/musicxml/ARfNmF2S.mxl
+INFO  [ARfNmF2S]                     Score 181  | Closing {Score 1}

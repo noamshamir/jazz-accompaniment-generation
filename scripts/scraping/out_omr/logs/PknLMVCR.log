@@ -1,0 +1,75 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PknLMVCR.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PknLMVCR.png"
+INFO  [PknLMVCR]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PknLMVCR.png
+2025-09-10 00:10:23.635 Audiveris[48420:1218561] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:10:23.635 Audiveris[48420:1218561] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PknLMVCR.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PknLMVCR]            StepMonitoring 98   | LOAD
+INFO  [PknLMVCR]                 SheetStub 1268 | Loaded image #1 1970x228 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PknLMVCR.png
+INFO  [PknLMVCR]            StepMonitoring 98   | BINARY
+INFO  [PknLMVCR]            StepMonitoring 98   | SCALE
+INFO  [PknLMVCR]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PknLMVCR]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 793% of needed quorum
+INFO  [PknLMVCR]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [PknLMVCR]            StepMonitoring 98   | GRID
+INFO  [PknLMVCR]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PknLMVCR]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PknLMVCR]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PknLMVCR]             SystemManager 779  | 1 part along 1 system
+INFO  [PknLMVCR]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PknLMVCR]            StepMonitoring 98   | HEADERS
+INFO  [PknLMVCR]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PknLMVCR]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PknLMVCR]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PknLMVCR]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [PknLMVCR]            StepMonitoring 98   | BEAMS
+INFO  [PknLMVCR]            StepMonitoring 98   | LEDGERS
+INFO  [PknLMVCR]            StepMonitoring 98   | HEADS
+INFO  [PknLMVCR]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.9]}
+INFO  [PknLMVCR]            StepMonitoring 98   | STEMS
+INFO  [PknLMVCR]            StepMonitoring 98   | REDUCTION
+INFO  [PknLMVCR]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [PknLMVCR]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PknLMVCR]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PknLMVCR]            StepMonitoring 98   | TEXTS
+WARN  [PknLMVCR]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PknLMVCR]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PknLMVCR]            StepMonitoring 98   | MEASURES
+INFO  [PknLMVCR]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [PknLMVCR]            StepMonitoring 98   | CHORDS
+INFO  [PknLMVCR]            StepMonitoring 98   | CURVES
+INFO  [PknLMVCR]              SlursBuilder 240  | Slurs: 3
+INFO  [PknLMVCR]           SegmentsBuilder 155  | Segments: 2
+INFO  [PknLMVCR]            StepMonitoring 98   | SYMBOLS
+INFO  [PknLMVCR]            StepMonitoring 98   | LINKS
+INFO  [PknLMVCR]            StepMonitoring 98   | RHYTHMS
+INFO  [PknLMVCR]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#619{(0.575/0.575) staff:1 slot#9 dur:1/2}
+INFO  [PknLMVCR]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#619{(0.575/0.575) staff:1 slot#9 dur:1/2}
+INFO  [PknLMVCR]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#624{(0.950/0.950) staff:1 slot#14 dur:1/4}
+INFO  [PknLMVCR]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [PknLMVCR]            StepMonitoring 98   | PAGE
+INFO  [PknLMVCR]                      Book 2550 | Book{PknLMVCR} storing
+INFO  [PknLMVCR]                      Book 2531 | Stored /book.xml
+INFO  [PknLMVCR]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PknLMVCR]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PknLMVCR]                      Book 2491 | Book stored as out_omr/musicxml/PknLMVCR.omr
+INFO  [PknLMVCR]                 SheetStub 1644 | Disposed sheet
+INFO  [PknLMVCR]                      Book 2018 | End of Stub#1 memory: 31,652,632
+INFO  [PknLMVCR]                      Book 2025 | Book processed.
+INFO  [PknLMVCR]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PknLMVCR]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PknLMVCR]             ScoreExporter 164  | Score PknLMVCR exported to out_omr/musicxml/PknLMVCR.mxl
+INFO  [PknLMVCR]                     Score 181  | Closing {Score 1}

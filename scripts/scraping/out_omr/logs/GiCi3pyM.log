@@ -1,0 +1,72 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/GiCi3pyM.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GiCi3pyM.png"
+INFO  [GiCi3pyM]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GiCi3pyM.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/GiCi3pyM.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [GiCi3pyM]            StepMonitoring 98   | LOAD
+INFO  [GiCi3pyM]                 SheetStub 1268 | Loaded image #1 1970x227 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/GiCi3pyM.png
+INFO  [GiCi3pyM]            StepMonitoring 98   | BINARY
+INFO  [GiCi3pyM]            StepMonitoring 98   | SCALE
+INFO  [GiCi3pyM]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [GiCi3pyM]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 688% of needed quorum
+INFO  [GiCi3pyM]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [GiCi3pyM]            StepMonitoring 98   | GRID
+INFO  [GiCi3pyM]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [GiCi3pyM]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [GiCi3pyM]                 PeakGraph 310  | Systems: #1[1]
+INFO  [GiCi3pyM]             SystemManager 779  | 1 part along 1 system
+INFO  [GiCi3pyM]                      Book 545  | Created scores: [{Score 1}]
+INFO  [GiCi3pyM]            StepMonitoring 98   | HEADERS
+INFO  [GiCi3pyM]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [GiCi3pyM]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [GiCi3pyM]            StepMonitoring 98   | STEM_SEEDS
+INFO  [GiCi3pyM]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [GiCi3pyM]            StepMonitoring 98   | BEAMS
+INFO  [GiCi3pyM]            StepMonitoring 98   | LEDGERS
+INFO  [GiCi3pyM]            StepMonitoring 98   | HEADS
+INFO  [GiCi3pyM]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [GiCi3pyM]            StepMonitoring 98   | STEMS
+INFO  [GiCi3pyM]            StepMonitoring 98   | REDUCTION
+INFO  [GiCi3pyM]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [GiCi3pyM]            StepMonitoring 98   | CUE_BEAMS
+INFO  [GiCi3pyM]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [GiCi3pyM]            StepMonitoring 98   | TEXTS
+WARN  [GiCi3pyM]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [GiCi3pyM]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [GiCi3pyM]            StepMonitoring 98   | MEASURES
+INFO  [GiCi3pyM]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [GiCi3pyM]            StepMonitoring 98   | CHORDS
+INFO  [GiCi3pyM]            StepMonitoring 98   | CURVES
+INFO  [GiCi3pyM]              SlursBuilder 240  | Slurs: 0
+INFO  [GiCi3pyM]           SegmentsBuilder 155  | Segments: 5
+INFO  [GiCi3pyM]            StepMonitoring 98   | SYMBOLS
+INFO  [GiCi3pyM]            StepMonitoring 98   | LINKS
+INFO  [GiCi3pyM]            StepMonitoring 98   | RHYTHMS
+INFO  [GiCi3pyM]                     Voice 257  | Measure{#1} Voice{#1 excess:1/8} too long
+INFO  [GiCi3pyM]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [GiCi3pyM]            StepMonitoring 98   | PAGE
+INFO  [GiCi3pyM]                     Voice 257  | Measure{#1} Voice{#1 excess:1/8} too long
+INFO  [GiCi3pyM]                      Book 2550 | Book{GiCi3pyM} storing
+INFO  [GiCi3pyM]                      Book 2531 | Stored /book.xml
+INFO  [GiCi3pyM]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [GiCi3pyM]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [GiCi3pyM]                      Book 2491 | Book stored as out_omr/musicxml/GiCi3pyM.omr
+INFO  [GiCi3pyM]                 SheetStub 1644 | Disposed sheet
+INFO  [GiCi3pyM]                      Book 2018 | End of Stub#1 memory: 31,435,656
+INFO  [GiCi3pyM]                      Book 2025 | Book processed.
+INFO  [GiCi3pyM]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [GiCi3pyM]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [GiCi3pyM]             ScoreExporter 164  | Score GiCi3pyM exported to out_omr/musicxml/GiCi3pyM.mxl
+INFO  [GiCi3pyM]                     Score 181  | Closing {Score 1}

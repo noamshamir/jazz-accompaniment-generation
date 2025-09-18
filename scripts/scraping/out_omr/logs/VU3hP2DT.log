@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/VU3hP2DT.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VU3hP2DT.png"
+INFO  [VU3hP2DT]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VU3hP2DT.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/VU3hP2DT.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [VU3hP2DT]            StepMonitoring 98   | LOAD
+INFO  [VU3hP2DT]                 SheetStub 1268 | Loaded image #1 1970x244 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/VU3hP2DT.png
+INFO  [VU3hP2DT]            StepMonitoring 98   | BINARY
+INFO  [VU3hP2DT]            StepMonitoring 98   | SCALE
+INFO  [VU3hP2DT]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [VU3hP2DT]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 989% of needed quorum
+INFO  [VU3hP2DT]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [VU3hP2DT]            StepMonitoring 98   | GRID
+INFO  [VU3hP2DT]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [VU3hP2DT]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [VU3hP2DT]                 PeakGraph 310  | Systems: #1[1]
+INFO  [VU3hP2DT]             SystemManager 779  | 1 part along 1 system
+INFO  [VU3hP2DT]                      Book 545  | Created scores: [{Score 1}]
+INFO  [VU3hP2DT]            StepMonitoring 98   | HEADERS
+INFO  [VU3hP2DT]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [VU3hP2DT]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [VU3hP2DT]            StepMonitoring 98   | STEM_SEEDS
+INFO  [VU3hP2DT]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [VU3hP2DT]            StepMonitoring 98   | BEAMS
+INFO  [VU3hP2DT]            StepMonitoring 98   | LEDGERS
+INFO  [VU3hP2DT]            StepMonitoring 98   | HEADS
+INFO  [VU3hP2DT]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+INFO  [VU3hP2DT]            StepMonitoring 98   | STEMS
+INFO  [VU3hP2DT]            StepMonitoring 98   | REDUCTION
+INFO  [VU3hP2DT]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [VU3hP2DT]            StepMonitoring 98   | CUE_BEAMS
+INFO  [VU3hP2DT]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [VU3hP2DT]            StepMonitoring 98   | TEXTS
+WARN  [VU3hP2DT]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [VU3hP2DT]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [VU3hP2DT]            StepMonitoring 98   | MEASURES
+INFO  [VU3hP2DT]                      Page 307  | 6 raw measures: [6 in system#1]
+INFO  [VU3hP2DT]            StepMonitoring 98   | CHORDS
+INFO  [VU3hP2DT]            StepMonitoring 98   | CURVES
+INFO  [VU3hP2DT]              SlursBuilder 240  | Slurs: 0
+INFO  [VU3hP2DT]           SegmentsBuilder 155  | Segments: 0
+INFO  [VU3hP2DT]            StepMonitoring 98   | SYMBOLS
+INFO  [VU3hP2DT]            StepMonitoring 98   | LINKS
+INFO  [VU3hP2DT]            StepMonitoring 98   | RHYTHMS
+INFO  [VU3hP2DT]            StepMonitoring 98   | PAGE
+INFO  [VU3hP2DT]                      Book 2550 | Book{VU3hP2DT} storing
+INFO  [VU3hP2DT]                      Book 2531 | Stored /book.xml
+INFO  [VU3hP2DT]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [VU3hP2DT]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [VU3hP2DT]                      Book 2491 | Book stored as out_omr/musicxml/VU3hP2DT.omr
+INFO  [VU3hP2DT]                 SheetStub 1644 | Disposed sheet
+INFO  [VU3hP2DT]                      Book 2018 | End of Stub#1 memory: 31,766,208
+INFO  [VU3hP2DT]                      Book 2025 | Book processed.
+INFO  [VU3hP2DT]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [VU3hP2DT]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [VU3hP2DT]             ScoreExporter 164  | Score VU3hP2DT exported to out_omr/musicxml/VU3hP2DT.mxl
+INFO  [VU3hP2DT]                     Score 181  | Closing {Score 1}

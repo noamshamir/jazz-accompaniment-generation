@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/mzDRM43M.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mzDRM43M.png"
+INFO  [mzDRM43M]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mzDRM43M.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/mzDRM43M.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [mzDRM43M]            StepMonitoring 98   | LOAD
+INFO  [mzDRM43M]                 SheetStub 1268 | Loaded image #1 1970x260 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mzDRM43M.png
+INFO  [mzDRM43M]            StepMonitoring 98   | BINARY
+INFO  [mzDRM43M]            StepMonitoring 98   | SCALE
+INFO  [mzDRM43M]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [mzDRM43M]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 812% of needed quorum
+INFO  [mzDRM43M]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [mzDRM43M]            StepMonitoring 98   | GRID
+INFO  [mzDRM43M]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [mzDRM43M]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [mzDRM43M]                 PeakGraph 310  | Systems: #1[1]
+INFO  [mzDRM43M]             SystemManager 779  | 1 part along 1 system
+INFO  [mzDRM43M]                      Book 545  | Created scores: [{Score 1}]
+INFO  [mzDRM43M]            StepMonitoring 98   | HEADERS
+INFO  [mzDRM43M]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [mzDRM43M]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [mzDRM43M]            StepMonitoring 98   | STEM_SEEDS
+INFO  [mzDRM43M]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [mzDRM43M]            StepMonitoring 98   | BEAMS
+INFO  [mzDRM43M]            StepMonitoring 98   | LEDGERS
+INFO  [mzDRM43M]            StepMonitoring 98   | HEADS
+INFO  [mzDRM43M]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-1.3]}
+INFO  [mzDRM43M]            StepMonitoring 98   | STEMS
+INFO  [mzDRM43M]            StepMonitoring 98   | REDUCTION
+INFO  [mzDRM43M]            StepMonitoring 98   | CUE_BEAMS
+INFO  [mzDRM43M]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [mzDRM43M]            StepMonitoring 98   | TEXTS
+WARN  [mzDRM43M]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [mzDRM43M]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [mzDRM43M]            StepMonitoring 98   | MEASURES
+INFO  [mzDRM43M]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [mzDRM43M]            StepMonitoring 98   | CHORDS
+INFO  [mzDRM43M]            StepMonitoring 98   | CURVES
+INFO  [mzDRM43M]              SlursBuilder 240  | Slurs: 0
+INFO  [mzDRM43M]           SegmentsBuilder 155  | Segments: 3
+INFO  [mzDRM43M]            StepMonitoring 98   | SYMBOLS
+INFO  [mzDRM43M]            StepMonitoring 98   | LINKS
+INFO  [mzDRM43M]            StepMonitoring 98   | RHYTHMS
+INFO  [mzDRM43M]            StepMonitoring 98   | PAGE
+INFO  [mzDRM43M]                      Book 2550 | Book{mzDRM43M} storing
+INFO  [mzDRM43M]                      Book 2531 | Stored /book.xml
+INFO  [mzDRM43M]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [mzDRM43M]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [mzDRM43M]                      Book 2491 | Book stored as out_omr/musicxml/mzDRM43M.omr
+INFO  [mzDRM43M]                 SheetStub 1644 | Disposed sheet
+INFO  [mzDRM43M]                      Book 2018 | End of Stub#1 memory: 31,393,000
+INFO  [mzDRM43M]                      Book 2025 | Book processed.
+INFO  [mzDRM43M]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [mzDRM43M]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [mzDRM43M]             ScoreExporter 164  | Score mzDRM43M exported to out_omr/musicxml/mzDRM43M.mxl
+INFO  [mzDRM43M]                     Score 181  | Closing {Score 1}

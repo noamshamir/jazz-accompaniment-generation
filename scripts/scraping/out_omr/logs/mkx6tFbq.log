@@ -1,0 +1,76 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/mkx6tFbq.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mkx6tFbq.png"
+INFO  [mkx6tFbq]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mkx6tFbq.png
+2025-09-10 00:09:55.057 Audiveris[48398:1216863] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:09:55.057 Audiveris[48398:1216863] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/mkx6tFbq.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [mkx6tFbq]            StepMonitoring 98   | LOAD
+INFO  [mkx6tFbq]                 SheetStub 1268 | Loaded image #1 1970x225 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mkx6tFbq.png
+INFO  [mkx6tFbq]            StepMonitoring 98   | BINARY
+INFO  [mkx6tFbq]            StepMonitoring 98   | SCALE
+INFO  [mkx6tFbq]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [mkx6tFbq]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 592% of needed quorum
+INFO  [mkx6tFbq]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [mkx6tFbq]            StepMonitoring 98   | GRID
+INFO  [mkx6tFbq]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [mkx6tFbq]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [mkx6tFbq]                 PeakGraph 310  | Systems: #1[1]
+INFO  [mkx6tFbq]             SystemManager 779  | 1 part along 1 system
+INFO  [mkx6tFbq]                      Book 545  | Created scores: [{Score 1}]
+INFO  [mkx6tFbq]            StepMonitoring 98   | HEADERS
+INFO  [mkx6tFbq]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [mkx6tFbq]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [mkx6tFbq]            StepMonitoring 98   | STEM_SEEDS
+INFO  [mkx6tFbq]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [mkx6tFbq]            StepMonitoring 98   | BEAMS
+INFO  [mkx6tFbq]            StepMonitoring 98   | LEDGERS
+INFO  [mkx6tFbq]            StepMonitoring 98   | HEADS
+INFO  [mkx6tFbq]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [mkx6tFbq]            StepMonitoring 98   | STEMS
+INFO  [mkx6tFbq]            StepMonitoring 98   | REDUCTION
+INFO  [mkx6tFbq]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [mkx6tFbq]            StepMonitoring 98   | CUE_BEAMS
+INFO  [mkx6tFbq]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [mkx6tFbq]            StepMonitoring 98   | TEXTS
+WARN  [mkx6tFbq]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [mkx6tFbq]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [mkx6tFbq]            StepMonitoring 98   | MEASURES
+INFO  [mkx6tFbq]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [mkx6tFbq]            StepMonitoring 98   | CHORDS
+INFO  [mkx6tFbq]            StepMonitoring 98   | CURVES
+INFO  [mkx6tFbq]              SlursBuilder 240  | Slurs: 1
+INFO  [mkx6tFbq]           SegmentsBuilder 155  | Segments: 1
+INFO  [mkx6tFbq]            StepMonitoring 98   | SYMBOLS
+INFO  [mkx6tFbq]            StepMonitoring 98   | LINKS
+INFO  [mkx6tFbq]            StepMonitoring 98   | RHYTHMS
+INFO  [mkx6tFbq]             MeasureRhythm 1045 | Measure{#4} No timeOffset for HeadChordInter#622{(0.645/0.645) staff:1 slot#9 dur:1/2}
+INFO  [mkx6tFbq]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#622{(0.645/0.645) staff:1 slot#9 dur:1/2}
+INFO  [mkx6tFbq]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#626{(0.946/0.946) staff:1 slot#13 dur:1/8}
+INFO  [mkx6tFbq]        AbstractChordInter 627  | Measure{#4} No timeOffset for HeadChordInter#628{(0.952/0.952) staff:1 slot#15 dur:1/8}
+INFO  [mkx6tFbq]               StackRhythm 224  | S1 MeasureStack#4 no correct rhythm
+INFO  [mkx6tFbq]            StepMonitoring 98   | PAGE
+INFO  [mkx6tFbq]                      Book 2550 | Book{mkx6tFbq} storing
+INFO  [mkx6tFbq]                      Book 2531 | Stored /book.xml
+INFO  [mkx6tFbq]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [mkx6tFbq]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [mkx6tFbq]                      Book 2491 | Book stored as out_omr/musicxml/mkx6tFbq.omr
+INFO  [mkx6tFbq]                 SheetStub 1644 | Disposed sheet
+INFO  [mkx6tFbq]                      Book 2018 | End of Stub#1 memory: 31,546,376
+INFO  [mkx6tFbq]                      Book 2025 | Book processed.
+INFO  [mkx6tFbq]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [mkx6tFbq]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [mkx6tFbq]             ScoreExporter 164  | Score mkx6tFbq exported to out_omr/musicxml/mkx6tFbq.mxl
+INFO  [mkx6tFbq]                     Score 181  | Closing {Score 1}

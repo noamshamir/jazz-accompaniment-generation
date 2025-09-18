@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/vc0OKeCo.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vc0OKeCo.png"
+INFO  [vc0OKeCo]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vc0OKeCo.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/vc0OKeCo.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [vc0OKeCo]            StepMonitoring 98   | LOAD
+INFO  [vc0OKeCo]                 SheetStub 1268 | Loaded image #1 1970x248 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vc0OKeCo.png
+INFO  [vc0OKeCo]            StepMonitoring 98   | BINARY
+INFO  [vc0OKeCo]            StepMonitoring 98   | SCALE
+INFO  [vc0OKeCo]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [vc0OKeCo]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 913% of needed quorum
+INFO  [vc0OKeCo]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [vc0OKeCo]            StepMonitoring 98   | GRID
+INFO  [vc0OKeCo]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [vc0OKeCo]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [vc0OKeCo]                 PeakGraph 310  | Systems: #1[1]
+INFO  [vc0OKeCo]             SystemManager 779  | 1 part along 1 system
+INFO  [vc0OKeCo]                      Book 545  | Created scores: [{Score 1}]
+INFO  [vc0OKeCo]            StepMonitoring 98   | HEADERS
+INFO  [vc0OKeCo]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [vc0OKeCo]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [vc0OKeCo]            StepMonitoring 98   | STEM_SEEDS
+INFO  [vc0OKeCo]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [vc0OKeCo]            StepMonitoring 98   | BEAMS
+INFO  [vc0OKeCo]            StepMonitoring 98   | LEDGERS
+INFO  [vc0OKeCo]            StepMonitoring 98   | HEADS
+INFO  [vc0OKeCo]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [vc0OKeCo]            StepMonitoring 98   | STEMS
+INFO  [vc0OKeCo]            StepMonitoring 98   | REDUCTION
+INFO  [vc0OKeCo]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [vc0OKeCo]            StepMonitoring 98   | CUE_BEAMS
+INFO  [vc0OKeCo]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [vc0OKeCo]            StepMonitoring 98   | TEXTS
+WARN  [vc0OKeCo]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [vc0OKeCo]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [vc0OKeCo]            StepMonitoring 98   | MEASURES
+INFO  [vc0OKeCo]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [vc0OKeCo]            StepMonitoring 98   | CHORDS
+INFO  [vc0OKeCo]            StepMonitoring 98   | CURVES
+INFO  [vc0OKeCo]              SlursBuilder 240  | Slurs: 1
+INFO  [vc0OKeCo]           SegmentsBuilder 155  | Segments: 7
+INFO  [vc0OKeCo]            StepMonitoring 98   | SYMBOLS
+INFO  [vc0OKeCo]            StepMonitoring 98   | LINKS
+INFO  [vc0OKeCo]            StepMonitoring 98   | RHYTHMS
+INFO  [vc0OKeCo]            StepMonitoring 98   | PAGE
+INFO  [vc0OKeCo]                      Book 2550 | Book{vc0OKeCo} storing
+INFO  [vc0OKeCo]                      Book 2531 | Stored /book.xml
+INFO  [vc0OKeCo]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [vc0OKeCo]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [vc0OKeCo]                      Book 2491 | Book stored as out_omr/musicxml/vc0OKeCo.omr
+INFO  [vc0OKeCo]                 SheetStub 1644 | Disposed sheet
+INFO  [vc0OKeCo]                      Book 2018 | End of Stub#1 memory: 31,506,656
+INFO  [vc0OKeCo]                      Book 2025 | Book processed.
+INFO  [vc0OKeCo]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [vc0OKeCo]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [vc0OKeCo]             ScoreExporter 164  | Score vc0OKeCo exported to out_omr/musicxml/vc0OKeCo.mxl
+INFO  [vc0OKeCo]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,70 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/Ts2PfudA.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Ts2PfudA.png"
+INFO  [Ts2PfudA]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Ts2PfudA.png
+2025-09-10 00:10:47.900 Audiveris[48441:1220062] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:10:47.900 Audiveris[48441:1220062] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/Ts2PfudA.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [Ts2PfudA]            StepMonitoring 98   | LOAD
+INFO  [Ts2PfudA]                 SheetStub 1268 | Loaded image #1 1970x196 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Ts2PfudA.png
+INFO  [Ts2PfudA]            StepMonitoring 98   | BINARY
+INFO  [Ts2PfudA]            StepMonitoring 98   | SCALE
+INFO  [Ts2PfudA]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [Ts2PfudA]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 956% of needed quorum
+INFO  [Ts2PfudA]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [Ts2PfudA]            StepMonitoring 98   | GRID
+INFO  [Ts2PfudA]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [Ts2PfudA]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [Ts2PfudA]                 PeakGraph 310  | Systems: #1[1]
+INFO  [Ts2PfudA]             SystemManager 779  | 1 part along 1 system
+INFO  [Ts2PfudA]                      Book 545  | Created scores: [{Score 1}]
+INFO  [Ts2PfudA]            StepMonitoring 98   | HEADERS
+INFO  [Ts2PfudA]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [Ts2PfudA]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [Ts2PfudA]            StepMonitoring 98   | STEM_SEEDS
+INFO  [Ts2PfudA]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [Ts2PfudA]            StepMonitoring 98   | BEAMS
+INFO  [Ts2PfudA]            StepMonitoring 98   | LEDGERS
+INFO  [Ts2PfudA]            StepMonitoring 98   | HEADS
+INFO  [Ts2PfudA]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [Ts2PfudA]            StepMonitoring 98   | STEMS
+INFO  [Ts2PfudA]            StepMonitoring 98   | REDUCTION
+INFO  [Ts2PfudA]            StepMonitoring 98   | CUE_BEAMS
+INFO  [Ts2PfudA]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [Ts2PfudA]            StepMonitoring 98   | TEXTS
+WARN  [Ts2PfudA]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [Ts2PfudA]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [Ts2PfudA]            StepMonitoring 98   | MEASURES
+INFO  [Ts2PfudA]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [Ts2PfudA]            StepMonitoring 98   | CHORDS
+INFO  [Ts2PfudA]            StepMonitoring 98   | CURVES
+INFO  [Ts2PfudA]              SlursBuilder 240  | Slurs: 0
+INFO  [Ts2PfudA]           SegmentsBuilder 155  | Segments: 4
+INFO  [Ts2PfudA]            StepMonitoring 98   | SYMBOLS
+INFO  [Ts2PfudA]            StepMonitoring 98   | LINKS
+INFO  [Ts2PfudA]            StepMonitoring 98   | RHYTHMS
+INFO  [Ts2PfudA]            StepMonitoring 98   | PAGE
+INFO  [Ts2PfudA]                      Book 2550 | Book{Ts2PfudA} storing
+INFO  [Ts2PfudA]                      Book 2531 | Stored /book.xml
+INFO  [Ts2PfudA]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [Ts2PfudA]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [Ts2PfudA]                      Book 2491 | Book stored as out_omr/musicxml/Ts2PfudA.omr
+INFO  [Ts2PfudA]                 SheetStub 1644 | Disposed sheet
+INFO  [Ts2PfudA]                      Book 2018 | End of Stub#1 memory: 31,581,800
+INFO  [Ts2PfudA]                      Book 2025 | Book processed.
+INFO  [Ts2PfudA]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [Ts2PfudA]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [Ts2PfudA]             ScoreExporter 164  | Score Ts2PfudA exported to out_omr/musicxml/Ts2PfudA.mxl
+INFO  [Ts2PfudA]                     Score 181  | Closing {Score 1}

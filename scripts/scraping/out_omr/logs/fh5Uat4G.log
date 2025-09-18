@@ -1,0 +1,71 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/fh5Uat4G.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fh5Uat4G.png"
+INFO  [fh5Uat4G]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fh5Uat4G.png
+2025-09-10 00:08:50.828 Audiveris[48343:1212868] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:08:50.828 Audiveris[48343:1212868] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/fh5Uat4G.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [fh5Uat4G]            StepMonitoring 98   | LOAD
+INFO  [fh5Uat4G]                 SheetStub 1268 | Loaded image #1 1970x258 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/fh5Uat4G.png
+INFO  [fh5Uat4G]            StepMonitoring 98   | BINARY
+INFO  [fh5Uat4G]            StepMonitoring 98   | SCALE
+INFO  [fh5Uat4G]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [fh5Uat4G]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 520% of needed quorum
+INFO  [fh5Uat4G]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [fh5Uat4G]            StepMonitoring 98   | GRID
+INFO  [fh5Uat4G]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [fh5Uat4G]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [fh5Uat4G]                 PeakGraph 310  | Systems: #1[1]
+INFO  [fh5Uat4G]             SystemManager 779  | 1 part along 1 system
+INFO  [fh5Uat4G]                      Book 545  | Created scores: [{Score 1}]
+INFO  [fh5Uat4G]            StepMonitoring 98   | HEADERS
+INFO  [fh5Uat4G]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [fh5Uat4G]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [fh5Uat4G]            StepMonitoring 98   | STEM_SEEDS
+INFO  [fh5Uat4G]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [fh5Uat4G]            StepMonitoring 98   | BEAMS
+INFO  [fh5Uat4G]            StepMonitoring 98   | LEDGERS
+INFO  [fh5Uat4G]            StepMonitoring 98   | HEADS
+INFO  [fh5Uat4G]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.9,R:-0.7]}
+INFO  [fh5Uat4G]            StepMonitoring 98   | STEMS
+INFO  [fh5Uat4G]            StepMonitoring 98   | REDUCTION
+INFO  [fh5Uat4G]             ReductionStep 105  | Stems free length median value: 72 pixels, 3.4 interlines
+INFO  [fh5Uat4G]            StepMonitoring 98   | CUE_BEAMS
+INFO  [fh5Uat4G]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [fh5Uat4G]            StepMonitoring 98   | TEXTS
+WARN  [fh5Uat4G]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [fh5Uat4G]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [fh5Uat4G]            StepMonitoring 98   | MEASURES
+INFO  [fh5Uat4G]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [fh5Uat4G]            StepMonitoring 98   | CHORDS
+INFO  [fh5Uat4G]            StepMonitoring 98   | CURVES
+INFO  [fh5Uat4G]              SlursBuilder 240  | Slurs: 1
+INFO  [fh5Uat4G]           SegmentsBuilder 155  | Segments: 13
+INFO  [fh5Uat4G]            StepMonitoring 98   | SYMBOLS
+INFO  [fh5Uat4G]            StepMonitoring 98   | LINKS
+INFO  [fh5Uat4G]            StepMonitoring 98   | RHYTHMS
+INFO  [fh5Uat4G]            StepMonitoring 98   | PAGE
+INFO  [fh5Uat4G]                      Book 2550 | Book{fh5Uat4G} storing
+INFO  [fh5Uat4G]                      Book 2531 | Stored /book.xml
+INFO  [fh5Uat4G]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [fh5Uat4G]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [fh5Uat4G]                      Book 2491 | Book stored as out_omr/musicxml/fh5Uat4G.omr
+INFO  [fh5Uat4G]                 SheetStub 1644 | Disposed sheet
+INFO  [fh5Uat4G]                      Book 2018 | End of Stub#1 memory: 31,377,040
+INFO  [fh5Uat4G]                      Book 2025 | Book processed.
+INFO  [fh5Uat4G]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [fh5Uat4G]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [fh5Uat4G]             ScoreExporter 164  | Score fh5Uat4G exported to out_omr/musicxml/fh5Uat4G.mxl
+INFO  [fh5Uat4G]                     Score 181  | Closing {Score 1}

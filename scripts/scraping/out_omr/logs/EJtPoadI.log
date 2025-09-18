@@ -1,0 +1,73 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/EJtPoadI.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EJtPoadI.png"
+INFO  [EJtPoadI]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EJtPoadI.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/EJtPoadI.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [EJtPoadI]            StepMonitoring 98   | LOAD
+INFO  [EJtPoadI]                 SheetStub 1268 | Loaded image #1 1973x293 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/EJtPoadI.png
+INFO  [EJtPoadI]            StepMonitoring 98   | BINARY
+INFO  [EJtPoadI]            StepMonitoring 98   | SCALE
+INFO  [EJtPoadI]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [EJtPoadI]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1470% of needed quorum
+INFO  [EJtPoadI]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [EJtPoadI]            StepMonitoring 98   | GRID
+INFO  [EJtPoadI]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [EJtPoadI]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [EJtPoadI]                 PeakGraph 310  | Systems: #1[1]
+INFO  [EJtPoadI]             SystemManager 779  | 1 part along 1 system
+INFO  [EJtPoadI]                      Book 545  | Created scores: [{Score 1}]
+INFO  [EJtPoadI]            StepMonitoring 98   | HEADERS
+INFO  [EJtPoadI]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [EJtPoadI]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [EJtPoadI]            StepMonitoring 98   | STEM_SEEDS
+INFO  [EJtPoadI]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [EJtPoadI]            StepMonitoring 98   | BEAMS
+INFO  [EJtPoadI]            StepMonitoring 98   | LEDGERS
+INFO  [EJtPoadI]            StepMonitoring 98   | HEADS
+INFO  [EJtPoadI]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.9,R:-0.7]}
+INFO  [EJtPoadI]            StepMonitoring 98   | STEMS
+INFO  [EJtPoadI]                BeamLinker 1729 | Not linking shorter BeamInter#282{(0.634) BEAM}
+INFO  [EJtPoadI]            StepMonitoring 98   | REDUCTION
+INFO  [EJtPoadI]             ReductionStep 105  | Stems free length median value: 106 pixels, 5.0 interlines
+INFO  [EJtPoadI]            StepMonitoring 98   | CUE_BEAMS
+INFO  [EJtPoadI]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [EJtPoadI]            StepMonitoring 98   | TEXTS
+WARN  [EJtPoadI]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [EJtPoadI]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [EJtPoadI]            StepMonitoring 98   | MEASURES
+INFO  [EJtPoadI]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [EJtPoadI]            StepMonitoring 98   | CHORDS
+INFO  [EJtPoadI]            StepMonitoring 98   | CURVES
+INFO  [EJtPoadI]              SlursBuilder 240  | Slurs: 2
+INFO  [EJtPoadI]           SegmentsBuilder 155  | Segments: 3
+INFO  [EJtPoadI]            StepMonitoring 98   | SYMBOLS
+INFO  [EJtPoadI]            StepMonitoring 98   | LINKS
+INFO  [EJtPoadI]            StepMonitoring 98   | RHYTHMS
+INFO  [EJtPoadI]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#1125{(0.962/0.962) staff:1 slot#7 dur:1/16}
+INFO  [EJtPoadI]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#1128{(0.960/0.960) staff:1 slot#10 dur:1/16}
+INFO  [EJtPoadI]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [EJtPoadI]            StepMonitoring 98   | PAGE
+INFO  [EJtPoadI]                      Book 2550 | Book{EJtPoadI} storing
+INFO  [EJtPoadI]                      Book 2531 | Stored /book.xml
+INFO  [EJtPoadI]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [EJtPoadI]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [EJtPoadI]                      Book 2491 | Book stored as out_omr/musicxml/EJtPoadI.omr
+INFO  [EJtPoadI]                 SheetStub 1644 | Disposed sheet
+INFO  [EJtPoadI]                      Book 2018 | End of Stub#1 memory: 31,197,560
+INFO  [EJtPoadI]                      Book 2025 | Book processed.
+INFO  [EJtPoadI]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [EJtPoadI]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [EJtPoadI]             ScoreExporter 164  | Score EJtPoadI exported to out_omr/musicxml/EJtPoadI.mxl
+INFO  [EJtPoadI]                     Score 181  | Closing {Score 1}

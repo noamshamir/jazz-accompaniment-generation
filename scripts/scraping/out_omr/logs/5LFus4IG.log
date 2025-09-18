@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/5LFus4IG.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/5LFus4IG.png"
+INFO  [5LFus4IG]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/5LFus4IG.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/5LFus4IG.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [5LFus4IG]            StepMonitoring 98   | LOAD
+INFO  [5LFus4IG]                 SheetStub 1268 | Loaded image #1 1970x240 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/5LFus4IG.png
+INFO  [5LFus4IG]            StepMonitoring 98   | BINARY
+INFO  [5LFus4IG]            StepMonitoring 98   | SCALE
+INFO  [5LFus4IG]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [5LFus4IG]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1502% of needed quorum
+INFO  [5LFus4IG]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [5LFus4IG]            StepMonitoring 98   | GRID
+INFO  [5LFus4IG]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [5LFus4IG]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [5LFus4IG]                 PeakGraph 310  | Systems: #1[1]
+INFO  [5LFus4IG]             SystemManager 779  | 1 part along 1 system
+INFO  [5LFus4IG]                      Book 545  | Created scores: [{Score 1}]
+INFO  [5LFus4IG]            StepMonitoring 98   | HEADERS
+INFO  [5LFus4IG]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [5LFus4IG]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [5LFus4IG]            StepMonitoring 98   | STEM_SEEDS
+INFO  [5LFus4IG]             StemSeedsStep 86   | stem(4 max:4)
+INFO  [5LFus4IG]            StepMonitoring 98   | BEAMS
+INFO  [5LFus4IG]            StepMonitoring 98   | LEDGERS
+INFO  [5LFus4IG]            StepMonitoring 98   | HEADS
+INFO  [5LFus4IG]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.8]}
+INFO  [5LFus4IG]            StepMonitoring 98   | STEMS
+INFO  [5LFus4IG]            StepMonitoring 98   | REDUCTION
+INFO  [5LFus4IG]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [5LFus4IG]            StepMonitoring 98   | CUE_BEAMS
+INFO  [5LFus4IG]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [5LFus4IG]            StepMonitoring 98   | TEXTS
+WARN  [5LFus4IG]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [5LFus4IG]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [5LFus4IG]            StepMonitoring 98   | MEASURES
+INFO  [5LFus4IG]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [5LFus4IG]            StepMonitoring 98   | CHORDS
+INFO  [5LFus4IG]            StepMonitoring 98   | CURVES
+INFO  [5LFus4IG]              SlursBuilder 240  | Slurs: 2
+INFO  [5LFus4IG]           SegmentsBuilder 155  | Segments: 7
+INFO  [5LFus4IG]            StepMonitoring 98   | SYMBOLS
+INFO  [5LFus4IG]            StepMonitoring 98   | LINKS
+INFO  [5LFus4IG]            StepMonitoring 98   | RHYTHMS
+INFO  [5LFus4IG]            StepMonitoring 98   | PAGE
+INFO  [5LFus4IG]                      Book 2550 | Book{5LFus4IG} storing
+INFO  [5LFus4IG]                      Book 2531 | Stored /book.xml
+INFO  [5LFus4IG]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [5LFus4IG]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [5LFus4IG]                      Book 2491 | Book stored as out_omr/musicxml/5LFus4IG.omr
+INFO  [5LFus4IG]                 SheetStub 1644 | Disposed sheet
+INFO  [5LFus4IG]                      Book 2018 | End of Stub#1 memory: 31,128,584
+INFO  [5LFus4IG]                      Book 2025 | Book processed.
+INFO  [5LFus4IG]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [5LFus4IG]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [5LFus4IG]             ScoreExporter 164  | Score 5LFus4IG exported to out_omr/musicxml/5LFus4IG.mxl
+INFO  [5LFus4IG]                     Score 181  | Closing {Score 1}

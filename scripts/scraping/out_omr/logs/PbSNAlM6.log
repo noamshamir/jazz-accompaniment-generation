@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/PbSNAlM6.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbSNAlM6.png"
+INFO  [PbSNAlM6]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbSNAlM6.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/PbSNAlM6.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [PbSNAlM6]            StepMonitoring 98   | LOAD
+INFO  [PbSNAlM6]                 SheetStub 1268 | Loaded image #1 1970x227 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/PbSNAlM6.png
+INFO  [PbSNAlM6]            StepMonitoring 98   | BINARY
+INFO  [PbSNAlM6]            StepMonitoring 98   | SCALE
+INFO  [PbSNAlM6]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [PbSNAlM6]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 955% of needed quorum
+INFO  [PbSNAlM6]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [PbSNAlM6]            StepMonitoring 98   | GRID
+INFO  [PbSNAlM6]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [PbSNAlM6]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [PbSNAlM6]                 PeakGraph 310  | Systems: #1[1]
+INFO  [PbSNAlM6]             SystemManager 779  | 1 part along 1 system
+INFO  [PbSNAlM6]                      Book 545  | Created scores: [{Score 1}]
+INFO  [PbSNAlM6]            StepMonitoring 98   | HEADERS
+INFO  [PbSNAlM6]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [PbSNAlM6]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [PbSNAlM6]            StepMonitoring 98   | STEM_SEEDS
+INFO  [PbSNAlM6]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [PbSNAlM6]            StepMonitoring 98   | BEAMS
+INFO  [PbSNAlM6]            StepMonitoring 98   | LEDGERS
+INFO  [PbSNAlM6]            StepMonitoring 98   | HEADS
+INFO  [PbSNAlM6]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.9,R:-0.8]}
+INFO  [PbSNAlM6]            StepMonitoring 98   | STEMS
+INFO  [PbSNAlM6]            StepMonitoring 98   | REDUCTION
+INFO  [PbSNAlM6]            StepMonitoring 98   | CUE_BEAMS
+INFO  [PbSNAlM6]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [PbSNAlM6]            StepMonitoring 98   | TEXTS
+WARN  [PbSNAlM6]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [PbSNAlM6]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [PbSNAlM6]            StepMonitoring 98   | MEASURES
+INFO  [PbSNAlM6]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [PbSNAlM6]            StepMonitoring 98   | CHORDS
+INFO  [PbSNAlM6]            StepMonitoring 98   | CURVES
+INFO  [PbSNAlM6]              SlursBuilder 240  | Slurs: 0
+INFO  [PbSNAlM6]           SegmentsBuilder 155  | Segments: 8
+INFO  [PbSNAlM6]            StepMonitoring 98   | SYMBOLS
+INFO  [PbSNAlM6]            StepMonitoring 98   | LINKS
+INFO  [PbSNAlM6]            StepMonitoring 98   | RHYTHMS
+INFO  [PbSNAlM6]            StepMonitoring 98   | PAGE
+INFO  [PbSNAlM6]                      Book 2550 | Book{PbSNAlM6} storing
+INFO  [PbSNAlM6]                      Book 2531 | Stored /book.xml
+INFO  [PbSNAlM6]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [PbSNAlM6]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [PbSNAlM6]                      Book 2491 | Book stored as out_omr/musicxml/PbSNAlM6.omr
+INFO  [PbSNAlM6]                 SheetStub 1644 | Disposed sheet
+INFO  [PbSNAlM6]                      Book 2018 | End of Stub#1 memory: 31,563,632
+INFO  [PbSNAlM6]                      Book 2025 | Book processed.
+INFO  [PbSNAlM6]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [PbSNAlM6]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [PbSNAlM6]             ScoreExporter 164  | Score PbSNAlM6 exported to out_omr/musicxml/PbSNAlM6.mxl
+INFO  [PbSNAlM6]                     Score 181  | Closing {Score 1}

@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/mchESe3I.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mchESe3I.png"
+INFO  [mchESe3I]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mchESe3I.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/mchESe3I.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [mchESe3I]            StepMonitoring 98   | LOAD
+INFO  [mchESe3I]                 SheetStub 1268 | Loaded image #1 1970x245 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/mchESe3I.png
+INFO  [mchESe3I]            StepMonitoring 98   | BINARY
+INFO  [mchESe3I]            StepMonitoring 98   | SCALE
+INFO  [mchESe3I]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [mchESe3I]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 803% of needed quorum
+INFO  [mchESe3I]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [mchESe3I]            StepMonitoring 98   | GRID
+INFO  [mchESe3I]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [mchESe3I]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [mchESe3I]                 PeakGraph 310  | Systems: #1[1]
+INFO  [mchESe3I]             SystemManager 779  | 1 part along 1 system
+INFO  [mchESe3I]                      Book 545  | Created scores: [{Score 1}]
+INFO  [mchESe3I]            StepMonitoring 98   | HEADERS
+INFO  [mchESe3I]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [mchESe3I]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [mchESe3I]            StepMonitoring 98   | STEM_SEEDS
+INFO  [mchESe3I]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [mchESe3I]            StepMonitoring 98   | BEAMS
+INFO  [mchESe3I]            StepMonitoring 98   | LEDGERS
+INFO  [mchESe3I]            StepMonitoring 98   | HEADS
+INFO  [mchESe3I]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.9]}
+INFO  [mchESe3I]            StepMonitoring 98   | STEMS
+INFO  [mchESe3I]            StepMonitoring 98   | REDUCTION
+INFO  [mchESe3I]            StepMonitoring 98   | CUE_BEAMS
+INFO  [mchESe3I]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [mchESe3I]            StepMonitoring 98   | TEXTS
+WARN  [mchESe3I]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [mchESe3I]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [mchESe3I]            StepMonitoring 98   | MEASURES
+INFO  [mchESe3I]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [mchESe3I]            StepMonitoring 98   | CHORDS
+INFO  [mchESe3I]            StepMonitoring 98   | CURVES
+INFO  [mchESe3I]              SlursBuilder 240  | Slurs: 1
+INFO  [mchESe3I]           SegmentsBuilder 155  | Segments: 6
+INFO  [mchESe3I]            StepMonitoring 98   | SYMBOLS
+INFO  [mchESe3I]            StepMonitoring 98   | LINKS
+INFO  [mchESe3I]            StepMonitoring 98   | RHYTHMS
+INFO  [mchESe3I]            StepMonitoring 98   | PAGE
+INFO  [mchESe3I]                      Book 2550 | Book{mchESe3I} storing
+INFO  [mchESe3I]                      Book 2531 | Stored /book.xml
+INFO  [mchESe3I]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [mchESe3I]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [mchESe3I]                      Book 2491 | Book stored as out_omr/musicxml/mchESe3I.omr
+INFO  [mchESe3I]                 SheetStub 1644 | Disposed sheet
+INFO  [mchESe3I]                      Book 2018 | End of Stub#1 memory: 31,505,024
+INFO  [mchESe3I]                      Book 2025 | Book processed.
+INFO  [mchESe3I]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [mchESe3I]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [mchESe3I]             ScoreExporter 164  | Score mchESe3I exported to out_omr/musicxml/mchESe3I.mxl
+INFO  [mchESe3I]                     Score 181  | Closing {Score 1}

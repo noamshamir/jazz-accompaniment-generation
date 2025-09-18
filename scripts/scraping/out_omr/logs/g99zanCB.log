@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/g99zanCB.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g99zanCB.png"
+INFO  [g99zanCB]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g99zanCB.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/g99zanCB.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [g99zanCB]            StepMonitoring 98   | LOAD
+INFO  [g99zanCB]                 SheetStub 1268 | Loaded image #1 1970x219 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/g99zanCB.png
+INFO  [g99zanCB]            StepMonitoring 98   | BINARY
+INFO  [g99zanCB]            StepMonitoring 98   | SCALE
+INFO  [g99zanCB]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [g99zanCB]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 742% of needed quorum
+INFO  [g99zanCB]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [g99zanCB]            StepMonitoring 98   | GRID
+INFO  [g99zanCB]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [g99zanCB]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [g99zanCB]                 PeakGraph 310  | Systems: #1[1]
+INFO  [g99zanCB]             SystemManager 779  | 1 part along 1 system
+INFO  [g99zanCB]                      Book 545  | Created scores: [{Score 1}]
+INFO  [g99zanCB]            StepMonitoring 98   | HEADERS
+INFO  [g99zanCB]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [g99zanCB]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [g99zanCB]            StepMonitoring 98   | STEM_SEEDS
+INFO  [g99zanCB]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [g99zanCB]            StepMonitoring 98   | BEAMS
+INFO  [g99zanCB]            StepMonitoring 98   | LEDGERS
+INFO  [g99zanCB]            StepMonitoring 98   | HEADS
+INFO  [g99zanCB]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.7]}
+INFO  [g99zanCB]            StepMonitoring 98   | STEMS
+INFO  [g99zanCB]            StepMonitoring 98   | REDUCTION
+INFO  [g99zanCB]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [g99zanCB]            StepMonitoring 98   | CUE_BEAMS
+INFO  [g99zanCB]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [g99zanCB]            StepMonitoring 98   | TEXTS
+WARN  [g99zanCB]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [g99zanCB]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [g99zanCB]            StepMonitoring 98   | MEASURES
+INFO  [g99zanCB]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [g99zanCB]            StepMonitoring 98   | CHORDS
+INFO  [g99zanCB]            StepMonitoring 98   | CURVES
+INFO  [g99zanCB]              SlursBuilder 240  | Slurs: 0
+INFO  [g99zanCB]           SegmentsBuilder 155  | Segments: 4
+INFO  [g99zanCB]            StepMonitoring 98   | SYMBOLS
+INFO  [g99zanCB]            StepMonitoring 98   | LINKS
+INFO  [g99zanCB]            StepMonitoring 98   | RHYTHMS
+INFO  [g99zanCB]            StepMonitoring 98   | PAGE
+INFO  [g99zanCB]                      Book 2550 | Book{g99zanCB} storing
+INFO  [g99zanCB]                      Book 2531 | Stored /book.xml
+INFO  [g99zanCB]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [g99zanCB]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [g99zanCB]                      Book 2491 | Book stored as out_omr/musicxml/g99zanCB.omr
+INFO  [g99zanCB]                 SheetStub 1644 | Disposed sheet
+INFO  [g99zanCB]                      Book 2018 | End of Stub#1 memory: 31,453,992
+INFO  [g99zanCB]                      Book 2025 | Book processed.
+INFO  [g99zanCB]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [g99zanCB]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [g99zanCB]             ScoreExporter 164  | Score g99zanCB exported to out_omr/musicxml/g99zanCB.mxl
+INFO  [g99zanCB]                     Score 181  | Closing {Score 1}

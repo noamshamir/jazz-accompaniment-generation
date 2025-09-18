@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/btW8DKaP.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/btW8DKaP.png"
+INFO  [btW8DKaP]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/btW8DKaP.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/btW8DKaP.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [btW8DKaP]            StepMonitoring 98   | LOAD
+INFO  [btW8DKaP]                 SheetStub 1268 | Loaded image #1 1970x230 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/btW8DKaP.png
+INFO  [btW8DKaP]            StepMonitoring 98   | BINARY
+INFO  [btW8DKaP]            StepMonitoring 98   | SCALE
+INFO  [btW8DKaP]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [btW8DKaP]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 708% of needed quorum
+INFO  [btW8DKaP]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [btW8DKaP]            StepMonitoring 98   | GRID
+INFO  [btW8DKaP]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [btW8DKaP]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [btW8DKaP]                 PeakGraph 310  | Systems: #1[1]
+INFO  [btW8DKaP]             SystemManager 779  | 1 part along 1 system
+INFO  [btW8DKaP]                      Book 545  | Created scores: [{Score 1}]
+INFO  [btW8DKaP]            StepMonitoring 98   | HEADERS
+INFO  [btW8DKaP]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [btW8DKaP]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [btW8DKaP]            StepMonitoring 98   | STEM_SEEDS
+INFO  [btW8DKaP]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [btW8DKaP]            StepMonitoring 98   | BEAMS
+INFO  [btW8DKaP]            StepMonitoring 98   | LEDGERS
+INFO  [btW8DKaP]            StepMonitoring 98   | HEADS
+INFO  [btW8DKaP]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [btW8DKaP]            StepMonitoring 98   | STEMS
+INFO  [btW8DKaP]            StepMonitoring 98   | REDUCTION
+INFO  [btW8DKaP]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [btW8DKaP]            StepMonitoring 98   | CUE_BEAMS
+INFO  [btW8DKaP]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [btW8DKaP]            StepMonitoring 98   | TEXTS
+WARN  [btW8DKaP]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [btW8DKaP]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [btW8DKaP]            StepMonitoring 98   | MEASURES
+INFO  [btW8DKaP]                      Page 307  | 6 raw measures: [6 in system#1]
+INFO  [btW8DKaP]            StepMonitoring 98   | CHORDS
+INFO  [btW8DKaP]            StepMonitoring 98   | CURVES
+INFO  [btW8DKaP]              SlursBuilder 240  | Slurs: 0
+INFO  [btW8DKaP]           SegmentsBuilder 155  | Segments: 2
+INFO  [btW8DKaP]            StepMonitoring 98   | SYMBOLS
+INFO  [btW8DKaP]            StepMonitoring 98   | LINKS
+INFO  [btW8DKaP]            StepMonitoring 98   | RHYTHMS
+INFO  [btW8DKaP]            StepMonitoring 98   | PAGE
+INFO  [btW8DKaP]                      Book 2550 | Book{btW8DKaP} storing
+INFO  [btW8DKaP]                      Book 2531 | Stored /book.xml
+INFO  [btW8DKaP]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [btW8DKaP]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [btW8DKaP]                      Book 2491 | Book stored as out_omr/musicxml/btW8DKaP.omr
+INFO  [btW8DKaP]                 SheetStub 1644 | Disposed sheet
+INFO  [btW8DKaP]                      Book 2018 | End of Stub#1 memory: 31,410,048
+INFO  [btW8DKaP]                      Book 2025 | Book processed.
+INFO  [btW8DKaP]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [btW8DKaP]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [btW8DKaP]             ScoreExporter 164  | Score btW8DKaP exported to out_omr/musicxml/btW8DKaP.mxl
+INFO  [btW8DKaP]                     Score 181  | Closing {Score 1}

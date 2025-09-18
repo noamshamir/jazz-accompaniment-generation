@@ -1,0 +1,78 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/H9r0wOcp.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/H9r0wOcp.png"
+INFO  [H9r0wOcp]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/H9r0wOcp.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/H9r0wOcp.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [H9r0wOcp]            StepMonitoring 98   | LOAD
+INFO  [H9r0wOcp]                 SheetStub 1268 | Loaded image #1 1970x211 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/H9r0wOcp.png
+INFO  [H9r0wOcp]            StepMonitoring 98   | BINARY
+INFO  [H9r0wOcp]            StepMonitoring 98   | SCALE
+INFO  [H9r0wOcp]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [H9r0wOcp]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 465% of needed quorum
+INFO  [H9r0wOcp]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [H9r0wOcp]            StepMonitoring 98   | GRID
+INFO  [H9r0wOcp]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [H9r0wOcp]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [H9r0wOcp]                 PeakGraph 310  | Systems: #1[1]
+INFO  [H9r0wOcp]             SystemManager 779  | 1 part along 1 system
+INFO  [H9r0wOcp]                      Book 545  | Created scores: [{Score 1}]
+INFO  [H9r0wOcp]            StepMonitoring 98   | HEADERS
+INFO  [H9r0wOcp]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [H9r0wOcp]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [H9r0wOcp]            StepMonitoring 98   | STEM_SEEDS
+INFO  [H9r0wOcp]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [H9r0wOcp]            StepMonitoring 98   | BEAMS
+INFO  [H9r0wOcp]            StepMonitoring 98   | LEDGERS
+INFO  [H9r0wOcp]            StepMonitoring 98   | HEADS
+INFO  [H9r0wOcp]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.6]}
+INFO  [H9r0wOcp]            StepMonitoring 98   | STEMS
+INFO  [H9r0wOcp]            StepMonitoring 98   | REDUCTION
+INFO  [H9r0wOcp]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [H9r0wOcp]            StepMonitoring 98   | CUE_BEAMS
+INFO  [H9r0wOcp]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [H9r0wOcp]            StepMonitoring 98   | TEXTS
+WARN  [H9r0wOcp]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [H9r0wOcp]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [H9r0wOcp]            StepMonitoring 98   | MEASURES
+INFO  [H9r0wOcp]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [H9r0wOcp]            StepMonitoring 98   | CHORDS
+INFO  [H9r0wOcp]            StepMonitoring 98   | CURVES
+INFO  [H9r0wOcp]              SlursBuilder 240  | Slurs: 0
+INFO  [H9r0wOcp]           SegmentsBuilder 155  | Segments: 3
+INFO  [H9r0wOcp]            StepMonitoring 98   | SYMBOLS
+INFO  [H9r0wOcp]            StepMonitoring 98   | LINKS
+INFO  [H9r0wOcp]            StepMonitoring 98   | RHYTHMS
+INFO  [H9r0wOcp]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#456{(0.950/0.950) staff:1 slot#5 dur:1/8}
+INFO  [H9r0wOcp]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#457{(0.954/0.954) staff:1 slot#6 dur:1/8}
+INFO  [H9r0wOcp]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#458{(0.949/0.949) staff:1 slot#7 dur:1/4}
+INFO  [H9r0wOcp]        AbstractChordInter 627  | Measure{#1} No timeOffset for RestChordInter#582{(0.800/0.800) staff:1 slot#8 dur:1/8}
+INFO  [H9r0wOcp]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [H9r0wOcp]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#464{(0.953/0.953) staff:1 slot#5 dur:1/8}
+INFO  [H9r0wOcp]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#465{(0.947/0.947) staff:1 slot#6 dur:1/8}
+INFO  [H9r0wOcp]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#467{(0.944/0.944) staff:1 slot#8 dur:1/8}
+INFO  [H9r0wOcp]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [H9r0wOcp]            StepMonitoring 98   | PAGE
+INFO  [H9r0wOcp]                      Book 2550 | Book{H9r0wOcp} storing
+INFO  [H9r0wOcp]                      Book 2531 | Stored /book.xml
+INFO  [H9r0wOcp]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [H9r0wOcp]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [H9r0wOcp]                      Book 2491 | Book stored as out_omr/musicxml/H9r0wOcp.omr
+INFO  [H9r0wOcp]                 SheetStub 1644 | Disposed sheet
+INFO  [H9r0wOcp]                      Book 2018 | End of Stub#1 memory: 31,546,048
+INFO  [H9r0wOcp]                      Book 2025 | Book processed.
+INFO  [H9r0wOcp]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [H9r0wOcp]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [H9r0wOcp]             ScoreExporter 164  | Score H9r0wOcp exported to out_omr/musicxml/H9r0wOcp.mxl
+INFO  [H9r0wOcp]                     Score 181  | Closing {Score 1}

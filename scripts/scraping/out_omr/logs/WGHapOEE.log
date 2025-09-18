@@ -1,0 +1,68 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/WGHapOEE.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WGHapOEE.png"
+INFO  [WGHapOEE]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WGHapOEE.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/WGHapOEE.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [WGHapOEE]            StepMonitoring 98   | LOAD
+INFO  [WGHapOEE]                 SheetStub 1268 | Loaded image #1 2018x241 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WGHapOEE.png
+INFO  [WGHapOEE]            StepMonitoring 98   | BINARY
+INFO  [WGHapOEE]            StepMonitoring 98   | SCALE
+INFO  [WGHapOEE]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [WGHapOEE]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1700% of needed quorum
+INFO  [WGHapOEE]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [WGHapOEE]            StepMonitoring 98   | GRID
+INFO  [WGHapOEE]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [WGHapOEE]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [WGHapOEE]                 PeakGraph 310  | Systems: #1[1]
+INFO  [WGHapOEE]             SystemManager 779  | 1 part along 1 system
+INFO  [WGHapOEE]                      Book 545  | Created scores: [{Score 1}]
+INFO  [WGHapOEE]            StepMonitoring 98   | HEADERS
+INFO  [WGHapOEE]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [WGHapOEE]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [WGHapOEE]            StepMonitoring 98   | STEM_SEEDS
+INFO  [WGHapOEE]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [WGHapOEE]            StepMonitoring 98   | BEAMS
+INFO  [WGHapOEE]            StepMonitoring 98   | LEDGERS
+INFO  [WGHapOEE]            StepMonitoring 98   | HEADS
+INFO  [WGHapOEE]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8,R:-0.7]}
+INFO  [WGHapOEE]            StepMonitoring 98   | STEMS
+INFO  [WGHapOEE]            StepMonitoring 98   | REDUCTION
+INFO  [WGHapOEE]            StepMonitoring 98   | CUE_BEAMS
+INFO  [WGHapOEE]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [WGHapOEE]            StepMonitoring 98   | TEXTS
+WARN  [WGHapOEE]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [WGHapOEE]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [WGHapOEE]            StepMonitoring 98   | MEASURES
+INFO  [WGHapOEE]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [WGHapOEE]            StepMonitoring 98   | CHORDS
+INFO  [WGHapOEE]            StepMonitoring 98   | CURVES
+INFO  [WGHapOEE]              SlursBuilder 240  | Slurs: 1
+INFO  [WGHapOEE]           SegmentsBuilder 155  | Segments: 2
+INFO  [WGHapOEE]            StepMonitoring 98   | SYMBOLS
+INFO  [WGHapOEE]            StepMonitoring 98   | LINKS
+INFO  [WGHapOEE]            StepMonitoring 98   | RHYTHMS
+INFO  [WGHapOEE]            StepMonitoring 98   | PAGE
+INFO  [WGHapOEE]                      Book 2550 | Book{WGHapOEE} storing
+INFO  [WGHapOEE]                      Book 2531 | Stored /book.xml
+INFO  [WGHapOEE]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [WGHapOEE]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [WGHapOEE]                      Book 2491 | Book stored as out_omr/musicxml/WGHapOEE.omr
+INFO  [WGHapOEE]                 SheetStub 1644 | Disposed sheet
+INFO  [WGHapOEE]                      Book 2018 | End of Stub#1 memory: 31,089,320
+INFO  [WGHapOEE]                      Book 2025 | Book processed.
+INFO  [WGHapOEE]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [WGHapOEE]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [WGHapOEE]             ScoreExporter 164  | Score WGHapOEE exported to out_omr/musicxml/WGHapOEE.mxl
+INFO  [WGHapOEE]                     Score 181  | Closing {Score 1}

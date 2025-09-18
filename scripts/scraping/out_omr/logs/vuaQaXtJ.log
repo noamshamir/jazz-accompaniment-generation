@@ -1,0 +1,71 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/vuaQaXtJ.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuaQaXtJ.png"
+INFO  [vuaQaXtJ]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuaQaXtJ.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/vuaQaXtJ.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [vuaQaXtJ]            StepMonitoring 98   | LOAD
+INFO  [vuaQaXtJ]                 SheetStub 1268 | Loaded image #1 1970x234 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/vuaQaXtJ.png
+INFO  [vuaQaXtJ]            StepMonitoring 98   | BINARY
+INFO  [vuaQaXtJ]            StepMonitoring 98   | SCALE
+INFO  [vuaQaXtJ]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [vuaQaXtJ]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 1550% of needed quorum
+INFO  [vuaQaXtJ]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [vuaQaXtJ]            StepMonitoring 98   | GRID
+INFO  [vuaQaXtJ]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [vuaQaXtJ]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [vuaQaXtJ]                 PeakGraph 310  | Systems: #1[1]
+INFO  [vuaQaXtJ]             SystemManager 779  | 1 part along 1 system
+INFO  [vuaQaXtJ]                      Book 545  | Created scores: [{Score 1}]
+INFO  [vuaQaXtJ]            StepMonitoring 98   | HEADERS
+INFO  [vuaQaXtJ]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [vuaQaXtJ]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [vuaQaXtJ]            StepMonitoring 98   | STEM_SEEDS
+INFO  [vuaQaXtJ]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [vuaQaXtJ]            StepMonitoring 98   | BEAMS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | LEDGERS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | HEADS
+INFO  [vuaQaXtJ]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7]}
+INFO  [vuaQaXtJ]            StepMonitoring 98   | STEMS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | REDUCTION
+INFO  [vuaQaXtJ]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [vuaQaXtJ]            StepMonitoring 98   | CUE_BEAMS
+INFO  [vuaQaXtJ]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [vuaQaXtJ]            StepMonitoring 98   | TEXTS
+WARN  [vuaQaXtJ]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [vuaQaXtJ]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [vuaQaXtJ]            StepMonitoring 98   | MEASURES
+INFO  [vuaQaXtJ]                      Page 307  | 3 raw measures: [3 in system#1]
+INFO  [vuaQaXtJ]            StepMonitoring 98   | CHORDS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | CURVES
+INFO  [vuaQaXtJ]              SlursBuilder 240  | Slurs: 1
+INFO  [vuaQaXtJ]           SegmentsBuilder 155  | Segments: 7
+INFO  [vuaQaXtJ]            StepMonitoring 98   | SYMBOLS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | LINKS
+INFO  [vuaQaXtJ]            StepMonitoring 98   | RHYTHMS
+INFO  [vuaQaXtJ]             MeasureRhythm 1045 | Measure{#3} No timeOffset for RestChordInter#882{(0.792/0.792) staff:1 slot#5 dur:1/4}
+INFO  [vuaQaXtJ]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [vuaQaXtJ]            StepMonitoring 98   | PAGE
+INFO  [vuaQaXtJ]                      Book 2550 | Book{vuaQaXtJ} storing
+INFO  [vuaQaXtJ]                      Book 2531 | Stored /book.xml
+INFO  [vuaQaXtJ]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [vuaQaXtJ]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [vuaQaXtJ]                      Book 2491 | Book stored as out_omr/musicxml/vuaQaXtJ.omr
+INFO  [vuaQaXtJ]                 SheetStub 1644 | Disposed sheet
+INFO  [vuaQaXtJ]                      Book 2018 | End of Stub#1 memory: 31,399,960
+INFO  [vuaQaXtJ]                      Book 2025 | Book processed.
+INFO  [vuaQaXtJ]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [vuaQaXtJ]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [vuaQaXtJ]             ScoreExporter 164  | Score vuaQaXtJ exported to out_omr/musicxml/vuaQaXtJ.mxl
+INFO  [vuaQaXtJ]                     Score 181  | Closing {Score 1}

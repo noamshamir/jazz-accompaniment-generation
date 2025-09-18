@@ -1,0 +1,74 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/hT7EScGW.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/hT7EScGW.png"
+INFO  [hT7EScGW]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/hT7EScGW.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/hT7EScGW.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [hT7EScGW]            StepMonitoring 98   | LOAD
+INFO  [hT7EScGW]                 SheetStub 1268 | Loaded image #1 1970x241 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/hT7EScGW.png
+INFO  [hT7EScGW]            StepMonitoring 98   | BINARY
+INFO  [hT7EScGW]            StepMonitoring 98   | SCALE
+INFO  [hT7EScGW]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [hT7EScGW]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 443% of needed quorum
+INFO  [hT7EScGW]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,4) beam(11)}
+INFO  [hT7EScGW]            StepMonitoring 98   | GRID
+INFO  [hT7EScGW]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [hT7EScGW]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [hT7EScGW]                 PeakGraph 310  | Systems: #1[1]
+INFO  [hT7EScGW]             SystemManager 779  | 1 part along 1 system
+INFO  [hT7EScGW]                      Book 545  | Created scores: [{Score 1}]
+INFO  [hT7EScGW]            StepMonitoring 98   | HEADERS
+INFO  [hT7EScGW]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [hT7EScGW]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [hT7EScGW]            StepMonitoring 98   | STEM_SEEDS
+INFO  [hT7EScGW]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [hT7EScGW]            StepMonitoring 98   | BEAMS
+INFO  [hT7EScGW]            StepMonitoring 98   | LEDGERS
+INFO  [hT7EScGW]            StepMonitoring 98   | HEADS
+INFO  [hT7EScGW]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.5]}
+INFO  [hT7EScGW]            StepMonitoring 98   | STEMS
+INFO  [hT7EScGW]            StepMonitoring 98   | REDUCTION
+INFO  [hT7EScGW]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [hT7EScGW]            StepMonitoring 98   | CUE_BEAMS
+INFO  [hT7EScGW]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [hT7EScGW]            StepMonitoring 98   | TEXTS
+WARN  [hT7EScGW]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [hT7EScGW]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [hT7EScGW]            StepMonitoring 98   | MEASURES
+INFO  [hT7EScGW]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [hT7EScGW]            StepMonitoring 98   | CHORDS
+INFO  [hT7EScGW]            StepMonitoring 98   | CURVES
+INFO  [hT7EScGW]              SlursBuilder 240  | Slurs: 3
+INFO  [hT7EScGW]           SegmentsBuilder 155  | Segments: 10
+INFO  [hT7EScGW]            StepMonitoring 98   | SYMBOLS
+INFO  [hT7EScGW]            StepMonitoring 98   | LINKS
+INFO  [hT7EScGW]            StepMonitoring 98   | RHYTHMS
+INFO  [hT7EScGW]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#645{(0.597/0.597) staff:1 slot#7 dur:1/2}
+INFO  [hT7EScGW]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#645{(0.597/0.597) staff:1 slot#7 dur:1/2}
+INFO  [hT7EScGW]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#646{(0.945/0.945) staff:1 slot#8 dur:1/4}
+INFO  [hT7EScGW]        AbstractChordInter 627  | Measure{#2} No timeOffset for RestChordInter#803{(0.792/0.792) staff:1 slot#9 dur:1/4}
+INFO  [hT7EScGW]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [hT7EScGW]            StepMonitoring 98   | PAGE
+INFO  [hT7EScGW]                      Book 2550 | Book{hT7EScGW} storing
+INFO  [hT7EScGW]                      Book 2531 | Stored /book.xml
+INFO  [hT7EScGW]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [hT7EScGW]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [hT7EScGW]                      Book 2491 | Book stored as out_omr/musicxml/hT7EScGW.omr
+INFO  [hT7EScGW]                 SheetStub 1644 | Disposed sheet
+INFO  [hT7EScGW]                      Book 2018 | End of Stub#1 memory: 31,582,824
+INFO  [hT7EScGW]                      Book 2025 | Book processed.
+INFO  [hT7EScGW]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [hT7EScGW]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [hT7EScGW]             ScoreExporter 164  | Score hT7EScGW exported to out_omr/musicxml/hT7EScGW.mxl
+INFO  [hT7EScGW]                     Score 181  | Closing {Score 1}

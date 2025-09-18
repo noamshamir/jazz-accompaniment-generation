@@ -1,0 +1,87 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/FWhuU5h6.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FWhuU5h6.png"
+INFO  [FWhuU5h6]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FWhuU5h6.png
+2025-09-10 00:09:43.416 Audiveris[48386:1216130] +[IMKClient subclass]: chose IMKClient_Modern
+2025-09-10 00:09:43.416 Audiveris[48386:1216130] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/FWhuU5h6.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [FWhuU5h6]            StepMonitoring 98   | LOAD
+INFO  [FWhuU5h6]                 SheetStub 1268 | Loaded image #1 1970x241 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/FWhuU5h6.png
+INFO  [FWhuU5h6]            StepMonitoring 98   | BINARY
+INFO  [FWhuU5h6]            StepMonitoring 98   | SCALE
+INFO  [FWhuU5h6]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [FWhuU5h6]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 642% of needed quorum
+INFO  [FWhuU5h6]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [FWhuU5h6]            StepMonitoring 98   | GRID
+INFO  [FWhuU5h6]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [FWhuU5h6]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [FWhuU5h6]                 PeakGraph 310  | Systems: #1[1]
+INFO  [FWhuU5h6]             SystemManager 779  | 1 part along 1 system
+INFO  [FWhuU5h6]                      Book 545  | Created scores: [{Score 1}]
+INFO  [FWhuU5h6]            StepMonitoring 98   | HEADERS
+INFO  [FWhuU5h6]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [FWhuU5h6]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [FWhuU5h6]            StepMonitoring 98   | STEM_SEEDS
+INFO  [FWhuU5h6]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [FWhuU5h6]            StepMonitoring 98   | BEAMS
+INFO  [FWhuU5h6]            StepMonitoring 98   | LEDGERS
+INFO  [FWhuU5h6]            StepMonitoring 98   | HEADS
+INFO  [FWhuU5h6]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.6]}
+INFO  [FWhuU5h6]            StepMonitoring 98   | STEMS
+INFO  [FWhuU5h6]            StepMonitoring 98   | REDUCTION
+INFO  [FWhuU5h6]             ReductionStep 105  | Stems free length median value: 74 pixels, 3.5 interlines
+INFO  [FWhuU5h6]            StepMonitoring 98   | CUE_BEAMS
+INFO  [FWhuU5h6]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [FWhuU5h6]            StepMonitoring 98   | TEXTS
+WARN  [FWhuU5h6]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [FWhuU5h6]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [FWhuU5h6]            StepMonitoring 98   | MEASURES
+INFO  [FWhuU5h6]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [FWhuU5h6]            StepMonitoring 98   | CHORDS
+INFO  [FWhuU5h6]            StepMonitoring 98   | CURVES
+INFO  [FWhuU5h6]              SlursBuilder 240  | Slurs: 1
+INFO  [FWhuU5h6]           SegmentsBuilder 155  | Segments: 8
+INFO  [FWhuU5h6]            StepMonitoring 98   | SYMBOLS
+INFO  [FWhuU5h6]            StepMonitoring 98   | LINKS
+INFO  [FWhuU5h6]            StepMonitoring 98   | RHYTHMS
+INFO  [FWhuU5h6]             MeasureRhythm 1045 | Measure{#1} No timeOffset for HeadChordInter#687{(0.955/0.955) staff:1 slot#5 dur:1/8}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#688{(0.957/0.957) staff:1 slot#6 dur:1/8}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#1} No timeOffset for HeadChordInter#690{(0.957/0.957) staff:1 slot#8 dur:1/8}
+INFO  [FWhuU5h6]               StackRhythm 224  | S1 MeasureStack#1 no correct rhythm
+INFO  [FWhuU5h6]             MeasureRhythm 1045 | Measure{#2} No timeOffset for HeadChordInter#697{(0.963/0.963) staff:1 slot#5 dur:1/12}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#699{(0.950/0.950) staff:1 slot#7 dur:1/12}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#2} No timeOffset for HeadChordInter#701{(0.957/0.957) staff:1 slot#9 dur:1/8}
+INFO  [FWhuU5h6]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [FWhuU5h6]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#708{(0.956/0.956) staff:1 slot#5 dur:1/8}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#709{(0.951/0.951) staff:1 slot#6 dur:1/8}
+INFO  [FWhuU5h6]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#711{(0.950/0.950) staff:1 slot#8 dur:1/8}
+INFO  [FWhuU5h6]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [FWhuU5h6]             MeasureRhythm 1045 | Measure{#4} No timeOffset for RestChordInter#871{(0.798/0.798) staff:1 slot#2 dur:1/2}
+INFO  [FWhuU5h6]                     Voice 257  | Measure{#4} Voice{#1 excess:1/4} too long
+INFO  [FWhuU5h6]               StackRhythm 224  | S1 MeasureStack#4 no correct rhythm
+INFO  [FWhuU5h6]            StepMonitoring 98   | PAGE
+INFO  [FWhuU5h6]                     Voice 257  | Measure{#4} Voice{#1 excess:1/4} too long
+INFO  [FWhuU5h6]                      Book 2550 | Book{FWhuU5h6} storing
+INFO  [FWhuU5h6]                      Book 2531 | Stored /book.xml
+INFO  [FWhuU5h6]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [FWhuU5h6]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [FWhuU5h6]                      Book 2491 | Book stored as out_omr/musicxml/FWhuU5h6.omr
+INFO  [FWhuU5h6]                 SheetStub 1644 | Disposed sheet
+INFO  [FWhuU5h6]                      Book 2018 | End of Stub#1 memory: 31,439,536
+INFO  [FWhuU5h6]                      Book 2025 | Book processed.
+INFO  [FWhuU5h6]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [FWhuU5h6]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [FWhuU5h6]             ScoreExporter 164  | Score FWhuU5h6 exported to out_omr/musicxml/FWhuU5h6.mxl
+INFO  [FWhuU5h6]                     Score 181  | Closing {Score 1}

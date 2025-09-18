@@ -1,0 +1,69 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/WYoMzsPb.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WYoMzsPb.png"
+INFO  [WYoMzsPb]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WYoMzsPb.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/WYoMzsPb.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [WYoMzsPb]            StepMonitoring 98   | LOAD
+INFO  [WYoMzsPb]                 SheetStub 1268 | Loaded image #1 1970x230 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/WYoMzsPb.png
+INFO  [WYoMzsPb]            StepMonitoring 98   | BINARY
+INFO  [WYoMzsPb]            StepMonitoring 98   | SCALE
+INFO  [WYoMzsPb]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [WYoMzsPb]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 965% of needed quorum
+INFO  [WYoMzsPb]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,5) beam(11)}
+INFO  [WYoMzsPb]            StepMonitoring 98   | GRID
+INFO  [WYoMzsPb]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [WYoMzsPb]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [WYoMzsPb]                 PeakGraph 310  | Systems: #1[1]
+INFO  [WYoMzsPb]             SystemManager 779  | 1 part along 1 system
+INFO  [WYoMzsPb]                      Book 545  | Created scores: [{Score 1}]
+INFO  [WYoMzsPb]            StepMonitoring 98   | HEADERS
+INFO  [WYoMzsPb]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [WYoMzsPb]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [WYoMzsPb]            StepMonitoring 98   | STEM_SEEDS
+INFO  [WYoMzsPb]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [WYoMzsPb]            StepMonitoring 98   | BEAMS
+INFO  [WYoMzsPb]            StepMonitoring 98   | LEDGERS
+INFO  [WYoMzsPb]            StepMonitoring 98   | HEADS
+INFO  [WYoMzsPb]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.6]}
+INFO  [WYoMzsPb]            StepMonitoring 98   | STEMS
+INFO  [WYoMzsPb]            StepMonitoring 98   | REDUCTION
+INFO  [WYoMzsPb]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [WYoMzsPb]            StepMonitoring 98   | CUE_BEAMS
+INFO  [WYoMzsPb]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [WYoMzsPb]            StepMonitoring 98   | TEXTS
+WARN  [WYoMzsPb]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [WYoMzsPb]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [WYoMzsPb]            StepMonitoring 98   | MEASURES
+INFO  [WYoMzsPb]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [WYoMzsPb]            StepMonitoring 98   | CHORDS
+INFO  [WYoMzsPb]            StepMonitoring 98   | CURVES
+INFO  [WYoMzsPb]              SlursBuilder 240  | Slurs: 1
+INFO  [WYoMzsPb]           SegmentsBuilder 155  | Segments: 5
+INFO  [WYoMzsPb]            StepMonitoring 98   | SYMBOLS
+INFO  [WYoMzsPb]            StepMonitoring 98   | LINKS
+INFO  [WYoMzsPb]            StepMonitoring 98   | RHYTHMS
+INFO  [WYoMzsPb]            StepMonitoring 98   | PAGE
+INFO  [WYoMzsPb]                      Book 2550 | Book{WYoMzsPb} storing
+INFO  [WYoMzsPb]                      Book 2531 | Stored /book.xml
+INFO  [WYoMzsPb]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [WYoMzsPb]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [WYoMzsPb]                      Book 2491 | Book stored as out_omr/musicxml/WYoMzsPb.omr
+INFO  [WYoMzsPb]                 SheetStub 1644 | Disposed sheet
+INFO  [WYoMzsPb]                      Book 2018 | End of Stub#1 memory: 31,362,832
+INFO  [WYoMzsPb]                      Book 2025 | Book processed.
+INFO  [WYoMzsPb]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [WYoMzsPb]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [WYoMzsPb]             ScoreExporter 164  | Score WYoMzsPb exported to out_omr/musicxml/WYoMzsPb.mxl
+INFO  [WYoMzsPb]                     Score 181  | Closing {Score 1}

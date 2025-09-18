@@ -1,0 +1,73 @@
+INFO  []                       CLI 281  | CLI args: [-batch, -export, -output, out_omr/musicxml, out_omr/images/Iby66hap.png]
+INFO  []              TesseractOCR 121  | TESSDATA_PREFIX: null
+INFO  []                      Main 416  | Environment:
+- Audiveris:    5.7.0:290525b
+- OS:           Mac OS X 15.3.2
+- Architecture: aarch64
+- Java VM:      OpenJDK 64-Bit Server VM (build 24.0.2+12, mixed mode)
+- OCR Engine:   Tesseract OCR, version 5.5.1
+INFO  []             AliasPatterns 134  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 247  | Running in batch mode
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []                      Main 193  | Submitting 1 task(s) in sequence:
+    Input "/Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Iby66hap.png"
+INFO  [Iby66hap]                      Book 562  | 1 sheet in /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Iby66hap.png
+INFO  []                      Book 2531 | Stored /book.xml
+INFO  []                      Book 2491 | Book stored as out_omr/musicxml/Iby66hap.omr
+INFO  []                      Book 1933 | Book reaching PAGE on sheets:[#1]
+INFO  [Iby66hap]            StepMonitoring 98   | LOAD
+INFO  [Iby66hap]                 SheetStub 1268 | Loaded image #1 1970x221 from /Users/noamshamir/Documents/ind_proj/scripts/scraping/out_omr/images/Iby66hap.png
+INFO  [Iby66hap]            StepMonitoring 98   | BINARY
+INFO  [Iby66hap]            StepMonitoring 98   | SCALE
+INFO  [Iby66hap]              ScaleBuilder 241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+INFO  [Iby66hap]              ScaleBuilder 264  | Beam measured height: 11 -- 0.33 of [6..21] range at 859% of needed quorum
+INFO  [Iby66hap]                 ScaleStep 65   | Scale{ interline(20,21,21) line(3,3,3) beam(11)}
+INFO  [Iby66hap]            StepMonitoring 98   | GRID
+INFO  [Iby66hap]            LinesRetriever 1500 | Global slope: 0.00000
+INFO  [Iby66hap]         ClustersRetriever 328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+INFO  [Iby66hap]                 PeakGraph 310  | Systems: #1[1]
+INFO  [Iby66hap]             SystemManager 779  | 1 part along 1 system
+INFO  [Iby66hap]                      Book 545  | Created scores: [{Score 1}]
+INFO  [Iby66hap]            StepMonitoring 98   | HEADERS
+INFO  [Iby66hap]           BasicClassifier 277  | Classifier loaded XML norms.
+INFO  [Iby66hap]        AbstractClassifier 396  | Classifier data loaded from default uri jar:file:/Applications/Audiveris.app/Contents/app/audiveris.jar!/res/basic-classifier.zip
+INFO  [Iby66hap]            StepMonitoring 98   | STEM_SEEDS
+INFO  [Iby66hap]             StemSeedsStep 86   | stem(4 max:6)
+INFO  [Iby66hap]            StepMonitoring 98   | BEAMS
+INFO  [Iby66hap]            StepMonitoring 98   | LEDGERS
+INFO  [Iby66hap]            StepMonitoring 98   | HEADS
+INFO  [Iby66hap]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.8]}
+INFO  [Iby66hap]            StepMonitoring 98   | STEMS
+INFO  [Iby66hap]            StepMonitoring 98   | REDUCTION
+INFO  [Iby66hap]             ReductionStep 105  | Stems free length median value: 75 pixels, 3.6 interlines
+INFO  [Iby66hap]            StepMonitoring 98   | CUE_BEAMS
+INFO  [Iby66hap]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [Iby66hap]            StepMonitoring 98   | TEXTS
+WARN  [Iby66hap]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [Iby66hap]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [Iby66hap]            StepMonitoring 98   | MEASURES
+INFO  [Iby66hap]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [Iby66hap]            StepMonitoring 98   | CHORDS
+INFO  [Iby66hap]            StepMonitoring 98   | CURVES
+INFO  [Iby66hap]              SlursBuilder 240  | Slurs: 0
+INFO  [Iby66hap]           SegmentsBuilder 155  | Segments: 5
+INFO  [Iby66hap]            StepMonitoring 98   | SYMBOLS
+INFO  [Iby66hap]            StepMonitoring 98   | LINKS
+INFO  [Iby66hap]            StepMonitoring 98   | RHYTHMS
+INFO  [Iby66hap]             MeasureRhythm 1045 | Measure{#3} No timeOffset for HeadChordInter#699{(0.539/0.539) staff:1 slot#9 dur:1/2}
+INFO  [Iby66hap]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#699{(0.539/0.539) staff:1 slot#9 dur:1/2}
+INFO  [Iby66hap]        AbstractChordInter 627  | Measure{#3} No timeOffset for HeadChordInter#703{(0.958/0.958) staff:1 slot#13 dur:1/8}
+INFO  [Iby66hap]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [Iby66hap]            StepMonitoring 98   | PAGE
+INFO  [Iby66hap]                      Book 2550 | Book{Iby66hap} storing
+INFO  [Iby66hap]                      Book 2531 | Stored /book.xml
+INFO  [Iby66hap]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [Iby66hap]                     Sheet 1562 | Stored /sheet#1/sheet#1.xml
+INFO  [Iby66hap]                      Book 2491 | Book stored as out_omr/musicxml/Iby66hap.omr
+INFO  [Iby66hap]                 SheetStub 1644 | Disposed sheet
+INFO  [Iby66hap]                      Book 2018 | End of Stub#1 memory: 31,404,216
+INFO  [Iby66hap]                      Book 2025 | Book processed.
+INFO  [Iby66hap]                 SheetStub 995  | Loaded /sheet#1/sheet#1.xml
+INFO  [Iby66hap]           PartwiseBuilder 2661 | Exporting sheet(s): [#1]
+INFO  [Iby66hap]             ScoreExporter 164  | Score Iby66hap exported to out_omr/musicxml/Iby66hap.mxl
+INFO  [Iby66hap]                     Score 181  | Closing {Score 1}
