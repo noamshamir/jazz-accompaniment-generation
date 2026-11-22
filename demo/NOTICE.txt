@@ -1,0 +1,8 @@
+Static demo of Jazz Generation.
+
+Solos and accompaniments were pre-generated with the project's Python engine.
+Audio is synthesized in your browser from MIDI using:
+
+- FluidSynth (libfluidsynth, compiled to WebAssembly) - LGPL-2.1, see synth/LICENSE.fluidsynth.txt
+- js-synthesizer by jet - BSD-3-Clause, see synth/LICENSE.js-synthesizer.txt
+- TimGM6mb.sf2 General MIDI SoundFont by Tim Brechbill - GPL-2.0
